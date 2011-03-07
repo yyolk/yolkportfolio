@@ -1,30 +1,122 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Y O L K</title>
-	<link rel="stylesheet" href="http://ozwash.org/css/blueprint/screen.css" type="text/css" media="screen, projection"> 
-	<link rel="stylesheet" href="grid.css" type="text/css" media="screen">
+---
+layout: default
+title:
+---
+<style type="text/css">
+<!--
+	body{
+		overflow:hidden;
+		}
+	.page{
+		position:absolute;
+		width:100%;
+		height:100%;
+		}
+	.postcon{
+		position:absolute;
+		}
+		
+	#i1{
+		left:0%;
+		}
+	{% for post in site.posts %}
+	
+	#i{{ forloop.index}} {
+		left: {{ forloop.index}}00%;
+		background-color:#333333;
+	}
+	
+	
+	#a{{ forloop.index }}:target .page {
+	-webkit-transform: translateX(-{{ forloop.index }}00%);
+	-moz-transform: translateX(-{{ forloop.index }}00%);
+	-o-transform: translateX(-{{ forloop.index }}00%);
+	}
+	{% endfor %}
+	
+	/* The Transition Effect */
+	 
+	.page { 
+	-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	}
 
+/* The First Page - Initial Positioning without Anchor */
+ 
+	.page { 
+	
+		-webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%);
+
+	}
+	#navbar{
+		position:fixed;
+		height:100%;
+		background-color:transparent;
+		border:1px solid #000;™
+		color:#fff;
+		font-size:24px;
+		z-index:100;
+		width:10%;
+		}
+
+	.postblock {
+		min-width: 190px;
+		min-height: 500px;
+		background-position:50% 50% !important;
+		cursor: pointer;
+	}
+	.prjtitle{
+		display:none;
+		}
+	.postblock:hover{
+		background-image:none !important;
+		background-color:#000 !important;
+		color:#fff;}
+	.postblock:hover .prjtitle{
+		display:block;
+		width:100%;
+		font-size:24px;
+		text-align:center;
+		margin-top:25%;
+		
+		}
+		
+		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
+		.nextbutton { cursor: pointer, e-resize; right: 0; }
+		.backbutton { cursor: pointer, w-resize; left: 0; }	
+-->
+</style>
 </head>
 <body>
-<div class='container'> 
-  <div class='column span-4'> 
-      <p>Lorem Ipsum...</p> 
-  </div> 
-  <div class='column span-5'> 
-      <p>Lorem Ipsum...</p> 
-  </div> 
-  <div class='column span-5'> 
-      <p>Lorem Ipsum...</p> 
-  </div> 
-  <div class='column span-5'> 
-      <p>Lorem Ipsum...</p> 
-  </div> 
-  <div class='column last span-5'> 
-      <p>Lorem Ipsum...</p> 
-  </div> 
-</div> 
+
+<div class='container'>
+
+
+<div id='navbar'>
+	<p>I'm a navbar</p>
+</div>
+
+
+	<div class='prepend-4 span-20 last'>
+	{% for post in site.posts %}
+		<div id='a{{ forloop.index }}'>
+	{% endfor %}
+	{% for post in site.posts %}
+	
+		<div id='i{{ forloop.index }}' class='page'™ style="background:url('{{ post.thumb }}');">
+			<a href="#a{{ forloop.index + 1}}" class='nextbutton'></a>
+			
+				{{ post.title }}
+				
+		</div>
+	{% endfor %}
+	{% for post in site.posts %}
+		</div>
+	{% endfor %}
+ 	</div>
+
+</div>
+
 </body>
-</html>
+
