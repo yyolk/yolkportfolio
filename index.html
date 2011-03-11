@@ -9,30 +9,35 @@ title:
 		}
 	.page{
 		position:absolute;
-		width:100%;
 		height:100%;
+		width:600px;
 		}
 	.postcon{
 		position:absolute;
 		}
 		
 	#i1{
-		left:0%;
+		left:0;
 		}
 	{% for post in site.posts %}
 	
 	#i{{ forloop.index}} {
-		left: {{ forloop.index}}00%;
+		left: {{ forloop.index |times:600 |plus:150}}px;
 		background-color:#333333;
 	}
 	
 	
 	#a{{ forloop.index }}:target .page {
-	-webkit-transform: translateX(-{{ forloop.index }}00%);
-	-moz-transform: translateX(-{{ forloop.index }}00%);
-	-o-transform: translateX(-{{ forloop.index }}00%);
+
+	-webkit-transform: translateX(-{{ forloop.index |times:600 }}px);
+	-moz-transform: translateX(-{{ forloop.index |times:600 }}px);
+	-o-transform: translateX(-{{ forloop.index |times:600 }}px);
+
 	}
+	
+
 	{% endfor %}
+	
 	
 	/* The Transition Effect */
 	 
@@ -44,25 +49,69 @@ title:
 
 /* The First Page - Initial Positioning without Anchor */
  
+
 	.page { 
 	
-		-webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -o-transform: translateX(-100%);
+		-webkit-transform: translateX(-600px);
+		-moz-transform: translateX(-600px); 
+		-o-transform: translateX(-600px);
 
 	}
+	
+	a:active { outline: none;}
+	
+	{% for post in site.posts %}
+	#a{{ forloop.index }}:target a#p{{ forloop.index }}{
+		background-color: white;
+		color: black;
+		border-left:9px solid black;
+		border-right:9px solid black;
+		}
+	{% endfor %}
+	
+	
+	#logo {
+		overflow:hidden;
+		background-image:url("img/yolkLogoBlackTall.png");
+		background-position: 50% 50%;
+		height: 200px;
+		}
+	#navbar a{
+		background-color: #000;
+		color:#fff;
+		display:block;
+		text-decoration:none;
+		line-height:32px;
+		text-align:center;
+		-moz-transition: all 0.2s; 
+		-webkit-transition: all 0.2s; 
+		-o-transition: all 0.2s; 
+		transition: all 0.2s; 
+		}
+		
+	#navbar a:hover{
+		background-color: #aaa;
+		color: #fff;
+		-moz-transition: .8s;
+		-webkit-transition: .8s;
+		-o-transition: .8s;
+		transition: .8s;
+		}
+	
 	#navbar{
+	
 		position:fixed;
 		height:100%;
-		background-color:transparent;
-		border:1px solid #000;™
+		background-color:#000;
 		color:#fff;
 		font-size:24px;
 		z-index:100;
-		width:10%;
+		left:0;
+
 		}
+		
 
 	.postblock {
-		min-width: 190px;
-		min-height: 500px;
 		background-position:50% 50% !important;
 		cursor: pointer;
 	}
@@ -70,53 +119,63 @@ title:
 		display:none;
 		}
 	.postblock:hover{
+/*
 		background-image:none !important;
 		background-color:#000 !important;
-		color:#fff;}
-	.postblock:hover .prjtitle{
-		display:block;
-		width:100%;
-		font-size:24px;
-		text-align:center;
-		margin-top:25%;
-		
+*/
+		color:#fff;
 		}
 		
+	.postblock:hover .prjtitle{
+		display:block;
+		background-color:#000;
+		max-height: 500px;
+		min-height: 500px;
+		width:60%;
+		margin:0 auto;
+		font-size:24px;
+		text-align:center;
+
+		
+		}
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
-		.nextbutton { cursor: pointer, e-resize; right: 0; }
-		.backbutton { cursor: pointer, w-resize; left: 0; }	
+		.nextbutton { cursor: pointer; right: 0; }
+		.backbutton { cursor: pointer; left: 0; }
+
+		
 -->
 </style>
 </head>
 <body>
 
-<div class='container'>
 
 
-<div id='navbar'>
-	<p>I'm a navbar</p>
-</div>
 
 
-	<div class='prepend-4 span-20 last'>
+
 	{% for post in site.posts %}
 		<div id='a{{ forloop.index }}'>
 	{% endfor %}
+	
+	<div id='navbar' class='span-4'>
+	<div id='logo' class='span-4'></div>
+	{% for post in site.posts %}
+		<a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }}</a>
+	{% endfor %}
+	</div>
+	
 	{% for post in site.posts %}
 	
-		<div id='i{{ forloop.index }}' class='page'™ style="background:url('{{ post.thumb }}');">
-			<a href="#a{{ forloop.index + 1}}" class='nextbutton'></a>
-			
-				{{ post.title }}
-				
+		<div id='i{{ forloop.index }}' class='postblock page span-5' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
+			<div class='prjtitle'>
+			{{ post.title }}
+			</div>
 		</div>
 	{% endfor %}
 	{% for post in site.posts %}
 		</div>
 	{% endfor %}
- 	</div>
 
-</div>
 
 </body>
 

@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Y O L K</title>
+	<link rel="stylesheet" href="http://ozwash.org/css/blueprint/screen.css" type="text/css" media="screen, projection"> 
+	<link rel="stylesheet" href="grid.css" type="text/css" media="screen">
+
+
+
+<style type="text/css">
+<!--
+	body{
+		overflow:hidden;
+		}
+	.page{
+		position:absolute;
+		height:100%;
+
+		}
+	.postcon{
+		position:absolute;
+		}
+		
+	#i1{
+		left:0%;
+		}
+	
+	
+	#i1 {
+		left: 90%;
+		background-color:#333333;
+	}
+	
+	
+	#a1:target .page {
+	-webkit-transform: translateX(-90%);
+	-moz-transform: translateX(-90%);
+	-o-transform: translateX(-90%);
+	}
+	
+	
+	#i2 {
+		left: 180%;
+		background-color:#333333;
+	}
+	
+	
+	#a2:target .page {
+	-webkit-transform: translateX(-180%);
+	-moz-transform: translateX(-180%);
+	-o-transform: translateX(-180%);
+	}
+	
+	
+	#i3 {
+		left: 270%;
+		background-color:#333333;
+	}
+	
+	
+	#a3:target .page {
+	-webkit-transform: translateX(-270%);
+	-moz-transform: translateX(-270%);
+	-o-transform: translateX(-270%);
+	}
+	
+	
+	#i4 {
+		left: 360%;
+		background-color:#333333;
+	}
+	
+	
+	#a4:target .page {
+	-webkit-transform: translateX(-360%);
+	-moz-transform: translateX(-360%);
+	-o-transform: translateX(-360%);
+	}
+	
+	
+	/* The Transition Effect */
+	 
+	.page { 
+	-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	}
+
+/* The First Page - Initial Positioning without Anchor */
+ 
+	.page { 
+	
+		-webkit-transform: translateX(-90%); -moz-transform: translateX(-90%); -o-transform: translateX(-90%);
+
+	}
+	#navbar{
+		position:fixed;
+		height:100%;
+		background-color:transparent;
+		border:1px solid #000;™
+		color:#fff;
+		font-size:24px;
+		z-index:100;
+
+		}
+
+	.postblock {
+		min-width: 190px;
+		min-height: 500px;
+		background-position:50% 50% !important;
+		cursor: pointer;
+	}
+	.prjtitle{
+		display:none;
+		}
+	.postblock:hover{
+		background-image:none !important;
+		background-color:#000 !important;
+		color:#fff;}
+	.postblock:hover .prjtitle{
+		display:block;
+		width:100%;
+		font-size:24px;
+		text-align:center;
+		margin-top:25%;
+		
+		}
+		
+		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
+		.nextbutton { cursor: pointer, e-resize; right: 0; }
+		.backbutton { cursor: pointer, w-resize; left: 0; }	
+-->
+</style>
+</head>
+<body>
+
+<div class='container showgrid	'>
+
+
+<div id='navbar' class='span-4'>
+	<p>I'm a navbar</p>
+</div>
+
+
+	<div class='prepend-4 span-20 last'>
+	
+		<div id='a1'>
+	
+		<div id='a2'>
+	
+		<div id='a3'>
+	
+		<div id='a4'>
+	
+	
+	
+		<div id='i1' class='span-5' style="background:url('/img/two.jpeg');">
+			<a href="#a1" class='nextbutton'></a>
+			
+				Project 4
+				
+		</div>
+	
+	
+		<div id='i2' class='span-5' style="background:url('/img/three.jpeg');">
+			<a href="#a2" class='nextbutton'></a>
+			
+				Project 3
+				
+		</div>
+	
+	
+		<div id='i3' class='span-5' style="background:url('/img/two.jpeg');">
+			<a href="#a3" class='nextbutton'></a>
+			
+				Project 2
+				
+		</div>
+	
+	
+		<div id='i4' class='span-5' style="background:url('/img/one.jpeg');">
+			<a href="#a4" class='nextbutton'></a>
+			
+				Project 1
+				
+		</div>
+	
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	
+ 	</div>
+
+</div>
+
+</body>
+
+
+
+</html>
+

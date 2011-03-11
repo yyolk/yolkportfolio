@@ -1,0 +1,4 @@
+handlers:
+- url: '/'
+  static_files: '_site/index.html'
+  upload: '_site/.*'

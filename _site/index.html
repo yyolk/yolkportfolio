@@ -1,0 +1,303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Y O L K</title>
+	<link rel="stylesheet" href="http://ozwash.org/css/blueprint/screen.css" type="text/css" media="screen, projection"> 
+	<link rel="stylesheet" href="grid.css" type="text/css" media="screen">
+
+
+
+<style type="text/css">
+<!--
+	body{
+		overflow:hidden;
+		}
+	.page{
+		position:absolute;
+		height:100%;
+		width:600px;
+		}
+	.postcon{
+		position:absolute;
+		}
+		
+	#i1{
+		left:0;
+		}
+	
+	
+	#i1 {
+		left: 750px;
+		background-color:#333333;
+	}
+	
+	
+	#a1:target .page {
+
+	-webkit-transform: translateX(-600px);
+	-moz-transform: translateX(-600px);
+	-o-transform: translateX(-600px);
+
+	}
+	
+
+	
+	
+	#i2 {
+		left: 1350px;
+		background-color:#333333;
+	}
+	
+	
+	#a2:target .page {
+
+	-webkit-transform: translateX(-1200px);
+	-moz-transform: translateX(-1200px);
+	-o-transform: translateX(-1200px);
+
+	}
+	
+
+	
+	
+	#i3 {
+		left: 1950px;
+		background-color:#333333;
+	}
+	
+	
+	#a3:target .page {
+
+	-webkit-transform: translateX(-1800px);
+	-moz-transform: translateX(-1800px);
+	-o-transform: translateX(-1800px);
+
+	}
+	
+
+	
+	
+	#i4 {
+		left: 2550px;
+		background-color:#333333;
+	}
+	
+	
+	#a4:target .page {
+
+	-webkit-transform: translateX(-2400px);
+	-moz-transform: translateX(-2400px);
+	-o-transform: translateX(-2400px);
+
+	}
+	
+
+	
+	
+	
+	/* The Transition Effect */
+	 
+	.page { 
+	-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	}
+
+/* The First Page - Initial Positioning without Anchor */
+ 
+
+	.page { 
+	
+		-webkit-transform: translateX(-600px);
+		-moz-transform: translateX(-600px); 
+		-o-transform: translateX(-600px);
+
+	}
+	
+	a:active { outline: none;}
+	
+	
+	#a1:target a#p1{
+		background-color: white;
+		color: black;
+		border-left:9px solid black;
+		border-right:9px solid black;
+		}
+	
+	#a2:target a#p2{
+		background-color: white;
+		color: black;
+		border-left:9px solid black;
+		border-right:9px solid black;
+		}
+	
+	#a3:target a#p3{
+		background-color: white;
+		color: black;
+		border-left:9px solid black;
+		border-right:9px solid black;
+		}
+	
+	#a4:target a#p4{
+		background-color: white;
+		color: black;
+		border-left:9px solid black;
+		border-right:9px solid black;
+		}
+	
+	
+	
+	#logo {
+		overflow:hidden;
+		background-image:url("img/yolkLogoBlackTall.png");
+		background-position: 50% 50%;
+		height: 200px;
+		}
+	#navbar a{
+		background-color: #000;
+		color:#fff;
+		display:block;
+		text-decoration:none;
+		line-height:32px;
+		text-align:center;
+		-moz-transition: all 0.2s; 
+		-webkit-transition: all 0.2s; 
+		-o-transition: all 0.2s; 
+		transition: all 0.2s; 
+		}
+		
+	#navbar a:hover{
+		background-color: #aaa;
+		color: #fff;
+		-moz-transition: .8s;
+		-webkit-transition: .8s;
+		-o-transition: .8s;
+		transition: .8s;
+		}
+	
+	#navbar{
+	
+		position:fixed;
+		height:100%;
+		background-color:#000;
+		color:#fff;
+		font-size:24px;
+		z-index:100;
+		left:0;
+
+		}
+		
+
+	.postblock {
+		background-position:50% 50% !important;
+		cursor: pointer;
+	}
+	.prjtitle{
+		display:none;
+		}
+	.postblock:hover{
+/*
+		background-image:none !important;
+		background-color:#000 !important;
+*/
+		color:#fff;
+		}
+		
+	.postblock:hover .prjtitle{
+		display:block;
+		background-color:#000;
+		max-height: 500px;
+		min-height: 500px;
+		width:60%;
+		margin:0 auto;
+		font-size:24px;
+		text-align:center;
+
+		
+		}
+		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
+		.nextbutton { cursor: pointer; right: 0; }
+		.backbutton { cursor: pointer; left: 0; }
+
+		
+-->
+</style>
+</head>
+<body>
+
+
+
+
+
+
+	
+		<div id='a1'>
+	
+		<div id='a2'>
+	
+		<div id='a3'>
+	
+		<div id='a4'>
+	
+	
+	<div id='navbar' class='span-4'>
+	<div id='logo' class='span-4'></div>
+	
+		<a href="#a1" id="p1">Project 4</a>
+	
+		<a href="#a2" id="p2">Project 3</a>
+	
+		<a href="#a3" id="p3">Project 2</a>
+	
+		<a href="#a4" id="p4">Project 1</a>
+	
+	</div>
+	
+	
+	
+		<div id='i1' class='postblock page span-5' onclick="location.href='/2011/03/06/project4/';" style="background:url('/img/two.jpeg');">
+			<div class='prjtitle'>
+			Project 4
+			</div>
+		</div>
+	
+	
+		<div id='i2' class='postblock page span-5' onclick="location.href='/2011/03/06/project3/';" style="background:url('/img/three.jpeg');">
+			<div class='prjtitle'>
+			Project 3
+			</div>
+		</div>
+	
+	
+		<div id='i3' class='postblock page span-5' onclick="location.href='/2011/03/06/project2/';" style="background:url('/img/two.jpeg');">
+			<div class='prjtitle'>
+			Project 2
+			</div>
+		</div>
+	
+	
+		<div id='i4' class='postblock page span-5' onclick="location.href='/2011/03/06/project1/';" style="background:url('/img/one.jpeg');">
+			<div class='prjtitle'>
+			Project 1
+			</div>
+		</div>
+	
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	
+
+
+</body>
+
+
+
+</html>
+
