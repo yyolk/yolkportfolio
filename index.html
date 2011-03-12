@@ -7,31 +7,50 @@ title:
 	body{
 		overflow:hidden;
 		}
+	#container{
+		width:100%;
+		height:100%;
+		}
 	.page{
 		position:absolute;
 		height:100%;
-		width:600px;
+		width:100%;
+		min-width:100%;
+		min-height:100%
 		}
-	.postcon{
-		position:absolute;
-		}
+
 		
-	#i1{
-		left:0;
+	#i0{
+		width: 100%;
+		background-color: black;
+		color: white;
+		text-align:center;
+		font-size: 38px;
 		}
+
+	
 	{% for post in site.posts %}
 	
 	#i{{ forloop.index}} {
-		left: {{ forloop.index |times:600 |plus:150}}px;
+		left: {{ forloop.index |times:100 }}%;
+		width: 100%;
+		margin-right:0;
+	{% comment %}
+		left: {{ forloop.index |times:85 |plus:15 }}%;
+
+		left: {{ forloop.index |times:600 |plus:150 |plus:600 }}px;
+    {% endcomment %}
 		background-color:#333333;
 	}
 	
 	
 	#a{{ forloop.index }}:target .page {
-
-	-webkit-transform: translateX(-{{ forloop.index |times:600 }}px);
-	-moz-transform: translateX(-{{ forloop.index |times:600 }}px);
-	-o-transform: translateX(-{{ forloop.index |times:600 }}px);
+	-webkit-transform: translateX(-{{ forloop.index |times:100 }}%);
+{% comment %}
+	-webkit-transform: translateX(-{{ forloop.index |times:600 |plus:600 }}px);
+	-moz-transform: translateX(-{{ forloop.index |times:600 |plus:600 }}px);
+	-o-transform: translateX(-{{ forloop.index |times:600 |plus:600 }}px);
+{% endcomment %}
 
 	}
 	
@@ -46,15 +65,24 @@ title:
 	-moz-transition: -moz-transform 0.8s;
 	-o-transition: -o-transform 0.8s;
 	}
-
-/* The First Page - Initial Positioning without Anchor */
- 
-
-	.page { 
 	
+	#projectpanel{
+		-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	}
+
+
+
+	/* The First Page - Initial Positioning without Anchor */
+	.page { 
+/*
+		-webkit-transform: translateX(100%);	
+
 		-webkit-transform: translateX(-600px);
 		-moz-transform: translateX(-600px); 
 		-o-transform: translateX(-600px);
+*/
 
 	}
 	
@@ -72,11 +100,13 @@ title:
 	
 	#logo {
 		overflow:hidden;
-		background-image:url("img/yolkLogoBlackTall.png");
+		background-image:url("img/yolk-100.png");
 		background-position: 50% 50%;
+		background-repeat: no-repeat;
 		height: 200px;
 		}
-	#navbar a{
+
+	#links a{
 		background-color: #000;
 		color:#fff;
 		display:block;
@@ -87,9 +117,10 @@ title:
 		-webkit-transition: all 0.2s; 
 		-o-transition: all 0.2s; 
 		transition: all 0.2s; 
+		clear:both;
 		}
 		
-	#navbar a:hover{
+	#links a:hover{
 		background-color: #aaa;
 		color: #fff;
 		-moz-transition: .8s;
@@ -99,21 +130,32 @@ title:
 		}
 	
 	#navbar{
-	
+		width:15%;
+		margin:0;
+		min-width:200px;
 		position:fixed;
 		height:100%;
-		background-color:#000;
+		background-color:rgba(255,255,255,0.5);
 		color:#fff;
 		font-size:24px;
-		z-index:100;
 		left:0;
-
+		float:left;	
+		z-index:2;
 		}
 		
+	#projectpanel{
+		min-width:600px;
+		width:85%;
+		position:absolute;
+		float:right;
+		margin-left:15%;
+		height:100%;
+	}
 
 	.postblock {
 		background-position:50% 50% !important;
 		cursor: pointer;
+		background-repeat:repeat;
 	}
 	.prjtitle{
 		display:none;
@@ -125,6 +167,8 @@ title:
 */
 		color:#fff;
 		}
+		
+
 		
 	.postblock:hover .prjtitle{
 		display:block;
@@ -141,7 +185,20 @@ title:
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
 		.nextbutton { cursor: pointer; right: 0; }
 		.backbutton { cursor: pointer; left: 0; }
-
+		.backarrow { 
+			cursor: pointer; 
+			color: white; 
+			background-color: black; 
+			padding: 20px; 
+			left:100%; 
+			bottom:0;
+			z-index:2;
+			position:absolute;
+		}
+		.backarrow:hover{
+			color: black;
+			background-color: white;
+			}
 		
 -->
 </style>
@@ -150,32 +207,45 @@ title:
 
 
 
-
-
-
-	{% for post in site.posts %}
-		<div id='a{{ forloop.index }}'>
-	{% endfor %}
-	
-	<div id='navbar' class='span-4'>
-	<div id='logo' class='span-4'></div>
+<div id='container'>
+	<div id='navbar'>
+	<div id='logo'><!-- --></div>
+	<div id="links">
+		<a href="#a0" id="p0">Index</a>
 	{% for post in site.posts %}
 		<a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }}</a>
 	{% endfor %}
 	</div>
+	</div>	
+	<div id='projectpanel'>
+
+		<div id='a0'>
+	{% for post in site.posts %}
+		<div id='a{{ forloop.index }}' >
+	{% endfor %}
 	
+
+	
+	{% comment %} End navbar {% endcomment %}
+		<div id='i0' class='page'>
+		<p> Select a project from the left</p>
+		</div>
 	{% for post in site.posts %}
 	
-		<div id='i{{ forloop.index }}' class='postblock page span-5' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
+		<div id='i{{ forloop.index }}' class='postblock page' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
 			<div class='prjtitle'>
 			{{ post.title }}
 			</div>
 		</div>
+		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+
 	{% endfor %}
 	{% for post in site.posts %}
 		</div>
 	{% endfor %}
-
+		</div>
+	</div>
+</div>
 
 </body>
 

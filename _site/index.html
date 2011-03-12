@@ -14,31 +14,42 @@
 	body{
 		overflow:hidden;
 		}
+	#container{
+		width:100%;
+		height:100%;
+		}
 	.page{
 		position:absolute;
 		height:100%;
-		width:600px;
+		width:100%;
+		min-width:100%;
+		min-height:100%
 		}
-	.postcon{
-		position:absolute;
-		}
+
 		
-	#i1{
-		left:0;
+	#i0{
+		width: 100%;
+		background-color: black;
+		color: white;
+		text-align:center;
+		font-size: 38px;
 		}
+
+	
 	
 	
 	#i1 {
-		left: 750px;
+		left: 100%;
+		width: 100%;
+		margin-right:0;
+	
 		background-color:#333333;
 	}
 	
 	
 	#a1:target .page {
+	-webkit-transform: translateX(-100%);
 
-	-webkit-transform: translateX(-600px);
-	-moz-transform: translateX(-600px);
-	-o-transform: translateX(-600px);
 
 	}
 	
@@ -46,16 +57,17 @@
 	
 	
 	#i2 {
-		left: 1350px;
+		left: 200%;
+		width: 100%;
+		margin-right:0;
+	
 		background-color:#333333;
 	}
 	
 	
 	#a2:target .page {
+	-webkit-transform: translateX(-200%);
 
-	-webkit-transform: translateX(-1200px);
-	-moz-transform: translateX(-1200px);
-	-o-transform: translateX(-1200px);
 
 	}
 	
@@ -63,16 +75,17 @@
 	
 	
 	#i3 {
-		left: 1950px;
+		left: 300%;
+		width: 100%;
+		margin-right:0;
+	
 		background-color:#333333;
 	}
 	
 	
 	#a3:target .page {
+	-webkit-transform: translateX(-300%);
 
-	-webkit-transform: translateX(-1800px);
-	-moz-transform: translateX(-1800px);
-	-o-transform: translateX(-1800px);
 
 	}
 	
@@ -80,16 +93,17 @@
 	
 	
 	#i4 {
-		left: 2550px;
+		left: 400%;
+		width: 100%;
+		margin-right:0;
+	
 		background-color:#333333;
 	}
 	
 	
 	#a4:target .page {
+	-webkit-transform: translateX(-400%);
 
-	-webkit-transform: translateX(-2400px);
-	-moz-transform: translateX(-2400px);
-	-o-transform: translateX(-2400px);
 
 	}
 	
@@ -104,15 +118,24 @@
 	-moz-transition: -moz-transform 0.8s;
 	-o-transition: -o-transform 0.8s;
 	}
-
-/* The First Page - Initial Positioning without Anchor */
- 
-
-	.page { 
 	
+	#projectpanel{
+		-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	-o-transition: -o-transform 0.8s;
+	}
+
+
+
+	/* The First Page - Initial Positioning without Anchor */
+	.page { 
+/*
+		-webkit-transform: translateX(100%);	
+
 		-webkit-transform: translateX(-600px);
 		-moz-transform: translateX(-600px); 
 		-o-transform: translateX(-600px);
+*/
 
 	}
 	
@@ -151,11 +174,13 @@
 	
 	#logo {
 		overflow:hidden;
-		background-image:url("img/yolkLogoBlackTall.png");
+		background-image:url("img/yolk-100.png");
 		background-position: 50% 50%;
+		background-repeat: no-repeat;
 		height: 200px;
 		}
-	#navbar a{
+
+	#links a{
 		background-color: #000;
 		color:#fff;
 		display:block;
@@ -166,9 +191,10 @@
 		-webkit-transition: all 0.2s; 
 		-o-transition: all 0.2s; 
 		transition: all 0.2s; 
+		clear:both;
 		}
 		
-	#navbar a:hover{
+	#links a:hover{
 		background-color: #aaa;
 		color: #fff;
 		-moz-transition: .8s;
@@ -178,21 +204,32 @@
 		}
 	
 	#navbar{
-	
+		width:15%;
+		margin:0;
+		min-width:200px;
 		position:fixed;
 		height:100%;
-		background-color:#000;
+		background-color:rgba(255,255,255,0.5);
 		color:#fff;
 		font-size:24px;
-		z-index:100;
 		left:0;
-
+		float:left;	
+		z-index:2;
 		}
 		
+	#projectpanel{
+		min-width:600px;
+		width:85%;
+		position:absolute;
+		float:right;
+		margin-left:15%;
+		height:100%;
+	}
 
 	.postblock {
 		background-position:50% 50% !important;
 		cursor: pointer;
+		background-repeat:repeat;
 	}
 	.prjtitle{
 		display:none;
@@ -204,6 +241,8 @@
 */
 		color:#fff;
 		}
+		
+
 		
 	.postblock:hover .prjtitle{
 		display:block;
@@ -220,7 +259,20 @@
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
 		.nextbutton { cursor: pointer; right: 0; }
 		.backbutton { cursor: pointer; left: 0; }
-
+		.backarrow { 
+			cursor: pointer; 
+			color: white; 
+			background-color: black; 
+			padding: 20px; 
+			left:100%; 
+			bottom:0;
+			z-index:2;
+			position:absolute;
+		}
+		.backarrow:hover{
+			color: black;
+			background-color: white;
+			}
 		
 -->
 </style>
@@ -229,21 +281,11 @@
 
 
 
-
-
-
-	
-		<div id='a1'>
-	
-		<div id='a2'>
-	
-		<div id='a3'>
-	
-		<div id='a4'>
-	
-	
-	<div id='navbar' class='span-4'>
-	<div id='logo' class='span-4'></div>
+<div id='container'>
+	<div id='navbar'>
+	<div id='logo'><!-- --></div>
+	<div id="links">
+		<a href="#a0" id="p0">Index</a>
 	
 		<a href="#a1" id="p1">Project 4</a>
 	
@@ -254,46 +296,75 @@
 		<a href="#a4" id="p4">Project 1</a>
 	
 	</div>
+	</div>	
+	<div id='projectpanel'>
+
+		<div id='a0'>
+	
+		<div id='a1' >
+	
+		<div id='a2' >
+	
+		<div id='a3' >
+	
+		<div id='a4' >
 	
 	
+
 	
-		<div id='i1' class='postblock page span-5' onclick="location.href='/2011/03/06/project4/';" style="background:url('/img/two.jpeg');">
+	
+		<div id='i0' class='page'>
+		<p> Select a project from the left</p>
+		</div>
+	
+	
+		<div id='i1' class='postblock page' onclick="location.href='/2011/03/06/project4/';" style="background:url('/img/two.jpeg');">
 			<div class='prjtitle'>
 			Project 4
 			</div>
 		</div>
+		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+
 	
 	
-		<div id='i2' class='postblock page span-5' onclick="location.href='/2011/03/06/project3/';" style="background:url('/img/three.jpeg');">
+		<div id='i2' class='postblock page' onclick="location.href='/2011/03/06/project3/';" style="background:url('/img/three.jpeg');">
 			<div class='prjtitle'>
 			Project 3
 			</div>
 		</div>
+		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+
 	
 	
-		<div id='i3' class='postblock page span-5' onclick="location.href='/2011/03/06/project2/';" style="background:url('/img/two.jpeg');">
+		<div id='i3' class='postblock page' onclick="location.href='/2011/03/06/project2/';" style="background:url('/img/two.jpeg');">
 			<div class='prjtitle'>
 			Project 2
 			</div>
 		</div>
+		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+
 	
 	
-		<div id='i4' class='postblock page span-5' onclick="location.href='/2011/03/06/project1/';" style="background:url('/img/one.jpeg');">
+		<div id='i4' class='postblock page' onclick="location.href='/2011/03/06/project1/';" style="background:url('/img/one.jpeg');">
 			<div class='prjtitle'>
 			Project 1
 			</div>
 		</div>
-	
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
+		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
+	
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	
+		</div>
+	</div>
+</div>
 
 </body>
 
