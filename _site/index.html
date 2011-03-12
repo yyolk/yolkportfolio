@@ -7,17 +7,23 @@
 	<link rel="stylesheet" href="http://ozwash.org/css/blueprint/screen.css" type="text/css" media="screen, projection"> 
 	<link rel="stylesheet" href="grid.css" type="text/css" media="screen">
 
-
+</head>
 
 <style type="text/css">
 <!--
 	body{
 		overflow:hidden;
 		}
+	
 	#container{
-		width:100%;
+		width:960px;
 		height:100%;
+		min-height:100%;
+		background-color:black;
+		margin:0 auto;
+
 		}
+	
 	.page{
 		position:absolute;
 		height:100%;
@@ -26,85 +32,74 @@
 		min-height:100%
 		}
 
-		
 	#i0{
 		width: 100%;
+		margin-right:20px;
 		background-color: black;
 		color: white;
+		float:right;
 		text-align:center;
 		font-size: 38px;
+		z-index:0;
 		}
 
-	
-	
-	
+		
 	#i1 {
 		left: 100%;
 		width: 100%;
 		margin-right:0;
-	
+
 		background-color:#333333;
 	}
 	
 	
 	#a1:target .page {
-	-webkit-transform: translateX(-100%);
-
-
+		-webkit-transform: translateX(-100%);
 	}
 	
 
-	
-	
+		
 	#i2 {
 		left: 200%;
 		width: 100%;
 		margin-right:0;
-	
+
 		background-color:#333333;
 	}
 	
 	
 	#a2:target .page {
-	-webkit-transform: translateX(-200%);
-
-
+		-webkit-transform: translateX(-200%);
 	}
 	
 
-	
-	
+		
 	#i3 {
 		left: 300%;
 		width: 100%;
 		margin-right:0;
-	
+
 		background-color:#333333;
 	}
 	
 	
 	#a3:target .page {
-	-webkit-transform: translateX(-300%);
-
-
+		-webkit-transform: translateX(-300%);
 	}
 	
 
-	
-	
+		
 	#i4 {
 		left: 400%;
 		width: 100%;
 		margin-right:0;
-	
+
 		background-color:#333333;
 	}
 	
 	
 	#a4:target .page {
-	-webkit-transform: translateX(-400%);
-
-
+		-webkit-transform: translateX(-400%);
 	}
 	
 
@@ -114,63 +109,20 @@
 	/* The Transition Effect */
 	 
 	.page { 
-	-webkit-transition: -webkit-transform 0.8s;
-	-moz-transition: -moz-transform 0.8s;
-	-o-transition: -o-transform 0.8s;
-	}
-	
-	#projectpanel{
 		-webkit-transition: -webkit-transform 0.8s;
-	-moz-transition: -moz-transform 0.8s;
-	-o-transition: -o-transform 0.8s;
-	}
-
-
-
-	/* The First Page - Initial Positioning without Anchor */
-	.page { 
-/*
-		-webkit-transform: translateX(100%);	
-
-		-webkit-transform: translateX(-600px);
-		-moz-transform: translateX(-600px); 
-		-o-transform: translateX(-600px);
-*/
-
+		-moz-transition: -moz-transform 0.8s;
+		-o-transition: -o-transform 0.8s;
 	}
 	
 	a:active { outline: none;}
+
 	
-	
-	#a1:target a#p1{
-		background-color: white;
-		color: black;
+	.selected{
+		background-color: white !important;
+		color: black !important;
 		border-left:9px solid black;
 		border-right:9px solid black;
 		}
-	
-	#a2:target a#p2{
-		background-color: white;
-		color: black;
-		border-left:9px solid black;
-		border-right:9px solid black;
-		}
-	
-	#a3:target a#p3{
-		background-color: white;
-		color: black;
-		border-left:9px solid black;
-		border-right:9px solid black;
-		}
-	
-	#a4:target a#p4{
-		background-color: white;
-		color: black;
-		border-left:9px solid black;
-		border-right:9px solid black;
-		}
-	
-	
 	
 	#logo {
 		overflow:hidden;
@@ -204,26 +156,24 @@
 		}
 	
 	#navbar{
-		width:15%;
+		position:absolute;
+		width:160px;
 		margin:0;
-		min-width:200px;
-		position:fixed;
-		height:100%;
-		background-color:rgba(255,255,255,0.5);
+		min-height:100%;
+		background-color:black;
 		color:#fff;
 		font-size:24px;
-		left:0;
 		float:left;	
 		z-index:2;
 		}
 		
 	#projectpanel{
-		min-width:600px;
-		width:85%;
+		width:800px;
 		position:absolute;
 		float:right;
-		margin-left:15%;
+		margin-left:160px;
 		height:100%;
+		overflow:hidden;
 	}
 
 	.postblock {
@@ -235,14 +185,8 @@
 		display:none;
 		}
 	.postblock:hover{
-/*
-		background-image:none !important;
-		background-color:#000 !important;
-*/
 		color:#fff;
 		}
-		
-
 		
 	.postblock:hover .prjtitle{
 		display:block;
@@ -254,7 +198,6 @@
 		font-size:24px;
 		text-align:center;
 
-		
 		}
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
 		.nextbutton { cursor: pointer; right: 0; }
@@ -264,28 +207,41 @@
 			color: white; 
 			background-color: black; 
 			padding: 20px; 
-			left:100%; 
+			left:0;
 			bottom:0;
 			z-index:2;
-			position:absolute;
+			position:absolute;			
 		}
+		
 		.backarrow:hover{
 			color: black;
 			background-color: white;
-			}
-		
+			-moz-transition: all 0.6s; 
+			-webkit-transition: all 0.6s; 
+			-o-transition: all 0.6s; 
+			transition: all 0.6s; 
+		}
+		.backarrow{
+			visibility:hidden;
+			-moz-transition: hidden 0.2s; 
+			-webkit-transition: hidden 0.2s; 
+			-o-transition: hidden 0.2s; 
+			transition: hidden 0.2s; }
+		:target .backarrow{visibility:visible;}
+		#a0:target .backarrow{visibility:hidden;}		
 -->
 </style>
-</head>
 <body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
 
 
 <div id='container'>
+
+	
 	<div id='navbar'>
 	<div id='logo'><!-- --></div>
 	<div id="links">
-		<a href="#a0" id="p0">Index</a>
 	
 		<a href="#a1" id="p1">Project 4</a>
 	
@@ -298,7 +254,6 @@
 	</div>
 	</div>	
 	<div id='projectpanel'>
-
 		<div id='a0'>
 	
 		<div id='a1' >
@@ -309,7 +264,7 @@
 	
 		<div id='a4' >
 	
-	
+
 
 	
 	
@@ -323,7 +278,6 @@
 			Project 4
 			</div>
 		</div>
-		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
 	
 	
@@ -332,7 +286,6 @@
 			Project 3
 			</div>
 		</div>
-		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
 	
 	
@@ -341,7 +294,6 @@
 			Project 2
 			</div>
 		</div>
-		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
 	
 	
@@ -350,7 +302,9 @@
 			Project 1
 			</div>
 		</div>
-		<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+
+	
+				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
 	
 	
@@ -365,6 +319,21 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript"> 
+
+// <![CDATA[
+ 	$("#navbar a").click(
+      function () {
+      	$("#navbar a").removeClass("selected");
+        $(this).addClass("selected");
+        location.href=$(this).attr('href');
+      });
+    $(".backarrow").click(function(){$("#navbar a").removeClass("selected");});
+	//add random sort
+	
+// ]]>
+
+</script>
 
 </body>
 

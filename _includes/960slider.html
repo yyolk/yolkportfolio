@@ -1,0 +1,42 @@
+
+<div id='container'>
+	<div id='navbar'>
+	<div id='logo'><!-- --></div>
+	<div id="links">
+		<a href="#a0" id="p0">Index</a>
+	{% for post in site.posts %}
+		<a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }}</a>
+	{% endfor %}
+	</div>
+	</div>	
+	<div id='projectpanel'>
+
+		<div id='a0'>
+	{% for post in site.posts %}
+		<div id='a{{ forloop.index }}' >
+	{% endfor %}
+	
+
+	
+	{% comment %} End navbar {% endcomment %}
+		<div id='i0' class='page'>
+		<p> Select a project from the left</p>
+		</div>
+	{% for post in site.posts %}
+	
+		<div id='i{{ forloop.index }}' class='postblock page' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
+			<div class='prjtitle'>
+			{{ post.title }}
+			</div>
+		</div>
+
+	{% endfor %}
+				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+
+	
+	{% for post in site.posts %}
+		</div>
+	{% endfor %}
+		</div>
+	</div>
+</div>
