@@ -36,9 +36,24 @@ title:
 		z-index:0;
 		}
 
-	{% for post in site.posts %}	
-	#i{{ forloop.index}} {
-		left: {{ forloop.index |times:100 }}%;
+		
+	#i1 {
+		left: 100%;
+		width: 100%;
+		margin-right:0;
+
+		background-color:#fff;
+	}
+	
+	
+	#a1:target .page {
+		-webkit-transform: translateX(-100%);
+	}
+	
+
+		
+	#i2 {
+		left: 200%;
 		width: 100%;
 		margin-right:0;
 
@@ -46,12 +61,45 @@ title:
 	}
 	
 	
-	#a{{ forloop.index }}:target .page {
-		-webkit-transform: translateX(-{{ forloop.index |times:100 }}%);
+	#a2:target .page {
+		-webkit-transition: -webkit-transform 0.2s;
+		-moz-transition: -moz-transform 0.2s;
+		-o-transition: -o-transform 0.2s;
+		-webkit-transform: translateX(-200%);
 	}
 	
 
-	{% endfor %}
+		
+	#i3 {
+		left: 300%;
+		width: 100%;
+		margin-right:0;
+
+		background-color:#333333;
+	}
+	
+	
+	#a3:target .page {
+		-webkit-transform: translateX(-300%);
+	}
+	
+
+		
+	#i4 {
+		left: 400%;
+		width: 100%;
+		margin-right:0;
+
+		background-color:#333333;
+	}
+	
+	
+	#a4:target .page {
+		-webkit-transform: translateX(-400%);
+	}
+	
+
+	
 	
 	
 	/* The Transition Effect */
@@ -177,52 +225,88 @@ title:
 			transition: hidden 0.2s; }
 		:target .backarrow{visibility:visible;}
 		#a0:target .backarrow{visibility:hidden;}		
+		#yolkLoad{
+		-webkit-transition: transform 0.2s;
+		z-index:4;
+		left:0;
+		position:absolute;
+		text-align:center;
+		font-size:90px;
+		color:white;
+		padding-top:20%;
+		background:black;
+		min-width:800px;
+		min-height:100%;
+		}
 -->
 </style>
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
 
-
-
+<div id='buttons' style='position:fixed; top:0; left:0; width:100px;'>
+		<input class='page' id='get' type='submit' value='GET' style="position:relative" />
+		<input class='page' id='get2' type='submit' value='GET' style="position:relative;top:50px;" />
+		<input class='page' id='flip' type='submit' value='FLIP' style="position:relative;top:100px;" />
+</div>
 <div id='container'>
 
-	
+
+
+
 	<div id='navbar'>
 	<div id='logo'><!-- --></div>
 	<div id="links">
-	{% for post in site.posts %}
-		<a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }}</a>
-	{% endfor %}
+	
+		<a href="#a1" id="p1">Project 4</a>
+	
+		<a href="#a2" id="p2">Project 3</a>
+	
+		<a href="#a3" id="p3">Project 2</a>
+	
+		<a href="#a4" id="p4">Project 1</a>
+	
 	</div>
 	</div>	
 	<div id='projectpanel'>
+
 		<div id='a0'>
-	{% for post in site.posts %}
-		<div id='a{{ forloop.index }}' >
-	{% endfor %}
+	
+		<div id='a1' >
+
+		<div id='a2'>
 
 
 	
-	{% comment %} End navbar {% endcomment %}
+	
 		<div id='i0' class='page'>
+
 		<p> Select a project from the left</p>
 		</div>
-	{% for post in site.posts %}
-	
-		<div id='i{{ forloop.index }}' class='postblock page' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
-			<div class='prjtitle'>
-			{{ post.title }}
-			</div>
-		</div>
 
-	{% endfor %}
+		<div id='yolkLoad'>
+		Y O L K
+		<div style="margin: 0 auto; display:block;">
+		<img src="../img/load.gif" width='200' height='200' />
+		</div>
+		</div>
+	<div id='i1' class='postblock page'>
+	
+	</div>
+			
+	<div id='i2' class='page'>
+	<h1>YOLK</h1>
+	</div>
+	
 				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
 	
-	{% for post in site.posts %}
+	
 		</div>
-	{% endfor %}
+	
 		</div>
+		</div>
+
 	</div>
 </div>
 <script type="text/javascript"> 
@@ -241,5 +325,35 @@ title:
 
 </script>
 
+<script type="text/javascript">
+
+
+	$.ajaxSetup ({
+		cache: false
+	});
+	var ajax_load = "<img class='loading' src='../img/load.gif' alt='loading...' /><h1 style='width:100%; margin:0 auto; position:absolute; text-align:center; font-size:48px;'>YOLK</h1>";
+	$("#yolkLoad").hide();
+	$("#get").click(function(){
+//		location.href="#a2";
+// 		$("#yolkLoad").show("slide", {direction:'left'}, 500);
+		$("#yolkLoad").show('slide',{direction:'left'},500);
+
+
+		setTimeout(function(){
+		$("#yolkLoad").hide('slide',{direction:'left'},200);
+
+		$("#i0").load("text.html", function(){
+		});
+		}, 800);
+	});
+	$("#get2").click(function(){
+			$("#yolkLoad").show('slide',{direction:'left'},500); 		
+		$("#i0").load("text2.html", function(){
+			$("#yolkLoad").hide('slide',{direction:'left'},200);
+		});
+
+</script>
+
 </body>
+
 
