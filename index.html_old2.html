@@ -1,14 +1,7 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Y O L K</title>
-	<link rel="stylesheet" href="http://ozwash.org/css/blueprint/screen.css" type="text/css" media="screen, projection"> 
-	<link rel="stylesheet" href="grid.css" type="text/css" media="screen">
-
-</head>
-
+---
+layout: default
+title:
+---
 <style type="text/css">
 <!--
 	body{
@@ -43,9 +36,9 @@
 		z-index:0;
 		}
 
-		
-	#i1 {
-		left: 100%;
+	{% for post in site.posts %}	
+	#i{{ forloop.index}} {
+		left: {{ forloop.index |times:100 }}%;
 		width: 100%;
 		margin-right:0;
 
@@ -53,57 +46,12 @@
 	}
 	
 	
-	#a1:target .page {
-		-webkit-transform: translateX(-100%);
+	#a{{ forloop.index }}:target .page {
+		-webkit-transform: translateX(-{{ forloop.index |times:100 }}%);
 	}
 	
 
-		
-	#i2 {
-		left: 200%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a2:target .page {
-		-webkit-transform: translateX(-200%);
-	}
-	
-
-		
-	#i3 {
-		left: 300%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a3:target .page {
-		-webkit-transform: translateX(-300%);
-	}
-	
-
-		
-	#i4 {
-		left: 400%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a4:target .page {
-		-webkit-transform: translateX(-400%);
-	}
-	
-
-	
+	{% endfor %}
 	
 	
 	/* The Transition Effect */
@@ -181,12 +129,14 @@
 		cursor: pointer;
 		background-repeat:repeat;
 	}
-
+	.prjtitle{
+		display:none;
+		}
 	.postblock:hover{
-
+		color:#fff;
 		}
 		
-	.prjtitle{
+	.postblock:hover .prjtitle{
 		display:block;
 		background-color:#000;
 		max-height: 500px;
@@ -195,7 +145,7 @@
 		margin:45% auto;
 		font-size:24px;
 		text-align:center;
-		color:white;
+
 		}
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
 		.nextbutton { cursor: pointer; right: 0; }
@@ -240,80 +190,38 @@
 	<div id='navbar'>
 	<div id='logo'><!-- --></div>
 	<div id="links">
-	
-		<a href="#a1" id="p1">Project 4</a>
-	
-		<a href="#a2" id="p2">Project 3</a>
-	
-		<a href="#a3" id="p3">Project 2</a>
-	
-		<a href="#a4" id="p4">Project 1</a>
-	
+	{% for post in site.posts %}
+		<a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }}</a>
+	{% endfor %}
 	</div>
 	</div>	
 	<div id='projectpanel'>
 		<div id='a0'>
-	
-		<div id='a1' >
-	
-		<div id='a2' >
-	
-		<div id='a3' >
-	
-		<div id='a4' >
-	
+	{% for post in site.posts %}
+		<div id='a{{ forloop.index }}' >
+	{% endfor %}
 
 
 	
-	
+	{% comment %} End navbar {% endcomment %}
 		<div id='i0' class='page'>
 		<p> Select a project from the left</p>
 		</div>
+	{% for post in site.posts %}
 	
-	
-		<div id='i1' class='postblock page' onclick="location.href='/2011/03/06/project4/';" style="background:url('/img/three.jpeg');">
+		<div id='i{{ forloop.index }}' class='postblock page' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
 			<div class='prjtitle'>
-			Project 4
+			{{ post.title }}
 			</div>
 		</div>
 
-	
-	
-		<div id='i2' class='postblock page' onclick="location.href='/2011/03/06/project3/';" style="background:url('/img/three.jpeg');">
-			<div class='prjtitle'>
-			Project 3
-			</div>
-		</div>
-
-	
-	
-		<div id='i3' class='postblock page' onclick="location.href='/2011/03/06/project2/';" style="background:url('/img/two.jpeg');">
-			<div class='prjtitle'>
-			Project 2
-			</div>
-		</div>
-
-	
-	
-		<div id='i4' class='postblock page' onclick="location.href='/2011/03/06/project1/';" style="background:url('/img/one.jpeg');">
-			<div class='prjtitle'>
-			Project 1
-			</div>
-		</div>
-
-	
+	{% endfor %}
 				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
 
 	
-	
+	{% for post in site.posts %}
 		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
+	{% endfor %}
 		</div>
 	</div>
 </div>
@@ -334,8 +242,4 @@
 </script>
 
 </body>
-
-
-
-</html>
 

@@ -43,68 +43,7 @@
 		z-index:0;
 		}
 
-		
-	#i1 {
-		left: 100%;
-		width: 100%;
-		margin-right:0;
 
-		background-color:#333333;
-	}
-	
-	
-	#a1:target .page {
-		-webkit-transform: translateX(-100%);
-	}
-	
-
-		
-	#i2 {
-		left: 200%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a2:target .page {
-		-webkit-transform: translateX(-200%);
-	}
-	
-
-		
-	#i3 {
-		left: 300%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a3:target .page {
-		-webkit-transform: translateX(-300%);
-	}
-	
-
-		
-	#i4 {
-		left: 400%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a4:target .page {
-		-webkit-transform: translateX(-400%);
-	}
-	
-
-	
-	
 	
 	/* The Transition Effect */
 	 
@@ -182,20 +121,20 @@
 		background-repeat:repeat;
 	}
 
-	.postblock:hover{
-
+	.prjtitle{
+		visibility:hidden;
+		overflow:hidden
 		}
 		
-	.prjtitle{
-		display:block;
+	.postblock:hover .prjtitle{
+		visibility:visible;
 		background-color:#000;
-		max-height: 500px;
-		min-height: 500px;
 		width:60%;
-		margin:45% auto;
-		font-size:24px;
-		text-align:center;
-		color:white;
+		height:60%;
+		margin:20% auto;
+		overflow:hidden;
+		font-size:12px;
+		text-align:justify;
 		}
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
 		.nextbutton { cursor: pointer; right: 0; }
@@ -226,11 +165,24 @@
 			-o-transition: hidden 0.2s; 
 			transition: hidden 0.2s; }
 		:target .backarrow{visibility:visible;}
-		#a0:target .backarrow{visibility:hidden;}		
+		#a0:target .backarrow{visibility:hidden;}
+		#yolkLoad{
+		z-index:4;
+		left:0;
+		position:absolute;
+		text-align:center;
+		font-size:90px;
+		color:white;
+		padding-top:20%;
+		background:black;
+		min-width:800px;
+		min-height:100%;
+		}
 -->
 </style>
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
 
 
 
@@ -241,93 +193,77 @@
 	<div id='logo'><!-- --></div>
 	<div id="links">
 	
-		<a href="#a1" id="p1">Project 4</a>
 	
-		<a href="#a2" id="p2">Project 3</a>
+		<a href="#" id="p1">Project 4</a>
 	
-		<a href="#a3" id="p3">Project 2</a>
+		<a href="#" id="p2">Project 3</a>
 	
-		<a href="#a4" id="p4">Project 1</a>
+		<a href="#" id="p3">Project 2</a>
+	
+		<a href="#" id="p4">Project 1</a>
 	
 	</div>
 	</div>	
 	<div id='projectpanel'>
-		<div id='a0'>
-	
-		<div id='a1' >
-	
-		<div id='a2' >
-	
-		<div id='a3' >
-	
-		<div id='a4' >
-	
+			<div id='yolkLoad'>
+		Y O L K
+		<div style="margin: 0 auto; display:block;">
+		<img src="../img/load.gif" width='200' height='200' />
+		</div>
+		</div>
 
-
-	
-	
 		<div id='i0' class='page'>
-		<p> Select a project from the left</p>
+		<div class='postblock'>
+		<div class='prjtitle'>
+		<p style="visibility:visible;"> Select a project from the left</p>
+		</div>
+		</div>
 		</div>
 	
-	
-		<div id='i1' class='postblock page' onclick="location.href='/2011/03/06/project4/';" style="background:url('/img/three.jpeg');">
-			<div class='prjtitle'>
-			Project 4
-			</div>
-		</div>
 
-	
-	
-		<div id='i2' class='postblock page' onclick="location.href='/2011/03/06/project3/';" style="background:url('/img/three.jpeg');">
-			<div class='prjtitle'>
-			Project 3
-			</div>
-		</div>
-
-	
-	
-		<div id='i3' class='postblock page' onclick="location.href='/2011/03/06/project2/';" style="background:url('/img/two.jpeg');">
-			<div class='prjtitle'>
-			Project 2
-			</div>
-		</div>
-
-	
-	
-		<div id='i4' class='postblock page' onclick="location.href='/2011/03/06/project1/';" style="background:url('/img/one.jpeg');">
-			<div class='prjtitle'>
-			Project 1
-			</div>
-		</div>
-
-	
-				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
-
-	
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
 		</div>
 	</div>
-</div>
-<script type="text/javascript"> 
+<script type="text/javascript">
+	// <![CDATA[
+	$("#yolkLoad").hide();
+	var postRef = [];
+	var thumbRef = [];
+	
+	thumbRef[0] = "/img/three.jpeg";
+	postRef[0] = "/2011/03/06/project4/";
+	
+	thumbRef[1] = "/img/three.jpeg";
+	postRef[1] = "/2011/03/06/project3/";
+	
+	thumbRef[2] = "/img/two.jpeg";
+	postRef[2] = "/2011/03/06/project2/";
+	
+	thumbRef[3] = "/img/one.jpeg";
+	postRef[3] = "/2011/03/06/project1/";
+	
 
-// <![CDATA[
  	$("#navbar a").click(
       function () {
       	$("#navbar a").removeClass("selected");
         $(this).addClass("selected");
-        location.href=$(this).attr('href');
+		$("#yolkLoad").show('slide',{direction:'left'},500); 		
+// 		$.ajax({
+// 			url: postRef[$(this.index()],
+// 			data: '',
+// 			dataType: 'html',
+// 			success: function(){
+// 			$("#yolkLoad").hide('slide', {direction:'left'},200);
+// 			}
+// 			});
+		$("#i0 .postblock .prjtitle").load(postRef[$(this).index()]+"index.html" +" #prjdesc", function(){
+			$("#i0").css('background-image','url("'+thumbRef[$(this).index()]+'")');
+			$("#yolkLoad").hide('slide',{direction:'left'},200);
+		});
       });
     $(".backarrow").click(function(){$("#navbar a").removeClass("selected");});
 	//add random sort
+	
+	
 	
 // ]]>
 
