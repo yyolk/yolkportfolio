@@ -48,7 +48,8 @@ title:
 	
 	
 	#a{{ forloop.index }}:target .page {
-		-webkit-transform: translateX(-{{ forloop.index |times:100 }}%);
+        -webkit-transform: translateX(-{{ forloop.index |times:100 }}%);
+        -moz-transform: translateX(-{{ forloop.index |times:100 }}%);
 	}
 	
 
