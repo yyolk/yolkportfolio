@@ -3,9 +3,10 @@ layout: default
 title:
 ---
 <style type="text/css">
-<!--
+    <!--
 	body{
-		overflow:hidden;
+        overflow:hidden;
+        font-family: 'Inconsolata', arial, serif;        
 		}
 	
 	#container{
@@ -65,7 +66,8 @@ title:
 	a:active { outline: none;}
 
 	
-	.selected{
+    .selected{
+        font-weight:bold;
 		background-color: white !important;
 		color: black !important;
 		border-left:9px solid black;
@@ -80,21 +82,27 @@ title:
 		height: 200px;
 		}
 
-	#links a{
-		background-color: #000;
+        #links{
+            margin-top:250px;
+            text-align:left;
+            margin-left:20px;
+        }
+
+        #links a{
+        font-size:10pt;
+		background-color: transparent;
 		color:#fff;
 		display:block;
 		text-decoration:none;
-		line-height:32px;
-		text-align:center;
+		line-height:1.2;
 		-moz-transition: all 0.2s; 
 		-webkit-transition: all 0.2s; 
 		-o-transition: all 0.2s; 
 		transition: all 0.2s; 
-		clear:both;
+        clear:both;
 		}
 		
-	#links a:hover{
+	#links a:hover {
 		background-color: #aaa;
 		color: #fff;
 		-moz-transition: .8s;
@@ -108,7 +116,6 @@ title:
 		width:160px;
 		margin:0;
 		min-height:100%;
-		background-color:black;
 		color:#fff;
 		font-size:24px;
 		float:left;	
@@ -119,34 +126,36 @@ title:
 		width:800px;
 		position:absolute;
 		float:right;
-		margin-left:160px;
+		margin-left:300px;
 		height:100%;
 		overflow:hidden;
 	}
 
-	.postblock {
+	.postblock{
 		background-position:50% 50% !important;
 		cursor: pointer;
 		background-repeat:repeat;
 	}
-	.prjtitle{
-		display:none;
-		}
-	.postblock:hover{
-		color:#fff;
-		}
-		
-	.postblock:hover .prjtitle{
-		display:block;
-		background-color:#000;
+    .prjtitle{
 		max-height: 500px;
 		min-height: 500px;
 		width:60%;
 		margin:45% auto;
-		font-size:24px;
 		text-align:center;
+        color: rgba(253,245,250,.8);
+        text-shadow: 0.1em 0.1em 0.2em rgba(255,255,255,.5);
+    }
 
-		}
+    .prjtitle h1{
+        font-size:30pt;
+        font-style:italic;
+        text-transform:uppercase;
+    }
+    .prjtitle p{
+        font-size:14pt;
+        
+    }
+		
 		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
 		.nextbutton { cursor: pointer; right: 0; }
 		.backbutton { cursor: pointer; left: 0; }
@@ -161,7 +170,7 @@ title:
 			position:absolute;			
 		}
 		
-		.backarrow:hover{
+		.backarrow:hover {
 			color: black;
 			background-color: white;
 			-moz-transition: all 0.6s; 
@@ -176,26 +185,34 @@ title:
 			-o-transition: hidden 0.2s; 
 			transition: hidden 0.2s; }
 		:target .backarrow{visibility:visible;}
-		#a0:target .backarrow{visibility:hidden;}		
+        #a0:target .backarrow{visibility:hidden;}	
+
+        #banner { 
+            position:fixed;
+            z-index:-99;
+            height:700px;
+            width:300px;
+        }
 -->
 </style>
 <body>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 
 
 
-<div id='container'>
+<div class='page'>
 
 	
-	<div id='navbar'>
-	<div id='logo'><!-- --></div>
+    <div id='navbar' class='span-2'>
+        <div id="banner"><canvas width="300" height="700"></div>
+
+
 	<div id="links">
 	{% for post in site.posts %}
 		<a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }}</a>
 	{% endfor %}
 	</div>
 	</div>	
-	<div id='projectpanel'>
+	<div id='projectpanel' class='span-3 last'>
 		<div id='a0'>
 	{% for post in site.posts %}
 		<div id='a{{ forloop.index }}' >
@@ -211,7 +228,8 @@ title:
 	
 		<div id='i{{ forloop.index }}' class='postblock page' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
 			<div class='prjtitle'>
-			{{ post.title }}
+                <h1 onclick="location.href='{{ post.url }}';" style="cursor:pointer;">{{ post.title }}</h1>
+                <p>{{ post.subtitle }}</p>
 			</div>
 		</div>
 
