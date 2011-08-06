@@ -1,8 +1,9 @@
 ---
 title: "ROCKS UNDERWATER"
 subtitle: "Spelunking in a vorpal cavern"
-layout: post
-thumb: "https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/ROCKSUNDERWATER-small.jpg"
+layout: image
+type: image
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/ROCKSUNDERWATER-thumb.jpg"
 ---
 
 

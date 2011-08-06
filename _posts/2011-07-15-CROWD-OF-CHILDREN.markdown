@@ -1,8 +1,9 @@
 ---
-title: "CROWD OF CHIRLDREN"
+title: "CROWD OF CHILDREN"
 subtitle: "SUCH A BLUR"
-layout: post
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/CROWDOFCHILDREN-small.jpg"
+layout: image
+type: image
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/CROWDOFCHILDREN-thumb.jpg"
 ---
 
 

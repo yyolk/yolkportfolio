@@ -1,8 +1,9 @@
 ---
 title: "RED CAVERN"
 subtitle: "Spelunking again?"
-layout: post
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDCAVERN-small.png"
+layout: image
+type: image
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDCAVERN-thumb.jpg"
 ---
 
 

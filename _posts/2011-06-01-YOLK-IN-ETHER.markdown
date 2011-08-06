@@ -1,8 +1,9 @@
 ---
 title: "Y O L K IN ETHER"
 subtitle: "Slowly traversing the acid smoke."
-layout: post
-thumb: "https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/YOLKINETHER-small.jpg"
+layout: image
+type: image
+thumb: "http://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/YOLKINETHER-thumb.jpg"
 ---
 
 

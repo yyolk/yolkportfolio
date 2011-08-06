@@ -1,8 +1,9 @@
 ---
 title: "RED SEA"
 subtitle: "Continuing my descent through the thick mess."
-layout: post
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDSEA.jpg"
+layout: image
+type: image
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDSEA-thumb.jpg"
 ---
 
 

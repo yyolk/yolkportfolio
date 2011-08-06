@@ -1,11 +1,11 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+<!DOCTYPE HTML PUBLIC "-// W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>Y O L K</title>
-	<link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen, projection"> 
-    <!--[if lt IE 8]><link rel="stylesheet" href="./css/ie.css" type="text/css" media="screen, projection"><![endif]--> 
+	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection"> 
+    <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]--> 
     <link href='http://fonts.googleapis.com/css?family=Inconsolata&v1' rel='stylesheet' type='text/css'> 
 <script type="text/javascript">
 
@@ -32,14 +32,17 @@
     body {
         background-color:#;
     }
+    .container{
+        position:absolute;
+        left:0;
+
+    }
 
     #back{
-        position:fixed;
-        bottom:0;
-        left:0;
-        width:100px;
+        padding:10px 5px;
         background-color:#000;
         color:#fff;
+        text-align:center;
         font-size:9pt;
     }
     #back a{
@@ -47,10 +50,11 @@
     }
     -->
 </style>
-
+<div class='container'>
   <p><img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/LIONSHEAD-small.png' alt='LIONS HEAD' /></p>
 
 <h1 id='lions_head'>LIONS HEAD</h1>
-
-  <div id='back'><a href="http://portfolio.yolk.cc">&larr;BACK</a></div>
+  <div class='span-5' id='back'><a href="/">&larr;BACK</a></div>
+</div>
 </html>
+

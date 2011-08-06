@@ -1,8 +1,9 @@
 ---
 title: "BLAZIN"
 subtitle: "I swear I saw a little Chinese woman..."
-layout: post
-thumb: "https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/BLAZIN-small.jpg"
+layout: image
+type: image
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/BLAZIN-thumb.jpg"
 ---
 
 

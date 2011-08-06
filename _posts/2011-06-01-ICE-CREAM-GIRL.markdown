@@ -1,9 +1,10 @@
 ---
 title: "ICE CREAM GIRL"
 subtitle: ""
-layout: post
+layout: image
+type: image
 bgcolor: CBE1F0
-thumb: "https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/ICECREAMGIRL-small.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/ICECREAMGIRL-thumb.jpg"
 ---
 
 

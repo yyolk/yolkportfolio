@@ -1,8 +1,9 @@
 ---
 title: "MY SELF"
 subtitle: "Self-Portrait"
-layout: post
-thumb: "https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/MYSELF-small.jpg"
+layout: image
+type: image
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/MYSELF-thumb.jpg"
 ---
 
 
