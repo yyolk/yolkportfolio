@@ -423,7 +423,7 @@
 		transition: all 0.2s; 
         clear:both;
 		}
-		
+/*		
 	#links a:hover {
 		background-color: #aaa;
 		color: #fff;
@@ -432,7 +432,7 @@
 		-o-transition: .8s;
 		transition: .8s;
 		}
-	
+*/	
 	#navbar{
 		position:absolute;
 		width:220px;
@@ -850,6 +850,7 @@
 	</div>
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/ylkrndcolor.js"></script>
 <script type="text/javascript"> 
 
 // <![CDATA[
@@ -860,7 +861,15 @@
         location.href=$(this).attr('href');
       });
     $(".backarrow").click(function(){$("#navbar a").removeClass("selected");});
-	//add random sort
+    //add random sort
+
+    $("a").hover(function(){
+            $(this).addClass('randomcolor');
+            },
+            function(){
+            $(this).removeClass('randomcolor');
+            $(this).css({'color':'#fff'});
+            });
 	
 // ]]>
 
