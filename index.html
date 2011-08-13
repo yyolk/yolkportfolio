@@ -242,7 +242,7 @@ title:
 		</div>
 	{% for post in site.posts %}
 	
-		<div id='i{{ forloop.index }}' class='postblock page' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
+		<div id='i{{ forloop.index }}' class='postblock page lazy' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
 			<div class='prjtitle'>
                 <h1 onclick="location.href='{{ post.url }}';" style="cursor:pointer;">{{ post.title }}</h1>
                 <p>{{ post.subtitle }}</p>
@@ -261,6 +261,8 @@ title:
 </div>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="/js/ylkrndcolor.js"></script>
+
+
 <script type="text/javascript"> 
 
 // <![CDATA[
