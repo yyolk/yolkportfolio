@@ -3,7 +3,7 @@ title: "LISTEN TO MY HEART"
 subtitle: "An experiment in intimacy"
 layout: project
 type: project
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/listentomyheart-thumb.png"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/projects/listentomyheart-thumb.png"
 siteurl: "http://listentomyheart.cc"
 
 ---
