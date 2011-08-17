@@ -1,49 +1,11 @@
 {% include header.html %}
 
-<style type="text/css">
-    <!--
 
-    body{
-        font-family: 'Inconsolata', arial;
-    }
-    h1 {
-        font-size:20pt;
-    }   
-    body {
-        background-color:#{{ page.bgcolor }};
-    }
-    
-    #back{
-        position:fixed;
-        width:750px;
-        bottom:0;
-        padding:10px 5px;
-        background-color:#fff;
-        color:#000;
-        text-align:center;
-        font-size:9pt;
-        cursor:pointer;
-    }
-    #back:hover {
-        color:#fff;
-        background-color:#000;
-    }
-
-    .content{
-
-        overflow:hidden;
-
-    }
-    
-    -->
-</style>
 <div class='container'>
-  <div class='span-5' id='back' onclick='location.href="/";'>&larr;BACK</div>
  
  
-  <div class='content span-5'>
      {{ content }}
-  </div>
+
  
 
 </div>

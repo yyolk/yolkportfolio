@@ -1,17 +1,10 @@
 ---
 title: "37 Signals"
 subtitle: "An attempt at programming"
-layout: video
+layout: embed
 type: video
 thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/37signals.png"
 
 ---
 
-
-
-#37 Signals
-<blockquote>
-This video was created in attempt to program the employees at the wonderful web company 37 Signals into hiring me for a Summer Design Intern. 
-</blockquote>
-<p>Status: <b>Failure</b></p>
 <iframe src="http://player.vimeo.com/video/22535840?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1" width="750" height="422" frameborder="0"></iframe>

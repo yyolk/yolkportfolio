@@ -3,7 +3,8 @@ title: "ME IN JACKET"
 subtitle: "DAMN I LOOK GOOD IN THIS JACKET"
 layout: image
 type: image
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/MEINJACKET-thumb.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MEINJACKET-thumb.jpg"
+image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MEINJACKET-small.jpg"
 ---
 
 

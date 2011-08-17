@@ -3,7 +3,8 @@ title: "MY SELF"
 subtitle: "Self-Portrait"
 layout: image
 type: image
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/MYSELF-thumb.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELF-thumb.jpg"
+image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELF-small.jpg"
 ---
 
 

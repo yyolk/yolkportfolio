@@ -4,7 +4,8 @@ subtitle: ""
 layout: image
 type: image
 bgcolor: CBE1F0
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/ICECREAMGIRL-thumb.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ICECREAMGIRL-thumb.jpg"
+image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ICECREAMGIRL-small.jpg"
 ---
 
 

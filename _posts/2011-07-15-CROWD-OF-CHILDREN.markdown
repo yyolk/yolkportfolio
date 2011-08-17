@@ -3,7 +3,8 @@ title: "CROWD OF CHILDREN"
 subtitle: "SUCH A BLUR"
 layout: image
 type: image
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/CROWDOFCHILDREN-thumb.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-thumb.jpg"
+image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-small.jpg"
 ---
 
 
