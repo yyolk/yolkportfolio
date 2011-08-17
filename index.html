@@ -36,6 +36,14 @@ title:
         visibility:visible;
     }
 
+    .postdate{
+        position:absolute;
+        bottom:0;
+        color:#fff;
+        font-size:10px;
+        width:90%;
+    }
+
     a, a:visited, a:link {
         color:#e3e3e3;
     }
@@ -52,7 +60,7 @@ title:
     <div id="masonry" class="span-5">
         <!-- begin masonry layout -->
         {% for post in site.posts %}
-            <div class="span-1 box" style="background-image:url('{{ post.thumb }}');background-position:50% 50%;">
+            <div class="span-1 box {{ post.layout }}" style="background-image:url('{{ post.thumb }}');background-position:50% 50%;">
             <div class="post">
             {% case post.layout %}
             {% when 'video' %}
@@ -68,6 +76,9 @@ title:
             <a class="cb" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
             {% endcase %}
+            
+            <div class='postdate'>{{ post.date | date_to_string }}</div>
+
         </div>
             </div>
         {% endfor %}
@@ -101,7 +112,8 @@ title:
    // $('.box').each(function(){$(this).css("width", Math.random()*50+200);});
 
 $('#masonry').masonry({
-  itemSelector: '.box'
+    itemSelector: '.box',
+    gutterWidth: 10
 });
 
 $(document).ready(function(){

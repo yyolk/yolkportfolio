@@ -28,1009 +28,376 @@
 
 
 <style type="text/css">
-    <!--
+<!--
 	body{
-        overflow:hidden;
-        font-family: 'Inconsolata', arial, serif;        
-		}
-	
-	#container{
-		width:960px;
-		height:100%;
-		min-height:100%;
-		background-color:black;
-		margin:0 auto;
-
-		}
-	
-	.page{
-		position:absolute;
-		height:100%;
-		width:100%;
-		min-width:100%;
-		min-height:100%
-		}
-
-	#i0{
-		width: 100%;
-		margin-right:20px;
-        background-color: white;
-        vertical-align: middle;
-		color: black;
-        top:50%;
-		float:right;
-		text-align:center;
-		font-size: 38px;
-		z-index:0;
-		}
-
-		
-	#i1 {
-		left: 100%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a1:target .page {
-        -webkit-transform: translateX(-100%);
-        -moz-transform: translateX(-100%);
-	}
-	
-
-		
-	#i2 {
-		left: 200%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a2:target .page {
-        -webkit-transform: translateX(-200%);
-        -moz-transform: translateX(-200%);
-	}
-	
-
-		
-	#i3 {
-		left: 300%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a3:target .page {
-        -webkit-transform: translateX(-300%);
-        -moz-transform: translateX(-300%);
-	}
-	
-
-		
-	#i4 {
-		left: 400%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a4:target .page {
-        -webkit-transform: translateX(-400%);
-        -moz-transform: translateX(-400%);
-	}
-	
-
-		
-	#i5 {
-		left: 500%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a5:target .page {
-        -webkit-transform: translateX(-500%);
-        -moz-transform: translateX(-500%);
-	}
-	
-
-		
-	#i6 {
-		left: 600%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a6:target .page {
-        -webkit-transform: translateX(-600%);
-        -moz-transform: translateX(-600%);
-	}
-	
-
-		
-	#i7 {
-		left: 700%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a7:target .page {
-        -webkit-transform: translateX(-700%);
-        -moz-transform: translateX(-700%);
-	}
-	
-
-		
-	#i8 {
-		left: 800%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a8:target .page {
-        -webkit-transform: translateX(-800%);
-        -moz-transform: translateX(-800%);
-	}
-	
-
-		
-	#i9 {
-		left: 900%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a9:target .page {
-        -webkit-transform: translateX(-900%);
-        -moz-transform: translateX(-900%);
-	}
-	
-
-		
-	#i10 {
-		left: 1000%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a10:target .page {
-        -webkit-transform: translateX(-1000%);
-        -moz-transform: translateX(-1000%);
-	}
-	
-
-		
-	#i11 {
-		left: 1100%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a11:target .page {
-        -webkit-transform: translateX(-1100%);
-        -moz-transform: translateX(-1100%);
-	}
-	
-
-		
-	#i12 {
-		left: 1200%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a12:target .page {
-        -webkit-transform: translateX(-1200%);
-        -moz-transform: translateX(-1200%);
-	}
-	
-
-		
-	#i13 {
-		left: 1300%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a13:target .page {
-        -webkit-transform: translateX(-1300%);
-        -moz-transform: translateX(-1300%);
-	}
-	
-
-		
-	#i14 {
-		left: 1400%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a14:target .page {
-        -webkit-transform: translateX(-1400%);
-        -moz-transform: translateX(-1400%);
-	}
-	
-
-		
-	#i15 {
-		left: 1500%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a15:target .page {
-        -webkit-transform: translateX(-1500%);
-        -moz-transform: translateX(-1500%);
-	}
-	
-
-		
-	#i16 {
-		left: 1600%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a16:target .page {
-        -webkit-transform: translateX(-1600%);
-        -moz-transform: translateX(-1600%);
-	}
-	
-
-		
-	#i17 {
-		left: 1700%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a17:target .page {
-        -webkit-transform: translateX(-1700%);
-        -moz-transform: translateX(-1700%);
-	}
-	
-
-		
-	#i18 {
-		left: 1800%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a18:target .page {
-        -webkit-transform: translateX(-1800%);
-        -moz-transform: translateX(-1800%);
-	}
-	
-
-		
-	#i19 {
-		left: 1900%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a19:target .page {
-        -webkit-transform: translateX(-1900%);
-        -moz-transform: translateX(-1900%);
-	}
-	
-
-		
-	#i20 {
-		left: 2000%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a20:target .page {
-        -webkit-transform: translateX(-2000%);
-        -moz-transform: translateX(-2000%);
-	}
-	
-
-		
-	#i21 {
-		left: 2100%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a21:target .page {
-        -webkit-transform: translateX(-2100%);
-        -moz-transform: translateX(-2100%);
-	}
-	
-
-		
-	#i22 {
-		left: 2200%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a22:target .page {
-        -webkit-transform: translateX(-2200%);
-        -moz-transform: translateX(-2200%);
-	}
-	
-
-		
-	#i23 {
-		left: 2300%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a23:target .page {
-        -webkit-transform: translateX(-2300%);
-        -moz-transform: translateX(-2300%);
-	}
-	
-
-		
-	#i24 {
-		left: 2400%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a24:target .page {
-        -webkit-transform: translateX(-2400%);
-        -moz-transform: translateX(-2400%);
-	}
-	
-
-		
-	#i25 {
-		left: 2500%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a25:target .page {
-        -webkit-transform: translateX(-2500%);
-        -moz-transform: translateX(-2500%);
-	}
-	
-
-	
-	
-	
-	/* The Transition Effect */
-	 
-	.page { 
-		-webkit-transition: -webkit-transform 0.8s;
-		-moz-transition: -moz-transform 0.8s;
-		-o-transition: -o-transform 0.8s;
-	}
-	
-	a:active { outline: none;}
-
-	
-    .selected{
-        font-weight:bold;
-		background-color: white !important;
-		color: black !important;
-		border-left:6px solid black;
-		}
-	
-	#logo {
-		overflow:hidden;
-		background-image:url("img/yolk-100.png");
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		height: 200px;
-		}
-
-        #links{
-            margin-top:250px;
-            text-align:left;
-            margin-left:20px;
-        }
-
-        #links a{
-        font-size:10pt;
-		background-color: transparent;
-		color:#fff;
-		display:block;
-		text-decoration:none;
-		line-height:1.2;
-		-moz-transition: all 0.2s; 
-		-webkit-transition: all 0.2s; 
-		-o-transition: all 0.2s; 
-		transition: all 0.2s; 
-        clear:both;
-		}
-/*		
-	#links a:hover {
-		background-color: #aaa;
-		color: #fff;
-		-moz-transition: .8s;
-		-webkit-transition: .8s;
-		-o-transition: .8s;
-		transition: .8s;
-		}
-*/	
-	#navbar{
-		position:absolute;
-		width:220px;
-		margin:0;
-		min-height:100%;
-		color:#fff;
-		font-size:24px;
-		float:left;	
-		z-index:2;
-		}
-		
-	#projectpanel{
-		width:800px;
-		position:absolute;
-		float:right;
-		margin-left:300px;
-		height:100%;
-		overflow:hidden;
-	}
-
-	.postblock{
-		background-position:50% 50% !important;
-		cursor: pointer;
-		background-repeat:no-repeat !important;
-	}
-    .prjtitle{
-		max-height: 500px;
-		min-height: 500px;
-		width:60%;
-        cursor:pointer;
-		margin:45% auto;
-		text-align:center;
-        color: rgba(253,245,250,.9);
-        text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,.5);
+        font-family: 'Inconsolata', arial, serif;
     }
 
-    .prjtitle h1{
-        font-size:30pt;
-        font-style:italic;
-        color: rgba(255, 255, 255, .9);
-        text-shadow: 0.1em 0.1em 0.1em rgba(10,18,10,0.6);
-        text-transform:uppercase;
+    #banner {
+        position:fixed;
+        width:220px;
+        height:700px;
+        left:0;
+        top:0;
     }
-    .prjtitle p{
-        font-size:14pt;
-        
+
+    .box { 
+        min-height:200px;
+        padding:0;
+        margin:2px;
     }
-		
-		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
-		.nextbutton { cursor: pointer; right: 0; }
-		.backbutton { cursor: pointer; left: 0; }
-		.backarrow { 
-			cursor: pointer; 
-			color: white; 
-			background-color: black; 
-			padding: 20px; 
-			left:0;
-			bottom:0;
-			z-index:2;
-			position:absolute;			
-		}
-		
-		.backarrow:hover {
-			color: black;
-			background-color: white;
-			-moz-transition: all 0.6s; 
-			-webkit-transition: all 0.6s; 
-			-o-transition: all 0.6s; 
-			transition: all 0.6s; 
-		}
-		.backarrow{
-			visibility:hidden;
-			-moz-transition: hidden 0.2s; 
-			-webkit-transition: hidden 0.2s; 
-			-o-transition: hidden 0.2s; 
-			transition: hidden 0.2s; }
-		:target .backarrow{visibility:visible;}
-        #a0:target .backarrow{visibility:hidden;}	
 
-        #banner { 
-            position:fixed;
-            z-index:-99;
-            height:700px;
-            width:300px;
-        }
-        .linkheader {
-            margin-left:-4px;
-            text-transform: caps;
-            font-size:12px;
-        }
-        .posttype {
-            font-size:8px;
-            font-variant:small-caps;
+    .post{
+        visibility:hidden;
+        background-color:#000;
+        min-height:200px;
+        text-align:center;
+        font-size:16px;
+        padding-top:50%;
+        margin:0;
+    }
 
-        }
+    .box:hover .post{
+        visibility:visible;
+    }
+
+    .postdate{
+        position:absolute;
+        bottom:0;
+        color:#fff;
+        font-size:10px;
+        width:90%;
+    }
+
+    a, a:visited, a:link {
+        color:#e3e3e3;
+    }
+    a:hover {
+        color:#fff;
+    }
 -->
 </style>
+<link media="screen" rel="stylesheet" href="/css/colorbox.css" />
 <body>
 
 
+<div class="container">
+    <div id="masonry" class="span-5">
+        <!-- begin masonry layout -->
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-small.jpg" title="RED CAVERN">RED CAVERN</a> 
 
-<div class='page'>
+            
+            
+            <div class='postdate'>20 Jul 2011</div>
 
-	
-    <div id='navbar' class='span-2'>
-        <div id="banner"><canvas width="300" height="700"></div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/GRADUATION.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/07/20/GRADUATION/" title="GRADUATION">GRADUATION</a>
 
+            
+            
+            <div class='postdate'>20 Jul 2011</div>
 
-	<div id="links">
-        <span class='linkheader'>Works:</span>
-	
-    <a href="#a1" id="p1">RED CAVERN <span class='posttype'>image</span></a>
-	
-    <a href="#a2" id="p2">GRADUATION <span class='posttype'>video</span></a>
-	
-    <a href="#a3" id="p3">SKELETON FINGERS <span class='posttype'>image</span></a>
-	
-    <a href="#a4" id="p4">CROWD OF CHILDREN <span class='posttype'>image</span></a>
-	
-    <a href="#a5" id="p5">ORANG <span class='posttype'>video</span></a>
-	
-    <a href="#a6" id="p6">YOUNG HEARTS <span class='posttype'>video</span></a>
-	
-    <a href="#a7" id="p7">STAR LIGHT <span class='posttype'>video</span></a>
-	
-    <a href="#a8" id="p8">RUSTLING BREEZE <span class='posttype'>video</span></a>
-	
-    <a href="#a9" id="p9">LIONS HEAD <span class='posttype'>image</span></a>
-	
-    <a href="#a10" id="p10">SCOUTING <span class='posttype'>video</span></a>
-	
-    <a href="#a11" id="p11">50PERFECT10 <span class='posttype'>video</span></a>
-	
-    <a href="#a12" id="p12">Y O L K IN ETHER <span class='posttype'>image</span></a>
-	
-    <a href="#a13" id="p13">MY SELF II <span class='posttype'>image</span></a>
-	
-    <a href="#a14" id="p14">MY SELF <span class='posttype'>image</span></a>
-	
-    <a href="#a15" id="p15">ICE CREAM GIRL <span class='posttype'>image</span></a>
-	
-    <a href="#a16" id="p16">ROCKS UNDERWATER <span class='posttype'>image</span></a>
-	
-    <a href="#a17" id="p17">RED SEA <span class='posttype'>image</span></a>
-	
-    <a href="#a18" id="p18">BLAZIN <span class='posttype'>image</span></a>
-	
-    <a href="#a19" id="p19">ME IN JACKET <span class='posttype'>image</span></a>
-	
-    <a href="#a20" id="p20">WHY MAKE ART NOW <span class='posttype'>site</span></a>
-	
-    <a href="#a21" id="p21">S H I V E R <span class='posttype'>video</span></a>
-	
-    <a href="#a22" id="p22">37 Signals <span class='posttype'>video</span></a>
-	
-    <a href="#a23" id="p23">PATTERNS ARE MY FEELINGS <span class='posttype'>site</span></a>
-	
-    <a href="#a24" id="p24">LISTEN TO MY HEART <span class='posttype'>project</span></a>
-	
-    <a href="#a25" id="p25">FUNDAMENTALS <span class='posttype'>site</span></a>
-	
-	</div>
-	</div>	
-	<div id='projectpanel' class='span-3 last'>
-		<div id='a0'>
-	
-		<div id='a1' >
-	
-		<div id='a2' >
-	
-		<div id='a3' >
-	
-		<div id='a4' >
-	
-		<div id='a5' >
-	
-		<div id='a6' >
-	
-		<div id='a7' >
-	
-		<div id='a8' >
-	
-		<div id='a9' >
-	
-		<div id='a10' >
-	
-		<div id='a11' >
-	
-		<div id='a12' >
-	
-		<div id='a13' >
-	
-		<div id='a14' >
-	
-		<div id='a15' >
-	
-		<div id='a16' >
-	
-		<div id='a17' >
-	
-		<div id='a18' >
-	
-		<div id='a19' >
-	
-		<div id='a20' >
-	
-		<div id='a21' >
-	
-		<div id='a22' >
-	
-		<div id='a23' >
-	
-		<div id='a24' >
-	
-		<div id='a25' >
-	
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/SKELETONFINGERS-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/SKELETONFINGERS-small.jpg" title="SKELETON FINGERS">SKELETON FINGERS</a> 
 
+            
+            
+            <div class='postdate'>15 Jul 2011</div>
 
-	
-	
-		<div id='i0' class='page'>
-		&larr; Select a project from the left
-		</div>
-	
-	
-		<div id='i1' class='postblock page lazy' onclick="location.href='/2011/07/20/RED-CAVERN/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/20/RED-CAVERN/';" style="cursor:pointer;">RED CAVERN</h1>
-                <p>Spelunking again?</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-small.jpg" title="CROWD OF CHILDREN">CROWD OF CHILDREN</a> 
 
-	
-	
-		<div id='i2' class='postblock page lazy' onclick="location.href='/2011/07/20/GRADUATION/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/GRADUATION.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/20/GRADUATION/';" style="cursor:pointer;">GRADUATION</h1>
-                <p></p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>15 Jul 2011</div>
 
-	
-	
-		<div id='i3' class='postblock page lazy' onclick="location.href='/2011/07/15/SKELETON-FINGERS/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/SKELETONFINGERS-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/15/SKELETON-FINGERS/';" style="cursor:pointer;">SKELETON FINGERS</h1>
-                <p>THE PATH OF LEAST RESISTANCE</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/ORANG-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/07/09/ORANG/" title="ORANG">ORANG</a>
 
-	
-	
-		<div id='i4' class='postblock page lazy' onclick="location.href='/2011/07/15/CROWD-OF-CHILDREN/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/15/CROWD-OF-CHILDREN/';" style="cursor:pointer;">CROWD OF CHILDREN</h1>
-                <p>SUCH A BLUR</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>09 Jul 2011</div>
 
-	
-	
-		<div id='i5' class='postblock page lazy' onclick="location.href='/2011/07/09/ORANG/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/ORANG-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/09/ORANG/';" style="cursor:pointer;">ORANG</h1>
-                <p></p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/YOUNGHEARTS.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/07/01/YOUNG-HEARTS/" title="YOUNG HEARTS">YOUNG HEARTS</a>
 
-	
-	
-		<div id='i6' class='postblock page lazy' onclick="location.href='/2011/07/01/YOUNG-HEARTS/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/YOUNGHEARTS.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/01/YOUNG-HEARTS/';" style="cursor:pointer;">YOUNG HEARTS</h1>
-                <p></p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jul 2011</div>
 
-	
-	
-		<div id='i7' class='postblock page lazy' onclick="location.href='/2011/07/01/STAR-LIGHT/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/STARLIGHT.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/01/STAR-LIGHT/';" style="cursor:pointer;">STAR LIGHT</h1>
-                <p></p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/STARLIGHT.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/07/01/STAR-LIGHT/" title="STAR LIGHT">STAR LIGHT</a>
 
-	
-	
-		<div id='i8' class='postblock page lazy' onclick="location.href='/2011/07/01/RUSTLING-BREEZE/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/RUSTLINGBREEZE.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/01/RUSTLING-BREEZE/';" style="cursor:pointer;">RUSTLING BREEZE</h1>
-                <p></p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jul 2011</div>
 
-	
-	
-		<div id='i9' class='postblock page lazy' onclick="location.href='/2011/07/01/LIONS-HEAD/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/LIONSHEAD-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/07/01/LIONS-HEAD/';" style="cursor:pointer;">LIONS HEAD</h1>
-                <p>MEOW</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/RUSTLINGBREEZE.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/07/01/RUSTLING-BREEZE/" title="RUSTLING BREEZE">RUSTLING BREEZE</a>
 
-	
-	
-		<div id='i10' class='postblock page lazy' onclick="location.href='/2011/06/15/SCOUTING/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SCOUTING.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/06/15/SCOUTING/';" style="cursor:pointer;">SCOUTING</h1>
-                <p></p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jul 2011</div>
 
-	
-	
-		<div id='i11' class='postblock page lazy' onclick="location.href='/2011/06/15/50Perfect10/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/50Perfect10.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/06/15/50Perfect10/';" style="cursor:pointer;">50PERFECT10</h1>
-                <p></p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/LIONSHEAD-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/LIONSHEAD-small.jpg" title="LIONS HEAD">LIONS HEAD</a> 
 
-	
-	
-		<div id='i12' class='postblock page lazy' onclick="location.href='/2011/06/01/YOLK-IN-ETHER/';" style="background:url('http://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/YOLKINETHER-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/06/01/YOLK-IN-ETHER/';" style="cursor:pointer;">Y O L K IN ETHER</h1>
-                <p>Slowly traversing the acid smoke.</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jul 2011</div>
 
-	
-	
-		<div id='i13' class='postblock page lazy' onclick="location.href='/2011/06/01/MY-SELF-II/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELFII-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/06/01/MY-SELF-II/';" style="cursor:pointer;">MY SELF II</h1>
-                <p>Self-Portrait</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SCOUTING.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/06/15/SCOUTING/" title="SCOUTING">SCOUTING</a>
 
-	
-	
-		<div id='i14' class='postblock page lazy' onclick="location.href='/2011/06/01/MY-SELF/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELF-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/06/01/MY-SELF/';" style="cursor:pointer;">MY SELF</h1>
-                <p>Self-Portrait</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>15 Jun 2011</div>
 
-	
-	
-		<div id='i15' class='postblock page lazy' onclick="location.href='/2011/06/01/ICE-CREAM-GIRL/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ICECREAMGIRL-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/06/01/ICE-CREAM-GIRL/';" style="cursor:pointer;">ICE CREAM GIRL</h1>
-                <p></p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/50Perfect10.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/06/15/50Perfect10/" title="50PERFECT10">50PERFECT10</a>
 
-	
-	
-		<div id='i16' class='postblock page lazy' onclick="location.href='/2011/05/01/ROCKSUNDERWATER/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ROCKSUNDERWATER-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/05/01/ROCKSUNDERWATER/';" style="cursor:pointer;">ROCKS UNDERWATER</h1>
-                <p>Spelunking in a vorpal cavern</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>15 Jun 2011</div>
 
-	
-	
-		<div id='i17' class='postblock page lazy' onclick="location.href='/2011/05/01/REDSEA/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDSEA-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/05/01/REDSEA/';" style="cursor:pointer;">RED SEA</h1>
-                <p>Continuing my descent through the thick mess.</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/YOLKINETHER-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/YOLKINETHER-small.jpg" title="Y O L K IN ETHER">Y O L K IN ETHER</a> 
 
-	
-	
-		<div id='i18' class='postblock page lazy' onclick="location.href='/2011/05/01/BLAZIN/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/BLAZIN-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/05/01/BLAZIN/';" style="cursor:pointer;">BLAZIN</h1>
-                <p>I swear I saw a little Chinese woman...</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jun 2011</div>
 
-	
-	
-		<div id='i19' class='postblock page lazy' onclick="location.href='/2011/04/01/MEINJACKET/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MEINJACKET-thumb.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/04/01/MEINJACKET/';" style="cursor:pointer;">ME IN JACKET</h1>
-                <p>DAMN I LOOK GOOD IN THIS JACKET</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELFII-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELFII-small.jpg" title="MY SELF II">MY SELF II</a> 
 
-	
-	
-		<div id='i20' class='postblock page lazy' onclick="location.href='/2011/03/14/WHYMAKEARTNOW/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/WHYMAKEARTNOW-thumb.png');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/03/14/WHYMAKEARTNOW/';" style="cursor:pointer;">WHY MAKE ART NOW</h1>
-                <p>Class Blog</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jun 2011</div>
 
-	
-	
-		<div id='i21' class='postblock page lazy' onclick="location.href='/2011/03/01/SHIVER/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SHIVER.jpg');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/03/01/SHIVER/';" style="cursor:pointer;">S H I V E R</h1>
-                <p></p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELF-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSELF-small.jpg" title="MY SELF">MY SELF</a> 
 
-	
-	
-		<div id='i22' class='postblock page lazy' onclick="location.href='/2011/02/01/37SIGNALS/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/37signals.png');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/02/01/37SIGNALS/';" style="cursor:pointer;">37 Signals</h1>
-                <p>An attempt at programming</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jun 2011</div>
 
-	
-	
-		<div id='i23' class='postblock page lazy' onclick="location.href='/2011/01/01/PATTERNSAREMYFEELINGS/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/patternsaremyfeelings-thumb.png');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/01/01/PATTERNSAREMYFEELINGS/';" style="cursor:pointer;">PATTERNS ARE MY FEELINGS</h1>
-                <p>A VISUAL BLOG</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ICECREAMGIRL-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ICECREAMGIRL-small.jpg" title="ICE CREAM GIRL">ICE CREAM GIRL</a> 
 
-	
-	
-		<div id='i24' class='postblock page lazy' onclick="location.href='/2011/01/01/LISTENTOMYHEART/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/projects/listentomyheart-thumb.png');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/01/01/LISTENTOMYHEART/';" style="cursor:pointer;">LISTEN TO MY HEART</h1>
-                <p>An experiment in intimacy</p>
-			</div>
-		</div>
+            
+            
+            <div class='postdate'>01 Jun 2011</div>
 
-	
-	
-		<div id='i25' class='postblock page lazy' onclick="location.href='/2011/01/01/FUNDAMENTALS/';" style="background:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/fundamentals-thumb.png');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='/2011/01/01/FUNDAMENTALS/';" style="cursor:pointer;">FUNDAMENTALS</h1>
-                <p>A visual blog for abstract, dynamic representations.</p>
-			</div>
-		</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ROCKSUNDERWATER-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ROCKSUNDERWATER-small.jpg" title="ROCKS UNDERWATER">ROCKS UNDERWATER</a> 
 
-	
-				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
+            
+            
+            <div class='postdate'>01 May 2011</div>
 
-	
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	
-		</div>
-	</div>
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDSEA-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDSEA-small.jpg" title="RED SEA">RED SEA</a> 
+
+            
+            
+            <div class='postdate'>01 May 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/BLAZIN-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/BLAZIN-small.jpg" title="BLAZIN">BLAZIN</a> 
+
+            
+            
+            <div class='postdate'>01 May 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box image" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MEINJACKET-thumb.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MEINJACKET-small.jpg" title="ME IN JACKET">ME IN JACKET</a> 
+
+            
+            
+            <div class='postdate'>01 Apr 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box site" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/WHYMAKEARTNOW-thumb.png');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbi" href="http://whymakeartnow.tumblr.com" title="WHY MAKE ART NOW">WHY MAKE ART NOW</a>           
+            
+            
+            
+            <div class='postdate'>14 Mar 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box video" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SHIVER.jpg');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbe" href="/2011/03/01/SHIVER/" title="S H I V E R">S H I V E R</a>
+
+            
+            
+            <div class='postdate'>01 Mar 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box embed" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/37signals.png');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="/2011/02/01/37SIGNALS/" title="37 Signals">37 Signals</a>
+
+            
+            
+            <div class='postdate'>01 Feb 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box site" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/patternsaremyfeelings-thumb.png');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbi" href="http://patternsaremyfeelings.tumblr.com" title="PATTERNS ARE MY FEELINGS">PATTERNS ARE MY FEELINGS</a>           
+            
+            
+            
+            <div class='postdate'>01 Jan 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box project" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/projects/listentomyheart-thumb.png');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cb" href="/2011/01/01/LISTENTOMYHEART/" title="LISTEN TO MY HEART">LISTEN TO MY HEART</a>
+
+            
+            
+            <div class='postdate'>01 Jan 2011</div>
+
+        </div>
+            </div>
+        
+            <div class="span-1 box site" style="background-image:url('http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/fundamentals-thumb.png');background-position:50% 50%;">
+            <div class="post">
+            
+            <a class="cbi" href="http://fundamentals.yolk.cc" title="FUNDAMENTALS">FUNDAMENTALS</a>           
+            
+            
+            
+            <div class='postdate'>01 Jan 2011</div>
+
+        </div>
+            </div>
+        
+    </div>
 </div>
+
+
+
+<div id="banner"><canvas width="220" height="700"></div>
+
+
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" charset="utf-8"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.1/mootools-yui-compressed.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" src="/js/ylkrndcolor.js"></script>
+    
     <script src="/js/fast_vector.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/canvas.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/point.js" type="text/javascript" charset="utf-8"></script>
@@ -1039,30 +406,26 @@
     <script src="/js/yolk.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/cloth.js" type="text/javascript" charset="utf-8"></script>
 
-<script type="text/javascript"> 
 
-// <![CDATA[
- 	$("#navbar a").click(
-      function () {
-      	$("#navbar a").removeClass("selected");
-        $(this).addClass("selected");
-        location.href=$(this).attr('href');
-      });
-    $(".backarrow").click(function(){$("#navbar a").removeClass("selected");});
-    //add random sort
+<script type="text/javascript" src="/js/jquery.colorbox-min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/jquery.masonry.min.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
 
-    $("a").hover(function(){
-            $(this).addClass('randomcolor');
-            },
-            function(){
-            $(this).removeClass('randomcolor');
-            $(this).css({'color':'#fff'});
-            });
-	
-// ]]>
+   // $('.box').each(function(){$(this).css("height", Math.random()*50+100);});
+   // $('.box').each(function(){$(this).css("width", Math.random()*50+200);});
+
+$('#masonry').masonry({
+    itemSelector: '.box',
+    gutterWidth: 10
+});
+
+$(document).ready(function(){
+        $("a.cb").colorbox({width:"80%"});
+        $("a.cbe").colorbox();
+        $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
+});
 
 </script>
-
 </body>
 
 
