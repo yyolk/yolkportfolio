@@ -15,40 +15,51 @@ title:
         left:0;
         top:0;
     }
+    
+    /** Masonry layout **/
+        #masonry {
+            width:900px;
+            overflow:hidden;
+        }
 
-    .box { 
-        min-height:200px;
-        padding:0;
-        margin:2px;
-    }
+        .box { 
+            min-height:200px;
+            padding:0;
+            margin:2px;
+        }
 
-    .post{
-        visibility:hidden;
-        background-color:#000;
-        min-height:200px;
-        text-align:center;
-        font-size:16px;
-        color:#fff;
-        padding-top:50%;
-        margin:0;
-    }
+        .box img {
+            width:100%;
+        }
 
-    .box:hover .post{
-        visibility:visible;
-    }
+        .post{
+            position:absolute;
+            visibility:hidden;
+            background-color:#000;
+            min-height:200px;
+            text-align:center;
+            font-size:16px;
+            color:#fff;
+            padding-top:50%;
+            margin:0;
+        }
 
-    .postdate{
-        position:absolute;
-        bottom:0;
-        font-size:10px;
-        width:90%;
-    }
+        .box:hover .post{
+            visibility:visible;
+        }
 
-    .posttype {
-        font-style:italic;
-        text-transform:uppercase;
-        font-size:13px;
-    }
+        .postdate{
+            position:absolute;
+            bottom:0;
+            font-size:10px;
+            width:90%;
+        }
+
+        .posttype {
+            font-style:italic;
+            text-transform:uppercase;
+            font-size:13px;
+        }
 
     a, a:visited, a:link {
         color:#e3e3e3;
@@ -66,7 +77,8 @@ title:
     <div id="masonry" class="span-5">
         <!-- begin masonry layout -->
         {% for post in site.posts %}
-            <div class="span-1 box {{ post.layout }}" style="background-image:url('{{ post.thumb }}');background-position:50% 50%;">
+            <div class="span-1 box {{ post.layout }}">
+            <img src="{{ post.thumb }}">
             <div class="post">
             {% case post.layout %}
             {% when 'video' %}
@@ -112,15 +124,18 @@ title:
 
 <script type="text/javascript" src="/js/jquery.colorbox-min.js" charset="utf-8"></script>
 <script type="text/javascript" src="/js/jquery.masonry.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/jquery.imagesLoaded.js" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
 
    // $('.box').each(function(){$(this).css("height", Math.random()*50+100);});
    // $('.box').each(function(){$(this).css("width", Math.random()*50+200);});
 
-$('#masonry').masonry({
-    itemSelector: '.box',
-    gutterWidth: 10,
-    columnWidth: ($('#masonry').width()/5)
+var container = $('#masonry');
+$container.imagesLoaded( function() {
+    $container.masonry({
+        itemSelector: '.box',
+        gutterWidth: 10
+    });
 });
 
 $(document).ready(function(){
