@@ -3,265 +3,87 @@ layout: default
 title:
 ---
 <style type="text/css">
-    <!--
+<!--
 	body{
-        overflow:hidden;
-        font-family: 'Inconsolata', arial, serif;        
-		}
-	
-	#container{
-		width:960px;
-		height:100%;
-		min-height:100%;
-		background-color:black;
-		margin:0 auto;
-
-		}
-	
-	.page{
-		position:absolute;
-		height:100%;
-		width:100%;
-		min-width:100%;
-		min-height:100%
-		}
-
-	#i0{
-		width: 100%;
-		margin-right:20px;
-        background-color: white;
-        vertical-align: middle;
-		color: black;
-        top:50%;
-		float:right;
-		text-align:center;
-		font-size: 38px;
-		z-index:0;
-		}
-
-	{% for post in site.posts %}	
-	#i{{ forloop.index}} {
-		left: {{ forloop.index |times:100 }}%;
-		width: 100%;
-		margin-right:0;
-
-		background-color:#333333;
-	}
-	
-	
-	#a{{ forloop.index }}:target .page {
-        -webkit-transform: translateX(-{{ forloop.index |times:100 }}%);
-        -moz-transform: translateX(-{{ forloop.index |times:100 }}%);
-	}
-	
-
-	{% endfor %}
-	
-	
-	/* The Transition Effect */
-	 
-	.page { 
-		-webkit-transition: -webkit-transform 0.8s;
-		-moz-transition: -moz-transform 0.8s;
-		-o-transition: -o-transform 0.8s;
-	}
-	
-	a:active { outline: none;}
-
-	
-    .selected{
-        font-weight:bold;
-		background-color: white !important;
-		color: black !important;
-		border-left:6px solid black;
-		}
-	
-	#logo {
-		overflow:hidden;
-		background-image:url("img/yolk-100.png");
-		background-position: 50% 50%;
-		background-repeat: no-repeat;
-		height: 200px;
-		}
-
-        #links{
-            margin-top:250px;
-            text-align:left;
-            margin-left:20px;
-        }
-
-        #links a{
-        font-size:10pt;
-		background-color: transparent;
-		color:#fff;
-		display:block;
-		text-decoration:none;
-		line-height:1.2;
-		-moz-transition: all 0.2s; 
-		-webkit-transition: all 0.2s; 
-		-o-transition: all 0.2s; 
-		transition: all 0.2s; 
-        clear:both;
-		}
-/*		
-	#links a:hover {
-		background-color: #aaa;
-		color: #fff;
-		-moz-transition: .8s;
-		-webkit-transition: .8s;
-		-o-transition: .8s;
-		transition: .8s;
-		}
-*/	
-	#navbar{
-		position:absolute;
-		width:220px;
-		margin:0;
-		min-height:100%;
-		color:#fff;
-		font-size:24px;
-		float:left;	
-		z-index:2;
-		}
-		
-	#projectpanel{
-		width:800px;
-		position:absolute;
-		float:right;
-		margin-left:300px;
-		height:100%;
-		overflow:hidden;
-	}
-
-	.postblock{
-		background-position:50% 50% !important;
-		cursor: pointer;
-		background-repeat:no-repeat !important;
-	}
-    .prjtitle{
-		max-height: 500px;
-		min-height: 500px;
-		width:60%;
-        cursor:pointer;
-		margin:45% auto;
-		text-align:center;
-        color: rgba(253,245,250,.9);
-        text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,.5);
+        font-family: 'Inconsolata', arial, serif;
     }
 
-    .prjtitle h1{
-        font-size:30pt;
-        font-style:italic;
-        color: rgba(255, 255, 255, .9);
-        text-shadow: 0.1em 0.1em 0.1em rgba(10,18,10,0.6);
-        text-transform:uppercase;
+    #banner {
+        position:fixed;
+        width:220px;
+        height:700px;
+        left:0;
+        top:0;
     }
-    .prjtitle p{
-        font-size:14pt;
-        
+
+    .box { 
+        min-height:200px;
+        padding:0;
+        margin:2px;
     }
-		
-		.nextbutton, .backbutton { position: absolute; top: 0; height: 100%; width: 50%; }
-		.nextbutton { cursor: pointer; right: 0; }
-		.backbutton { cursor: pointer; left: 0; }
-		.backarrow { 
-			cursor: pointer; 
-			color: white; 
-			background-color: black; 
-			padding: 20px; 
-			left:0;
-			bottom:0;
-			z-index:2;
-			position:absolute;			
-		}
-		
-		.backarrow:hover {
-			color: black;
-			background-color: white;
-			-moz-transition: all 0.6s; 
-			-webkit-transition: all 0.6s; 
-			-o-transition: all 0.6s; 
-			transition: all 0.6s; 
-		}
-		.backarrow{
-			visibility:hidden;
-			-moz-transition: hidden 0.2s; 
-			-webkit-transition: hidden 0.2s; 
-			-o-transition: hidden 0.2s; 
-			transition: hidden 0.2s; }
-		:target .backarrow{visibility:visible;}
-        #a0:target .backarrow{visibility:hidden;}	
 
-        #banner { 
-            position:fixed;
-            z-index:-99;
-            height:700px;
-            width:300px;
-        }
-        .linkheader {
-            margin-left:-4px;
-            text-transform: caps;
-            font-size:12px;
-        }
-        .posttype {
-            font-size:8px;
-            font-variant:small-caps;
+    .post{
+        visibility:hidden;
+        background-color:#000;
+        min-height:200px;
+        text-align:center;
+        font-size:16px;
+        padding-top:50%;
+        margin:0;
+    }
 
-        }
+    .box:hover .post{
+        visibility:visible;
+    }
+
+    a, a:visited, a:link {
+        color:#e3e3e3;
+    }
+    a:hover {
+        color:#fff;
+    }
 -->
 </style>
+<link media="screen" rel="stylesheet" href="/css/colorbox.css" />
 <body>
 
 
+<div class="container">
+    <div id="masonry" class="span-5">
+        <!-- begin masonry layout -->
+        {% for post in site.posts %}
+            <div class="span-1 box" style="background-image:url('{{ post.thumb }}');background-position:50% 50%;">
+            <div class="post">
+            {% case post.layout %}
+            {% when 'video' %}
+            <a class="cbe" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
-<div class='page'>
+            {% when 'image' %}
+            <a class="cb" href="{{ post.image }}" title="{{ post.title }}">{{ post.title }}</a> 
 
-	
-    <div id='navbar' class='span-2'>
-        <div id="banner"><canvas width="300" height="700"></div>
+            {% when 'site' %}
+            <a class="cbi" href="{{ post.siteurl }}" title="{{ post.title }}">{{ post.title }}</a>           
+            
+            {% else %}
+            <a class="cb" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
-
-	<div id="links">
-        <span class='linkheader'>Works:</span>
-	{% for post in site.posts %}
-    <a href="#a{{ forloop.index }}" id="p{{ forloop.index }}">{{ post.title }} <span class='posttype'>{{post.type}}</span></a>
-	{% endfor %}
-	</div>
-	</div>	
-	<div id='projectpanel' class='span-3 last'>
-		<div id='a0'>
-	{% for post in site.posts %}
-		<div id='a{{ forloop.index }}' >
-	{% endfor %}
-
-
-	
-	{% comment %} End navbar {% endcomment %}
-		<div id='i0' class='page'>
-		&larr; Select a project from the left
-		</div>
-	{% for post in site.posts %}
-	
-		<div id='i{{ forloop.index }}' class='postblock page lazy' onclick="location.href='{{ post.url }}';" style="background:url('{{ post.thumb }}');">
-			<div class='prjtitle'>
-                <h1 onclick="location.href='{{ post.url }}';" style="cursor:pointer;">{{ post.title }}</h1>
-                <p>{{ post.subtitle }}</p>
-			</div>
-		</div>
-
-	{% endfor %}
-				<div class='backarrow' onclick="location.href='#a0';">&larr;</div>
-
-	
-	{% for post in site.posts %}
-		</div>
-	{% endfor %}
-		</div>
-	</div>
+            {% endcase %}
+        </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
+
+
+
+<div id="banner"><canvas width="220" height="700"></div>
+
+
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" charset="utf-8"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.1/mootools-yui-compressed.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" src="/js/ylkrndcolor.js"></script>
+    
     <script src="/js/fast_vector.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/canvas.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/point.js" type="text/javascript" charset="utf-8"></script>
@@ -270,29 +92,24 @@ title:
     <script src="/js/yolk.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/cloth.js" type="text/javascript" charset="utf-8"></script>
 
-<script type="text/javascript"> 
 
-// <![CDATA[
- 	$("#navbar a").click(
-      function () {
-      	$("#navbar a").removeClass("selected");
-        $(this).addClass("selected");
-        location.href=$(this).attr('href');
-      });
-    $(".backarrow").click(function(){$("#navbar a").removeClass("selected");});
-    //add random sort
+<script type="text/javascript" src="/js/jquery.colorbox-min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/jquery.masonry.min.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
 
-    $("a").hover(function(){
-            $(this).addClass('randomcolor');
-            },
-            function(){
-            $(this).removeClass('randomcolor');
-            $(this).css({'color':'#fff'});
-            });
-	
-// ]]>
+   // $('.box').each(function(){$(this).css("height", Math.random()*50+100);});
+   // $('.box').each(function(){$(this).css("width", Math.random()*50+200);});
+
+$('#masonry').masonry({
+  itemSelector: '.box'
+});
+
+$(document).ready(function(){
+        $("a.cb").colorbox({width:"80%"});
+        $("a.cbe").colorbox();
+        $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
+});
 
 </script>
-
 </body>
 
