@@ -113,7 +113,8 @@ title:
 
 $('#masonry').masonry({
     itemSelector: '.box',
-    gutterWidth: 10
+    gutterWidth: 10,
+    columnWidth: ($('#masonry').width()/5)
 });
 
 $(document).ready(function(){
