@@ -18,30 +18,31 @@ title:
     
     /** Masonry layout **/
         #masonry {
-            width:900px;
+        }
+
+        .box {
+            position:relative; 
+            min-height:200px;
+            padding:0;
             overflow:hidden;
         }
 
-        .box { 
-            min-height:200px;
-            padding:0;
-            margin:2px;
-        }
-
         .box img {
-            width:100%;
+            position:absolute;
+            left:0;
         }
 
         .post{
             position:absolute;
+            left:0;
             visibility:hidden;
             background-color:#000;
-            min-height:200px;
+            height:100%;
             text-align:center;
             font-size:16px;
             color:#fff;
-            padding-top:50%;
-            margin:0;
+            /**padding-top:50%;**/
+            width:100%;
         }
 
         .box:hover .post{
@@ -130,7 +131,7 @@ title:
    // $('.box').each(function(){$(this).css("height", Math.random()*50+100);});
    // $('.box').each(function(){$(this).css("width", Math.random()*50+200);});
 
-var container = $('#masonry');
+var $container = $('#masonry');
 $container.imagesLoaded( function() {
     $container.masonry({
         itemSelector: '.box',
