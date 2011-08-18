@@ -17,7 +17,7 @@ layout: nil
   {% for post in site.posts %}
   <entry>
     <id>http://work.yolk.cc{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com{{ post.url }}"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
