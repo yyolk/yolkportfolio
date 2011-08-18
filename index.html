@@ -16,39 +16,53 @@ title:
         top:0;
     }
 
-    .box { 
-        min-height:200px;
+    #navbar {
+        position:fixed;
+        width:190px;
+        left: 20px;
         padding:0;
-        margin:2px;
-    }
-
-    .post{
-        visibility:hidden;
-        background-color:#000;
-        min-height:200px;
-        text-align:center;
-        font-size:16px;
-        color:#fff;
-        padding-top:50%;
-        margin:0;
-    }
-
-    .box:hover .post{
-        visibility:visible;
-    }
-
-    .postdate{
-        position:absolute;
-        bottom:0;
-        font-size:10px;
-        width:90%;
-    }
-
-    .posttype {
-        font-style:italic;
+        top: 240px;
         text-transform:uppercase;
-        font-size:13px;
+        font-style:italic;
+        font-size:20px;
     }
+    #navbar ul{list-style-type:none;list-style-position:outside;}
+
+        /** Masonry Layout **/
+        .box { 
+            min-height:200px;
+            padding:0;
+            margin:3px;
+            float:left;
+        }
+
+        .post{
+            visibility:hidden;
+            background-color:#000;
+            min-height:200px;
+            text-align:center;
+            font-size:16px;
+            color:#fff;
+            padding-top:50%;
+            margin:0;
+        }
+
+        .box:hover .post{
+            visibility:visible;
+        }
+
+        .postdate{
+            position:absolute;
+            bottom:0;
+            font-size:10px;
+            width:90%;
+        }
+
+        .posttype {
+            font-style:italic;
+            text-transform:uppercase;
+            font-size:13px;
+        }
 
     a, a:visited, a:link {
         color:#e3e3e3;
@@ -94,7 +108,14 @@ title:
 
 
 <div id="banner"><canvas width="220" height="700"></div>
-
+<div id="navbar">
+    <ul>
+        <li>
+        <a href="http://flow.yolk.cc">Flow</a>
+        <li>
+        <a href="http://josephchiocchi.com">Joseph Chiocchi</a>
+    </ul>
+</div>
 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" charset="utf-8"></script>
