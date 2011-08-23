@@ -167,7 +167,13 @@ var $container = $('#masonry');
 $container.imagesLoaded( function() {
     $container.masonry({
         itemSelector: '.box',
-        isResizable: false
+        isResizable: true,
+        isAnimated: true,
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
     });
 });
 
@@ -175,7 +181,14 @@ $(window).resize(function(){
     $container.imagesLoaded( function() {
     $container.masonry({
         itemSelector: '.box',
-        isResizable: false
+        isResizable: true,
+        isAnimated: true,
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+
         });
     });
 }).resize();
