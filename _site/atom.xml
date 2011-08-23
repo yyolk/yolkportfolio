@@ -4,7 +4,7 @@
   <title>YOLK</title>
   <link href="http://work.yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://work.yolk.cc/atom.xml"/>
-  <updated>2011-08-23T10:51:09-05:00</updated>
+  <updated>2011-08-23T18:10:08-05:00</updated>
   <id>http://work.yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -35,8 +35,7 @@
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;h1 id='graduation'&gt;GRADUATION&lt;/h1&gt;
-&lt;iframe src='http://player.vimeo.com/video/25943554?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25943554?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>

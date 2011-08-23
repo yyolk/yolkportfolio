@@ -21,7 +21,6 @@ bottom: 0;
 left: 0;
 width: 200px; /*Width of frame div*/
 height: 100%;
-overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
 color: white;
 }
 
@@ -52,7 +51,6 @@ width: 100%;
 /** Masonry layout **/
 #masonry {
 clear:both;
-overflow:hidden;
 }
 
         .box {
@@ -194,7 +192,7 @@ $(window).resize(function(){
 }).resize();
 
 $(document).ready(function(){
-        $("a.cb").colorbox({width:"80%"});
+        $("a.cb").colorbox({height:"90%"});
         $("a.cbe").colorbox();
         $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
 });

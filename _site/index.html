@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>Y O L K</title>
-
+    <meta property="fb:page_id" content="117784458263891" />
 	<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection"> 
     <!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection"><![endif]--> 
 
@@ -48,7 +48,6 @@ bottom: 0;
 left: 0;
 width: 200px; /*Width of frame div*/
 height: 100%;
-overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
 color: white;
 }
 
@@ -79,7 +78,6 @@ width: 100%;
 /** Masonry layout **/
 #masonry {
 clear:both;
-overflow:hidden;
 }
 
         .box {
@@ -583,7 +581,7 @@ $(window).resize(function(){
 }).resize();
 
 $(document).ready(function(){
-        $("a.cb").colorbox({width:"80%"});
+        $("a.cb").colorbox({height:"90%"});
         $("a.cbe").colorbox();
         $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
 });
