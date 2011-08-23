@@ -206,7 +206,7 @@ Cloth.prototype = {
 		if (this.draw_logo){
 		
 			//45 = max width of "Yolk" / 2 and rounded
-			this.canvas.logo(20, (this.canvas.height/16)*2);
+			this.canvas.logo(35, (this.canvas.height/16)*2);
 			//132 = max width of "Fundamentals" / 2 and rounded
 			}
 		
