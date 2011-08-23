@@ -29,7 +29,3 @@ $.fn.imagesLoaded = function(callback){
 
   return this;
 };
-<<<<<<< HEAD
-
-=======
->>>>>>> imageview

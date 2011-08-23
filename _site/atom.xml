@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>coyled.com</title>
+  <title>YOLK</title>
   <link href="http://work.yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://work.yolk.cc/atom.xml"/>
-  <updated>2011-08-18T13:00:43-05:00</updated>
+  <updated>2011-08-22T19:15:12-05:00</updated>
   <id>http://work.yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -14,7 +14,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/07/20/RED-CAVERN</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/20/RED-CAVERN/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/20/RED-CAVERN/"/>
     <title>RED CAVERN</title>
     <updated>2011-07-20T00:00:00-05:00</updated>
     <author>
@@ -28,7 +28,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/07/20/GRADUATION</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/20/GRADUATION/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/20/GRADUATION/"/>
     <title>GRADUATION</title>
     <updated>2011-07-20T00:00:00-05:00</updated>
     <author>
@@ -36,12 +36,12 @@
       <uri>http://work.yolk.cc</uri>
     </author>
     <content type="html">&lt;h1 id='graduation'&gt;GRADUATION&lt;/h1&gt;
-&lt;iframe src='http://player.vimeo.com/video/25943554?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='422' width='750' /&gt;</content>
+&lt;iframe src='http://player.vimeo.com/video/25943554?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/07/15/SKELETON-FINGERS</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/15/SKELETON-FINGERS/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/15/SKELETON-FINGERS/"/>
     <title>SKELETON FINGERS</title>
     <updated>2011-07-15T00:00:00-05:00</updated>
     <author>
@@ -55,7 +55,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/07/15/CROWD-OF-CHILDREN</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/15/CROWD-OF-CHILDREN/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/15/CROWD-OF-CHILDREN/"/>
     <title>CROWD OF CHILDREN</title>
     <updated>2011-07-15T00:00:00-05:00</updated>
     <author>
@@ -69,55 +69,55 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/07/09/ORANG</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/09/ORANG/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/09/ORANG/"/>
     <title>ORANG</title>
     <updated>2011-07-09T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/26215672?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='422' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/26215672?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/07/01/YOUNG-HEARTS</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/01/YOUNG-HEARTS/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/01/YOUNG-HEARTS/"/>
     <title>YOUNG HEARTS</title>
     <updated>2011-07-01T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25884538?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='422' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25884538?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/07/01/STAR-LIGHT</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/01/STAR-LIGHT/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/01/STAR-LIGHT/"/>
     <title>STAR LIGHT</title>
     <updated>2011-07-01T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25693517?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='422' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25693517?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/07/01/RUSTLING-BREEZE</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/01/RUSTLING-BREEZE/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/01/RUSTLING-BREEZE/"/>
     <title>RUSTLING BREEZE</title>
     <updated>2011-07-01T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25607224?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='553' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25607224?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='553' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/07/01/LIONS-HEAD</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/07/01/LIONS-HEAD/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/07/01/LIONS-HEAD/"/>
     <title>LIONS HEAD</title>
     <updated>2011-07-01T00:00:00-05:00</updated>
     <author>
@@ -131,31 +131,31 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/06/15/SCOUTING</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/06/15/SCOUTING/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/06/15/SCOUTING/"/>
     <title>SCOUTING</title>
     <updated>2011-06-15T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25745093?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='422' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25745093?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/06/15/50Perfect10</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/06/15/50Perfect10/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/06/15/50Perfect10/"/>
     <title>50PERFECT10</title>
     <updated>2011-06-15T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25001966?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='563' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/25001966?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='563' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/06/01/YOLK-IN-ETHER</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/06/01/YOLK-IN-ETHER/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/06/01/YOLK-IN-ETHER/"/>
     <title>Y O L K IN ETHER</title>
     <updated>2011-06-01T00:00:00-05:00</updated>
     <author>
@@ -169,7 +169,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/06/01/MY-SELF-II</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/06/01/MY-SELF-II/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/06/01/MY-SELF-II/"/>
     <title>MY SELF II</title>
     <updated>2011-06-01T00:00:00-05:00</updated>
     <author>
@@ -183,7 +183,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/06/01/MY-SELF</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/06/01/MY-SELF/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/06/01/MY-SELF/"/>
     <title>MY SELF</title>
     <updated>2011-06-01T00:00:00-05:00</updated>
     <author>
@@ -197,7 +197,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/06/01/ICE-CREAM-GIRL</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/06/01/ICE-CREAM-GIRL/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/06/01/ICE-CREAM-GIRL/"/>
     <title>ICE CREAM GIRL</title>
     <updated>2011-06-01T00:00:00-05:00</updated>
     <author>
@@ -211,7 +211,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/05/01/ROCKSUNDERWATER</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/05/01/ROCKSUNDERWATER/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/05/01/ROCKSUNDERWATER/"/>
     <title>ROCKS UNDERWATER</title>
     <updated>2011-05-01T00:00:00-05:00</updated>
     <author>
@@ -225,7 +225,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/05/01/REDSEA</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/05/01/REDSEA/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/05/01/REDSEA/"/>
     <title>RED SEA</title>
     <updated>2011-05-01T00:00:00-05:00</updated>
     <author>
@@ -239,7 +239,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/05/01/BLAZIN</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/05/01/BLAZIN/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/05/01/BLAZIN/"/>
     <title>BLAZIN</title>
     <updated>2011-05-01T00:00:00-05:00</updated>
     <author>
@@ -253,7 +253,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/04/01/MEINJACKET</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/04/01/MEINJACKET/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/04/01/MEINJACKET/"/>
     <title>ME IN JACKET</title>
     <updated>2011-04-01T00:00:00-05:00</updated>
     <author>
@@ -267,7 +267,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/03/14/WHYMAKEARTNOW</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/03/14/WHYMAKEARTNOW/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/03/14/WHYMAKEARTNOW/"/>
     <title>WHY MAKE ART NOW</title>
     <updated>2011-03-14T00:00:00-05:00</updated>
     <author>
@@ -286,31 +286,31 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/03/01/SHIVER</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/03/01/SHIVER/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/03/01/SHIVER/"/>
     <title>S H I V E R</title>
     <updated>2011-03-01T00:00:00-06:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/22025548?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='750' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/22025548?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='750' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/02/01/37SIGNALS</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/02/01/37SIGNALS/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/02/01/37SIGNALS/"/>
     <title>37 Signals</title>
     <updated>2011-02-01T00:00:00-06:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;iframe src='http://player.vimeo.com/video/22535840?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=1' frameborder='0' height='422' width='750' /&gt;</content>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/22535840?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</content>
   </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/01/01/PATTERNSAREMYFEELINGS</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/01/01/PATTERNSAREMYFEELINGS/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/01/01/PATTERNSAREMYFEELINGS/"/>
     <title>PATTERNS ARE MY FEELINGS</title>
     <updated>2011-01-01T00:00:00-06:00</updated>
     <author>
@@ -327,7 +327,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/01/01/LISTENTOMYHEART</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/01/01/LISTENTOMYHEART/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/01/01/LISTENTOMYHEART/"/>
     <title>LISTEN TO MY HEART</title>
     <updated>2011-01-01T00:00:00-06:00</updated>
     <author>
@@ -344,7 +344,7 @@
   
   <entry>
     <id>http://work.yolk.cc/2011/01/01/FUNDAMENTALS</id>
-    <link type="text/html" rel="alternate" href="http://coyled.com/2011/01/01/FUNDAMENTALS/"/>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/01/01/FUNDAMENTALS/"/>
     <title>FUNDAMENTALS</title>
     <updated>2011-01-01T00:00:00-06:00</updated>
     <author>
