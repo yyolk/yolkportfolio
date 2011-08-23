@@ -3,7 +3,7 @@ title: "SCOUTING"
 subtitle: ""
 layout: video
 type: video
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SCOUTING.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/videos/SCOUTING-thumb.jpg"
 ---
 
 

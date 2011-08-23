@@ -3,7 +3,7 @@ title: "37 Signals"
 subtitle: "An attempt at programming"
 layout: video
 type: video
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/37signals.png"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/videos/37signals.png-thumb.jpg"
 
 ---
 

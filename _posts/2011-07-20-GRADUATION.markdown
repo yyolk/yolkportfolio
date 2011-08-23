@@ -3,7 +3,7 @@ title: "GRADUATION"
 subtitle: ""
 layout: video
 type: video
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/GRADUATION.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/videos/GRADUATION-thumb.jpg"
 
 ---
 

@@ -3,7 +3,7 @@ title: "S H I V E R"
 subtitle: ""
 layout: video
 type: video
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SHIVER.jpg"
+thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/videos/SHIVER-thumb.jpg
 
 ---
 <iframe src="http://player.vimeo.com/video/22025548?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=0" width="750" height="750" frameborder="0"></iframe>
