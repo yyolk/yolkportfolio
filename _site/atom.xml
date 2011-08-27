@@ -4,13 +4,25 @@
   <title>YOLK</title>
   <link href="http://work.yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://work.yolk.cc/atom.xml"/>
-  <updated>2011-08-24T11:38:41-05:00</updated>
+  <updated>2011-08-27T16:18:41-05:00</updated>
   <id>http://work.yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://work.yolk.cc/2011/08/27/STARE4</id>
+    <link type="text/html" rel="alternate" href="http://work.yolk.cc/2011/08/27/STARE4/"/>
+    <title>Stare IV</title>
+    <updated>2011-08-27T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://work.yolk.cc</uri>
+    </author>
+    <content type="html">&lt;iframe scrolling='no' src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/processing_js/Stare-LongII/index.html' frameborder='0' style='width:500px;height:500px;' /&gt;</content>
+  </entry>
   
   <entry>
     <id>http://work.yolk.cc/2011/07/20/RED-CAVERN</id>
@@ -21,7 +33,7 @@
       <name>Joseph Chiocchi</name>
       <uri>http://work.yolk.cc</uri>
     </author>
-    <content type="html">&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDCAVERN-small.png' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-small.png' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
 
 &lt;h1 id='red_cavern'&gt;RED CAVERN&lt;/h1&gt;</content>
   </entry>

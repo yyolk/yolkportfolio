@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDC
 ---
 
 
-![CROWD OF CHILDREN](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDCAVERN-small.png)
+![CROWD OF CHILDREN](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-small.png)
 
 #RED CAVERN

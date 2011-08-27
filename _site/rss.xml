@@ -7,9 +7,18 @@
     <atom:link href="http://work.yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Wed, 24 Aug 2011 11:38:41 CDT</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2011 11:38:41 CDT</lastBuildDate>
+    <pubDate>Sat, 27 Aug 2011 16:18:41 CDT</pubDate>
+    <lastBuildDate>Sat, 27 Aug 2011 16:18:41 CDT</lastBuildDate>
 
+    
+    <item>
+      <title>Stare IV</title>
+      <link>http://work.yolk.cc/2011/08/27/STARE4/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://work.yolk.cc/2011/08/27/STARE4</guid>
+      <description>&lt;iframe scrolling='no' src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/processing_js/Stare-LongII/index.html' frameborder='0' style='width:500px;height:500px;' /&gt;</description>
+    </item>
     
     <item>
       <title>RED CAVERN</title>
@@ -17,7 +26,7 @@
       <pubDate>Wed, 20 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
       <guid>http://work.yolk.cc/2011/07/20/RED-CAVERN</guid>
-      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDCAVERN-small.png' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-small.png' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
 
 &lt;h1 id='red_cavern'&gt;RED CAVERN&lt;/h1&gt;</description>
     </item>
