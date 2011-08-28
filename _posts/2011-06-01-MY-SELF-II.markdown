@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MYSE
 ---
 
 
-![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/MYSELFII-small.jpg)
+![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/MYSELFII-small.jpg)
 
 #SELF-PORTRAIT

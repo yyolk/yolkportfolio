@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROW
 ---
 
 
-![CROWD OF CHILDREN](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/CROWDOFCHILDREN-small.jpg)
+![CROWD OF CHILDREN](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-small.jpg)
 
 #CROWD OF CHILDREN

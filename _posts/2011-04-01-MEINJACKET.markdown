@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/MEIN
 ---
 
 
-![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/MEINJACKET-small.jpg)
+![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/MEINJACKET-small.jpg)
 
 #Damn I look good in this jacket.

@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/YOLK
 ---
 
 
-![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/YOLKINETHER-small.jpg)
+![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/YOLKINETHER-small.jpg)
 
 #Slowly traversing the acid smoke.

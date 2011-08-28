@@ -1,6 +1,5 @@
 ---
 title: "S H I V E R"
-subtitle: ""
 layout: video
 type: video
 thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/videos/SHIVER-thumb.jpg

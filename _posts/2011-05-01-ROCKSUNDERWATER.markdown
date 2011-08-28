@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ROCK
 ---
 
 
-![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/ROCKSUNDERWATER-small.jpg)
+![MY SELF](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/ROCKSUNDERWATER-small.jpg)
 
 #Spelunking in a vorpal cavern.

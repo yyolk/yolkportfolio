@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDS
 ---
 
 
-![MY SELF](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/REDSEA.jpg)
+![MY SELF](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDSEA-small.jpg)
 
 #Continuing my descent through the thick mess.

@@ -8,7 +8,7 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/SKEL
 ---
 
 
-![CROWD OF CHILDREN](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/SKELETONFINGERS-small.jpg)
+![CROWD OF CHILDREN](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/SKELETONFINGERS-small.jpg)
 
 #SKELETON FINGERS
 

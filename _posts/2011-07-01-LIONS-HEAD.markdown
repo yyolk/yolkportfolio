@@ -8,6 +8,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/LION
 ---
 
 
-![LIONS HEAD](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/LIONSHEAD-small.png)
+![LIONS HEAD](http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/LIONSHEAD-small.png)
 
 #LIONS HEAD

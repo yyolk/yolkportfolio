@@ -9,6 +9,6 @@ image: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/ICEC
 ---
 
 
-![ICE CREAM GIRL](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/ICECREAMGIRL-small.jpg)
+![ICE CREAM GIRL](https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/ICECREAMGIRL-small.jpg)
 
 #YUM MY SWEETIE.
