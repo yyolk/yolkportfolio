@@ -7,9 +7,18 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Sun, 28 Aug 2011 01:53:47 CDT</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2011 01:53:47 CDT</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2011 16:38:16 CDT</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2011 16:38:16 CDT</lastBuildDate>
 
+    
+    <item>
+      <title>Tachyon Shift</title>
+      <link>http://yolk.cc/2011/08/28/TachyonShift/</link>
+      <pubDate>Sun, 28 Aug 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/08/28/TachyonShift</guid>
+      <description>&lt;iframe src='http://player.vimeo.com/video/28274354?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
+    </item>
     
     <item>
       <title>Stare IV</title>
