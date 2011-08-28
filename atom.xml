@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>YOLK</title>
-  <link href="http://work.yolk.cc"/>
-  <link type="application/atom+xml" rel="self" href="http://work.yolk.cc/atom.xml"/>
+  <link href="http://yolk.cc"/>
+  <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://work.yolk.cc</id>
+  <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
@@ -16,13 +16,13 @@ layout: nil
 
   {% for post in site.posts %}
   <entry>
-    <id>http://work.yolk.cc{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://work.yolk.cc{{ post.url }}"/>
+    <id>http://yolk.cc{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>Joseph Chiocchi</name>
-      <uri>http://work.yolk.cc</uri>
+      <uri>http://yolk.cc</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
