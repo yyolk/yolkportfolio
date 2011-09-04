@@ -137,21 +137,21 @@ clear:both;
         {% for post in site.posts %}
             <div class="box">
                 
-                <img src="{{ post.thumb }}">
+                <img alt="{{ post.title }}" src="{{ post.thumb }}">
                 
                 <div class="post">
                     {% case post.layout %}
                     {% when 'video' %}
-                    <a class="cbe" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                    <a class="cbe" onClick="recordOutboundLink(this, 'Project', '{{ post.url }}');return false;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
                     {% when 'image' %}
-                    <a class="cb" href="{{ post.image }}" title="{{ post.title }}">{{ post.title }}</a> 
+                    <a class="cb" onClick="recordOutboundLink(this, 'Project', '{{ post.url }}');return false;" href="{{ post.image }}" title="{{ post.title }}">{{ post.title }}</a> 
 
                     {% when 'site' %}
-                    <a class="cbi" href="{{ post.siteurl }}" title="{{ post.title }}">{{ post.title }}</a>           
+                    <a class="cbi" onClick="recordOutboundLink(this, 'Project', '{{ post.url }}');return false;" href="{{ post.siteurl }}" title="{{ post.title }}">{{ post.title }}</a>           
                     
                     {% else %}
-                    <a class="cb" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                    <a class="cb" onClick="recordOutboundLink(this, 'Project', '{{ post.url }}');return false;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 
                     {% endcase %}
                     <div class='posttype'>{{ post.layout }}</div>
@@ -161,6 +161,7 @@ clear:both;
             </div>
         {% endfor %}
     </div>
+<a href="http://www.example.com" onClick="recordOutboundLink(this, 'Outbound Links', 'example.com');return false;">
 
 
 </div>
@@ -231,7 +232,11 @@ $(document).ready(function(){
   })();
 
 </script>
-
+<script type="text/javascript">
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+  }
+</script>
 
 
 </body>
