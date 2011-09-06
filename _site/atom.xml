@@ -4,13 +4,26 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2011-09-04T12:52:09-05:00</updated>
+  <updated>2011-09-06T13:42:28-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS/"/>
+    <title>MY THOUGHTS ARE YOURS</title>
+    <updated>2011-09-05T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='my_thoughts_are_yours'&gt;MY THOUGHTS ARE YOURS&lt;/h1&gt;
+&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/mythoughtsareyours.png' /&gt;</content>
+  </entry>
   
   <entry>
     <id>http://yolk.cc/2011/08/28/TachyonShift</id>

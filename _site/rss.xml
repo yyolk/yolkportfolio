@@ -7,9 +7,19 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Sun, 04 Sep 2011 12:52:09 CDT</pubDate>
-    <lastBuildDate>Sun, 04 Sep 2011 12:52:09 CDT</lastBuildDate>
+    <pubDate>Tue, 06 Sep 2011 13:42:28 CDT</pubDate>
+    <lastBuildDate>Tue, 06 Sep 2011 13:42:28 CDT</lastBuildDate>
 
+    
+    <item>
+      <title>MY THOUGHTS ARE YOURS</title>
+      <link>http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS/</link>
+      <pubDate>Mon, 05 Sep 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS</guid>
+      <description>&lt;h1 id='my_thoughts_are_yours'&gt;MY THOUGHTS ARE YOURS&lt;/h1&gt;
+&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/mythoughtsareyours.png' /&gt;</description>
+    </item>
     
     <item>
       <title>Tachyon Shift</title>
