@@ -643,8 +643,11 @@ $(window).resize(function(){
 }).resize();
 
 $(document).ready(function(){
+        //default
         $("a.cb").colorbox({height:"90%"});
+        //embed
         $("a.cbe").colorbox();
+        //iframe
         $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
 });
 
