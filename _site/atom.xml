@@ -4,13 +4,25 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2011-09-06T16:52:08-05:00</updated>
+  <updated>2011-11-04T11:43:36-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://yolk.cc/2011/10/28/GlitchBumper</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/10/28/GlitchBumper/"/>
+    <title>GLI.TC/H Bumper 2011</title>
+    <updated>2011-10-28T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;iframe src='http://player.vimeo.com/video/30696711?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff' frameborder='0' height='422' width='750' /&gt;</content>
+  </entry>
   
   <entry>
     <id>http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS</id>

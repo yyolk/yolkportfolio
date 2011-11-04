@@ -176,6 +176,21 @@ clear:both;
         
             <div class="box">
                 
+                <img alt="GLI.TC/H Bumper 2011" src="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/videos/glitch2011bumper-thumb.png">
+                
+                <div class="post">
+                    
+                    <a class="cbe" onClick="recordOutboundLink(this, 'Project', '/2011/10/28/GlitchBumper/');return false;" href="/2011/10/28/GlitchBumper/" title="GLI.TC/H Bumper 2011">GLI.TC/H Bumper 2011</a>
+
+                    
+                    <div class='posttype'>video</div>
+                    <div class='postdate'>28 Oct 2011</div>
+
+                </div>
+            </div>
+        
+            <div class="box">
+                
                 <img alt="MY THOUGHTS ARE YOURS" src="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/mythoughtsareyours.png">
                 
                 <div class="post">
@@ -610,28 +625,16 @@ clear:both;
 <script type="text/javascript" charset="utf-8">
 
 
-$(window).load(function(){
 
 var $container = $('#masonry');
-$container.imagesLoaded( function() {
-    $container.masonry({
-        itemSelector: '.box',
-        isResizable: true,
-        isAnimated: true,
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-        }
-    });
-});
 
 $(window).resize(function(){
     $container.imagesLoaded( function() {
     $container.masonry({
         itemSelector: '.box',
-        isResizable: true,
+        isResizable: false,
         isAnimated: true,
+        columnWidth: $container.width() / 4,
         animationOptions: {
             duration: 750,
             easing: 'linear',
@@ -651,7 +654,6 @@ $(document).ready(function(){
         $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
 });
 
-});
 
 
 </script>

@@ -176,28 +176,16 @@ clear:both;
 <script type="text/javascript" charset="utf-8">
 
 
-$(window).load(function(){
 
 var $container = $('#masonry');
-$container.imagesLoaded( function() {
-    $container.masonry({
-        itemSelector: '.box',
-        isResizable: true,
-        isAnimated: true,
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-        }
-    });
-});
 
 $(window).resize(function(){
     $container.imagesLoaded( function() {
     $container.masonry({
         itemSelector: '.box',
-        isResizable: true,
+        isResizable: false,
         isAnimated: true,
+        columnWidth: $container.width() / 4,
         animationOptions: {
             duration: 750,
             easing: 'linear',
@@ -217,7 +205,6 @@ $(document).ready(function(){
         $("a.cbi").colorbox({width:"80%", height:"80%", iframe:true});
 });
 
-});
 
 
 </script>
