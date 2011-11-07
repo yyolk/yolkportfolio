@@ -4,13 +4,26 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2011-11-04T11:43:36-05:00</updated>
+  <updated>2011-11-07T09:51:19-06:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://yolk.cc/2011/11/01/MarceleAlcala</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/11/01/MarceleAlcala/"/>
+    <title>Marcel Alcalá</title>
+    <updated>2011-11-01T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='marcel_alcal'&gt;Marcel Alcal&amp;#225;&lt;/h1&gt;
+&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/marcelalcala.com-site.png' /&gt;</content>
+  </entry>
   
   <entry>
     <id>http://yolk.cc/2011/10/28/GlitchBumper</id>

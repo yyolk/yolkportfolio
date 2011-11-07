@@ -7,9 +7,19 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Fri, 04 Nov 2011 11:43:36 CDT</pubDate>
-    <lastBuildDate>Fri, 04 Nov 2011 11:43:36 CDT</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2011 09:51:19 CST</pubDate>
+    <lastBuildDate>Mon, 07 Nov 2011 09:51:19 CST</lastBuildDate>
 
+    
+    <item>
+      <title>Marcel Alcalá</title>
+      <link>http://yolk.cc/2011/11/01/MarceleAlcala/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/11/01/MarceleAlcala</guid>
+      <description>&lt;h1 id='marcel_alcal'&gt;Marcel Alcal&amp;#225;&lt;/h1&gt;
+&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/marcelalcala.com-site.png' /&gt;</description>
+    </item>
     
     <item>
       <title>GLI.TC/H Bumper 2011</title>
