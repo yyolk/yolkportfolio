@@ -138,7 +138,7 @@ clear:both;
     <div id="masonry" class="clearfix">
         <!-- begin masonry layout -->
         {% for post in site.posts %}
-        <div class="box" onclick="recordOutboundLink(this, 'Project', '{{ post.url }}'); return false;location.href='{{ post.url }}'">
+        <div class="box" onclick="recordOutboundLink(this, 'Project', '{{ post.url }}'); return false;location.href='{{ post.url }}';">
                 
                 <img alt="{{ post.title }}" src="{{ post.thumb }}">
                 
