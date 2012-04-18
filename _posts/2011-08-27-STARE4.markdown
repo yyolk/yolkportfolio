@@ -1,9 +1,0 @@
----
-title: "Stare IV"
-layout: processing
-type: processing
-thumb: "http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/processing_js/Stare-LongII/stare4-thumb.jpg"
----
-
-<iframe src="http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/processing_js/Stare-LongII/index.html" frameborder="0" scrolling="no" style="width:500px;height:500px;"></iframe>
-
