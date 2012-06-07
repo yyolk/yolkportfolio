@@ -2,6 +2,36 @@
 
 {% include header.html %}
 
+<<<<<<< HEAD
+<style type="text/css">
+    <!--
+    h1 {font-family: 'Inconsolata', arial;
+        font-size:20pt;
+    }   
+    body {
+        background-color:#{{ page.bgcolor }};
+    }
+
+    #back{
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100px;
+        background-color:#000;
+        color:#fff;
+        font-size:9pt;
+    }
+    #back a{
+        color:#fff;
+    }
+    -->
+</style>
+
+  {{ content }}
+
+  <div id='back'><a href="http://portfolio.yolk.cc">&larr;BACK</a></div>
+{% include footer.html %}
+=======
 <body class='bp'>
     <div id="container">
 
@@ -22,3 +52,4 @@
     {{ post.date || date:"%Y-%m-%d" }}</br>
     </footer>
 </body>
+>>>>>>> flickr

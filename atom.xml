@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>YOLK</title>
+  <link href="http://yolk.cc"/>
+  <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://yolk.cc</id>
+  <author>
+    <name>Joseph Chiocchi</name>
+    <email>joe@yolk.cc</email>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://yolk.cc{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
+
