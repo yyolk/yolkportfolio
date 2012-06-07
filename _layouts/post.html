@@ -10,10 +10,11 @@
 
 
             {% for flickr_url in page.flickr %}
-                <a href="{{ flickr_url }}">{{ flickr_url | flickr_image }}</a>
+                <a href="{{ flickr_url }}">{{ flickr_url | flickr_large_image }}</a>
             {% endfor %}
-
-            {{ page.content }}
+            <div id="summary">
+                {{ page.content }}
+            </div>
         </div>
 
     </div>  
