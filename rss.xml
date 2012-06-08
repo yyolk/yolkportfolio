@@ -7,8 +7,8 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Fri, 08 Jun 2012 02:38:40 CDT</pubDate>
-    <lastBuildDate>Fri, 08 Jun 2012 02:38:40 CDT</lastBuildDate>
+    <pubDate>Fri, 08 Jun 2012 07:45:34 CDT</pubDate>
+    <lastBuildDate>Fri, 08 Jun 2012 07:45:34 CDT</lastBuildDate>
 
     
     <item>
@@ -60,6 +60,33 @@ bundle install
     </item>
     
     <item>
+      <title>Morgan Childers Piece</title>
+      <link>http://yolk.cc/2012/05/05/Morgan-Childers-Piece/</link>
+      <pubDate>Sat, 05 May 2012 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2012/05/05/Morgan-Childers-Piece</guid>
+      <description>&lt;h1 id='for_morgan_childers'&gt;For Morgan Childers&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>YOLK - HAPPYDOG 2012</title>
+      <link>http://yolk.cc/2012/04/20/YOLK-HAPPYDOG/</link>
+      <pubDate>Fri, 20 Apr 2012 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2012/04/20/YOLK-HAPPYDOG</guid>
+      <description>&lt;h1 id='yolk__the_art_gallery_formerly_known_as_happy_dog'&gt;YOLK @ THE ART GALLERY FORMERLY KNOWN AS HAPPY DOG&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>20120410-0233AM</title>
+      <link>http://yolk.cc/2012/04/10/2012-0410-0233AM/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2012/04/10/2012-0410-0233AM</guid>
+      <description>&lt;h1 id='201204100233am'&gt;20120410-0233AM&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
       <title>Facebook in Facebook in Facebook</title>
       <link>http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook/</link>
       <pubDate>Sat, 03 Mar 2012 00:00:00 CST</pubDate>
@@ -74,6 +101,78 @@ bundle install
 &lt;h4 id='facebook'&gt;Facebook&lt;/h4&gt;
 
 &lt;h5 id='facebook'&gt;Facebook&lt;/h5&gt;</description>
+    </item>
+    
+    <item>
+      <title>20120212</title>
+      <link>http://yolk.cc/2012/02/12/20120212/</link>
+      <pubDate>Sun, 12 Feb 2012 00:00:00 CST</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2012/02/12/20120212</guid>
+      <description>&lt;h1 id='20120212'&gt;20120212&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>20120106-0916AM</title>
+      <link>http://yolk.cc/2012/01/06/20120106-0916AM/</link>
+      <pubDate>Fri, 06 Jan 2012 00:00:00 CST</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2012/01/06/20120106-0916AM</guid>
+      <description>&lt;h1 id='201201060916am'&gt;20120106-0916AM&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>20111113-354pm</title>
+      <link>http://yolk.cc/2011/11/13/20111113-354pm/</link>
+      <pubDate>Sun, 13 Nov 2011 00:00:00 CST</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/11/13/20111113-354pm</guid>
+      <description>&lt;h1 id='20111113354pm'&gt;20111113-354pm&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>GLI.TC/H 2011 - Bumper</title>
+      <link>http://yolk.cc/2011/10/18/GLITCH-BUMPER/</link>
+      <pubDate>Tue, 18 Oct 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/10/18/GLITCH-BUMPER</guid>
+      <description>&lt;h1 id='glitch_2011__bumper'&gt;GLI.TC/H 2011 - Bumper&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>TACHYON SHIFT</title>
+      <link>http://yolk.cc/2011/08/28/TACHYON-SHIFT/</link>
+      <pubDate>Sun, 28 Aug 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/08/28/TACHYON-SHIFT</guid>
+      <description>&lt;h1 id='tachyon_shift'&gt;TACHYON SHIFT&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>20110828-0</title>
+      <link>http://yolk.cc/2011/08/28/20110828-0/</link>
+      <pubDate>Sun, 28 Aug 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/08/28/20110828-0</guid>
+      <description>&lt;h1 id='201108280'&gt;20110828-0&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>ORANG</title>
+      <link>http://yolk.cc/2011/08/04/ORANG/</link>
+      <pubDate>Thu, 04 Aug 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/08/04/ORANG</guid>
+      <description>&lt;h1 id='orang'&gt;ORANG&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>20110802-1</title>
+      <link>http://yolk.cc/2011/08/02/20110802-1/</link>
+      <pubDate>Tue, 02 Aug 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/08/02/20110802-1</guid>
+      <description>&lt;h1 id='201108021'&gt;20110802-1&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -123,6 +222,15 @@ bundle install
       <description>&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
 
 &lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>s\y\n\t\h</title>
+      <link>http://yolk.cc/2011/07/07/SYNTH/</link>
+      <pubDate>Thu, 07 Jul 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/07/07/SYNTH</guid>
+      <description>&lt;h1 id='synth'&gt;s\y\n\t\h&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -195,6 +303,17 @@ bundle install
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/05/09/RED-SEA</guid>
       <description>&lt;p&gt;RED SEA&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Multiple Webcam Tests</title>
+      <link>http://yolk.cc/2011/02/26/Multiple-Webcam-Tests/</link>
+      <pubDate>Sat, 26 Feb 2011 00:00:00 CST</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/02/26/Multiple-Webcam-Tests</guid>
+      <description>&lt;p&gt;Multiple webcam tests.&lt;/p&gt;
+
+&lt;p&gt;A test for future projects.&lt;/p&gt;</description>
     </item>
     
     <item>

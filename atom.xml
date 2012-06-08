@@ -4,7 +4,7 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2012-06-08T02:38:40-05:00</updated>
+  <updated>2012-06-08T07:45:34-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -64,6 +64,42 @@ bundle install
   </entry>
   
   <entry>
+    <id>http://yolk.cc/2012/05/05/Morgan-Childers-Piece</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/05/05/Morgan-Childers-Piece/"/>
+    <title>Morgan Childers Piece</title>
+    <updated>2012-05-05T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='for_morgan_childers'&gt;For Morgan Childers&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2012/04/20/YOLK-HAPPYDOG</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/04/20/YOLK-HAPPYDOG/"/>
+    <title>YOLK - HAPPYDOG 2012</title>
+    <updated>2012-04-20T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='yolk__the_art_gallery_formerly_known_as_happy_dog'&gt;YOLK @ THE ART GALLERY FORMERLY KNOWN AS HAPPY DOG&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2012/04/10/2012-0410-0233AM</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/04/10/2012-0410-0233AM/"/>
+    <title>20120410-0233AM</title>
+    <updated>2012-04-10T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='201204100233am'&gt;20120410-0233AM&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
     <id>http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook</id>
     <link type="text/html" rel="alternate" href="http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook/"/>
     <title>Facebook in Facebook in Facebook</title>
@@ -81,6 +117,102 @@ bundle install
 &lt;h4 id='facebook'&gt;Facebook&lt;/h4&gt;
 
 &lt;h5 id='facebook'&gt;Facebook&lt;/h5&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2012/02/12/20120212</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/02/12/20120212/"/>
+    <title>20120212</title>
+    <updated>2012-02-12T00:00:00-06:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='20120212'&gt;20120212&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2012/01/06/20120106-0916AM</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/01/06/20120106-0916AM/"/>
+    <title>20120106-0916AM</title>
+    <updated>2012-01-06T00:00:00-06:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='201201060916am'&gt;20120106-0916AM&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/11/13/20111113-354pm</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/11/13/20111113-354pm/"/>
+    <title>20111113-354pm</title>
+    <updated>2011-11-13T00:00:00-06:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='20111113354pm'&gt;20111113-354pm&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/10/18/GLITCH-BUMPER</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/10/18/GLITCH-BUMPER/"/>
+    <title>GLI.TC/H 2011 - Bumper</title>
+    <updated>2011-10-18T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='glitch_2011__bumper'&gt;GLI.TC/H 2011 - Bumper&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/08/28/TACHYON-SHIFT</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/08/28/TACHYON-SHIFT/"/>
+    <title>TACHYON SHIFT</title>
+    <updated>2011-08-28T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='tachyon_shift'&gt;TACHYON SHIFT&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/08/28/20110828-0</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/08/28/20110828-0/"/>
+    <title>20110828-0</title>
+    <updated>2011-08-28T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='201108280'&gt;20110828-0&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/08/04/ORANG</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/08/04/ORANG/"/>
+    <title>ORANG</title>
+    <updated>2011-08-04T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='orang'&gt;ORANG&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/08/02/20110802-1</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/08/02/20110802-1/"/>
+    <title>20110802-1</title>
+    <updated>2011-08-02T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='201108021'&gt;20110802-1&lt;/h1&gt;</content>
   </entry>
   
   <entry>
@@ -145,6 +277,18 @@ bundle install
     <content type="html">&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
 
 &lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/07/07/SYNTH</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/07/07/SYNTH/"/>
+    <title>s\y\n\t\h</title>
+    <updated>2011-07-07T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='synth'&gt;s\y\n\t\h&lt;/h1&gt;</content>
   </entry>
   
   <entry>
@@ -241,6 +385,20 @@ bundle install
       <uri>http://yolk.cc</uri>
     </author>
     <content type="html">&lt;p&gt;RED SEA&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/02/26/Multiple-Webcam-Tests</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/02/26/Multiple-Webcam-Tests/"/>
+    <title>Multiple Webcam Tests</title>
+    <updated>2011-02-26T00:00:00-06:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;Multiple webcam tests.&lt;/p&gt;
+
+&lt;p&gt;A test for future projects.&lt;/p&gt;</content>
   </entry>
   
   <entry>
