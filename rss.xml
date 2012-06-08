@@ -7,9 +7,22 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Fri, 08 Jun 2012 08:43:55 CDT</pubDate>
-    <lastBuildDate>Fri, 08 Jun 2012 08:43:55 CDT</lastBuildDate>
+    <pubDate>Fri, 08 Jun 2012 11:10:30 CDT</pubDate>
+    <lastBuildDate>Fri, 08 Jun 2012 11:10:30 CDT</lastBuildDate>
 
+    
+    <item>
+      <title>HibaAli.info</title>
+      <link>http://yolk.cc/2012/06/08/HibaAliinfo/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2012/06/08/HibaAliinfo</guid>
+      <description>&lt;h1 id='hibaaliinfo_'&gt;&lt;a href='http://hibaali.info'&gt;HibaAli.info &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Created a theme&amp;#8217;d Drupal site for easy dynamic content portfolio.&lt;/p&gt;
+
+&lt;p&gt;For Hiba Ali.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>pinq</title>
@@ -148,6 +161,17 @@ bundle install
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/11/13/20111113-354pm</guid>
       <description>&lt;h1 id='20111113354pm'&gt;20111113-354pm&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>MarcelAlcala.co</title>
+      <link>http://yolk.cc/2011/11/01/MarceleAlcala/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/11/01/MarceleAlcala</guid>
+      <description>&lt;h1 id='marcelalcalaco_'&gt;&lt;a href='http://marcelalcala.co'&gt;MarcelAlcala.co &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;A site I made for my friend Marcel Alcalá.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -326,6 +350,17 @@ bundle install
     </item>
     
     <item>
+      <title>WHY MAKE ART NOW</title>
+      <link>http://yolk.cc/2011/03/14/WHYMAKEARTNOW/</link>
+      <pubDate>Mon, 14 Mar 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/03/14/WHYMAKEARTNOW</guid>
+      <description>&lt;h1 id='why_make_art_now_'&gt;&lt;a href='http://whymakeartnow.tumblr.com'&gt;WHY MAKE ART NOW &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Created for my Why Make Art Now class at The School of the Art Institute of Chicago with &lt;a href='http://www.cainschulte.com/artists/dunda.html'&gt;Jason Dunda&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Multiple Webcam Tests</title>
       <link>http://yolk.cc/2011/02/26/Multiple-Webcam-Tests/</link>
       <pubDate>Sat, 26 Feb 2011 00:00:00 CST</pubDate>
@@ -343,6 +378,21 @@ bundle install
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS</guid>
       <description>&lt;h1 id='my_thoughts_are_yours_'&gt;&lt;a href='http://mythoughtsareyours.yolk.cc'&gt;MY THOUGHTS ARE YOURS &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fundamentals</title>
+      <link>http://yolk.cc/2011/01/01/FUNDAMENTALS/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 CST</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/01/01/FUNDAMENTALS</guid>
+      <description>&lt;h1 id='yolk__fundamentals'&gt;YOLK : FUNDAMENTALS&lt;/h1&gt;
+
+&lt;p&gt;Created for my Fundamentals of Art and Technology class at The School of the Art Institute of Chicago.&lt;/p&gt;
+
+&lt;p&gt;Contains more code based work and delves into the nerdier sides of projects.&lt;/p&gt;
+
+&lt;p&gt;Heavy command-line use.&lt;/p&gt;</description>
     </item>
     
     <item>
