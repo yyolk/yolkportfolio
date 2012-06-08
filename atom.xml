@@ -4,7 +4,7 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2012-06-08T07:58:45-05:00</updated>
+  <updated>2012-06-08T08:14:12-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -449,6 +449,18 @@ bundle install
       <uri>http://yolk.cc</uri>
     </author>
     <content type="html">&lt;h1 id='patterns_are_my_feelings_'&gt;&lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;Patterns Are My Feelings &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2010/09/01/FLOW</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2010/09/01/FLOW/"/>
+    <title>FLOW ≈</title>
+    <updated>2010-09-01T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='flow__'&gt;&lt;a href='http://flow.yolk.cc'&gt;FLOW ≈ &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
   </entry>
   
  
