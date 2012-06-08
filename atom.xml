@@ -4,7 +4,7 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2012-06-08T01:15:39-05:00</updated>
+  <updated>2012-06-08T02:32:05-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -61,6 +61,26 @@ bundle install
 &lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook/"/>
+    <title>Facebook in Facebook in Facebook</title>
+    <updated>2012-03-03T00:00:00-06:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='facebook'&gt;Facebook&lt;/h1&gt;
+
+&lt;h2 id='facebook'&gt;Facebook&lt;/h2&gt;
+
+&lt;h3 id='facebook'&gt;Facebook&lt;/h3&gt;
+
+&lt;h4 id='facebook'&gt;Facebook&lt;/h4&gt;
+
+&lt;h5 id='facebook'&gt;Facebook&lt;/h5&gt;</content>
   </entry>
   
   <entry>
