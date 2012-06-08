@@ -1,32 +1,177 @@
----
-layout: nil
----
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>2012-06-07T20:41:20-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
   </author>
 
-  {% for post in site.posts %}
+  
   <entry>
-    <id>http://yolk.cc{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://yolk.cc{{ post.url }}"/>
-    <title>{{ post.title }}</title>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS/"/>
+    <title>VDMX Experiments</title>
+    <updated>2011-07-24T00:00:00-05:00</updated>
     <author>
       <name>Joseph Chiocchi</name>
       <uri>http://yolk.cc</uri>
     </author>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <content type="html">&lt;p&gt;VDMX Experiments&lt;/p&gt;</content>
   </entry>
-  {% endfor %}
+  
+  <entry>
+    <id>http://yolk.cc/2011/07/20/RED-CAVERN</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/07/20/RED-CAVERN/"/>
+    <title>RED CAVERN</title>
+    <updated>2011-07-20T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;RED CAVERN&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN/"/>
+    <title>GOD LAMB OF A PSYCHIC ORIGIN</title>
+    <updated>2011-07-16T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;GOD LAMB of a PSYCHIC ORIGIN&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/07/14/SKELETON-FINGERS</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/07/14/SKELETON-FINGERS/"/>
+    <title>SKELETON FINGERS</title>
+    <updated>2011-07-14T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;
+
+&lt;p&gt;THROUGH ADVANCED RESEARCH AND COMPLEX MATHS I WAS ABLE TO DISCOVER THE FINAL THRESHOLD. WHO WOULD HAVE THOUGHT IT WAS ALWAYS IN MY HAND ALL ALONG.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN/"/>
+    <title>CROWD OF CHILDREN</title>
+    <updated>2011-07-13T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
+
+&lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/28/ROCKS-UNDERWATER</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/28/ROCKS-UNDERWATER/"/>
+    <title>ROCKS UNDERWATER</title>
+    <updated>2011-06-28T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;ROCKS UNDERWATER&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/28/MYSELFII</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/28/MYSELFII/"/>
+    <title>MY SELF II</title>
+    <updated>2011-06-28T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;MY SELF II&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS/"/>
+    <title>SATCHOMIZED EXPERIMENTS</title>
+    <updated>2011-06-22T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;SATCHOMIZED EXPERIMENTS&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/22/ICE-CREAM-GIRL</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/22/ICE-CREAM-GIRL/"/>
+    <title>ICE CREAM GIRL</title>
+    <updated>2011-06-22T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;ICE CREAM GIRL&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/21/YOLK-IN-ETHER</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/21/YOLK-IN-ETHER/"/>
+    <title>YOLK IN ETHER</title>
+    <updated>2011-06-21T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;Y O L K in ETHER&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/18/MY-SELF</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/18/MY-SELF/"/>
+    <title>MY SELF</title>
+    <updated>2011-06-18T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;MY SELF&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/06/13/BLAZIN</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/06/13/BLAZIN/"/>
+    <title>BLAZIN</title>
+    <updated>2011-06-13T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;BLAZIN&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/05/09/RED-SEA</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/05/09/RED-SEA/"/>
+    <title>RED SEA</title>
+    <updated>2011-05-09T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;p&gt;RED SEA&lt;/p&gt;</content>
+  </entry>
+  
  
 </feed>
 
