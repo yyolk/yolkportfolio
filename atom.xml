@@ -4,7 +4,7 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2012-06-07T21:03:27-05:00</updated>
+  <updated>2012-06-08T00:25:54-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -172,6 +172,38 @@ SKELETON FINGERS
       <uri>http://yolk.cc</uri>
     </author>
     <content type="html">&lt;p&gt;RED SEA&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS/"/>
+    <title>MY THOUGHTS ARE YOURS</title>
+    <updated>2011-02-02T00:00:00-06:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1&gt;
+    &lt;a href='http://mythoughtsareyours.yolk.cc'&gt;
+    MY THOUGHTS ARE YOURS &amp;rarr;
+    &lt;/a&gt;
+&lt;/h1&gt;</content>
+  </entry>
+  
+  <entry>
+    <id>http://yolk.cc/2010/10/11/Patterns-are-My-Feelings</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2010/10/11/Patterns-are-My-Feelings/"/>
+    <title>Patterns Are My Feelings</title>
+    <updated>2010-10-11T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1&gt;
+    &lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;
+    Patterns Are My Feelings &amp;rarr;
+    &lt;/a&gt;
+    &lt;/h1&gt;</content>
   </entry>
   
  
