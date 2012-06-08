@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-*.swp
-.sass-cache
-.DS_Store
-=======
+*.sw*
 .sass-cache/
 .DS_Store
-.*.sw*
->>>>>>> flickr

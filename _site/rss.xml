@@ -7,55 +7,17 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Mon, 07 Nov 2011 09:51:19 CST</pubDate>
-    <lastBuildDate>Mon, 07 Nov 2011 09:51:19 CST</lastBuildDate>
+    <pubDate>Thu, 07 Jun 2012 02:09:54 CDT</pubDate>
+    <lastBuildDate>Thu, 07 Jun 2012 02:09:54 CDT</lastBuildDate>
 
     
     <item>
-      <title>Marcel Alcalá</title>
-      <link>http://yolk.cc/2011/11/01/MarceleAlcala/</link>
-      <pubDate>Tue, 01 Nov 2011 00:00:00 CDT</pubDate>
+      <title>VDMX Experiments</title>
+      <link>http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS/</link>
+      <pubDate>Sun, 24 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/11/01/MarceleAlcala</guid>
-      <description>&lt;h1 id='marcel_alcal'&gt;Marcel Alcal&amp;#225;&lt;/h1&gt;
-&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/marcelalcala.com-site.png' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>GLI.TC/H Bumper 2011</title>
-      <link>http://yolk.cc/2011/10/28/GlitchBumper/</link>
-      <pubDate>Fri, 28 Oct 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/10/28/GlitchBumper</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/30696711?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffffff' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>MY THOUGHTS ARE YOURS</title>
-      <link>http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS/</link>
-      <pubDate>Mon, 05 Sep 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/09/05/MYTHOUGHTSAREYOURS</guid>
-      <description>&lt;h1 id='my_thoughts_are_yours'&gt;MY THOUGHTS ARE YOURS&lt;/h1&gt;
-&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/mythoughtsareyours.png' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>Tachyon Shift</title>
-      <link>http://yolk.cc/2011/08/28/TachyonShift/</link>
-      <pubDate>Sun, 28 Aug 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/08/28/TachyonShift</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/28274354?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>Stare IV</title>
-      <link>http://yolk.cc/2011/08/27/STARE4/</link>
-      <pubDate>Sat, 27 Aug 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/08/27/STARE4</guid>
-      <description>&lt;iframe scrolling='no' src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/processing_js/Stare-LongII/index.html' frameborder='0' style='width:500px;height:500px;' /&gt;</description>
+      <guid>http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS</guid>
+      <description>&lt;p&gt;VDMX Experiments&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,269 +26,110 @@
       <pubDate>Wed, 20 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/07/20/RED-CAVERN</guid>
-      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDCAVERN-small.png' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
-
-&lt;h1 id='red_cavern'&gt;RED CAVERN&lt;/h1&gt;</description>
+      <description>&lt;p&gt;RED CAVERN&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>GRADUATION</title>
-      <link>http://yolk.cc/2011/07/20/GRADUATION/</link>
-      <pubDate>Wed, 20 Jul 2011 00:00:00 CDT</pubDate>
+      <title>GOD LAMB OF A PSYCHIC ORIGIN</title>
+      <link>http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/20/GRADUATION</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/25943554?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
+      <guid>http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN</guid>
+      <description>&lt;p&gt;GOD LAMB of a PSYCHIC ORIGIN&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>SKELETON FINGERS</title>
-      <link>http://yolk.cc/2011/07/15/SKELETON-FINGERS/</link>
-      <pubDate>Fri, 15 Jul 2011 00:00:00 CDT</pubDate>
+      <link>http://yolk.cc/2011/07/14/SKELETON-FINGERS/</link>
+      <pubDate>Thu, 14 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/15/SKELETON-FINGERS</guid>
-      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/SKELETONFINGERS-small.jpg' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
+      <guid>http://yolk.cc/2011/07/14/SKELETON-FINGERS</guid>
+      <description>&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;
 
-&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;</description>
+&lt;p&gt;THROUGH ADVANCED RESEARCH AND COMPLEX MATHS I WAS ABLE TO DISCOVER THE FINAL THRESHOLD. WHO WOULD HAVE THOUGHT IT WAS ALWAYS IN MY HAND ALL ALONG.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>CROWD OF CHILDREN</title>
-      <link>http://yolk.cc/2011/07/15/CROWD-OF-CHILDREN/</link>
-      <pubDate>Fri, 15 Jul 2011 00:00:00 CDT</pubDate>
+      <link>http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN/</link>
+      <pubDate>Wed, 13 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/15/CROWD-OF-CHILDREN</guid>
-      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/CROWDOFCHILDREN-small.jpg' alt='CROWD OF CHILDREN' /&gt;&lt;/p&gt;
+      <guid>http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN</guid>
+      <description>&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
 
-&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>ORANG</title>
-      <link>http://yolk.cc/2011/07/09/ORANG/</link>
-      <pubDate>Sat, 09 Jul 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/09/ORANG</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/26215672?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>YOUNG HEARTS</title>
-      <link>http://yolk.cc/2011/07/01/YOUNG-HEARTS/</link>
-      <pubDate>Fri, 01 Jul 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/01/YOUNG-HEARTS</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/25884538?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>STAR LIGHT</title>
-      <link>http://yolk.cc/2011/07/01/STAR-LIGHT/</link>
-      <pubDate>Fri, 01 Jul 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/01/STAR-LIGHT</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/25693517?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>RUSTLING BREEZE</title>
-      <link>http://yolk.cc/2011/07/01/RUSTLING-BREEZE/</link>
-      <pubDate>Fri, 01 Jul 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/01/RUSTLING-BREEZE</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/25607224?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='553' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>LIONS HEAD</title>
-      <link>http://yolk.cc/2011/07/01/LIONS-HEAD/</link>
-      <pubDate>Fri, 01 Jul 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/07/01/LIONS-HEAD</guid>
-      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/LIONSHEAD-small.png' alt='LIONS HEAD' /&gt;&lt;/p&gt;
-
-&lt;h1 id='lions_head'&gt;LIONS HEAD&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>SCOUTING</title>
-      <link>http://yolk.cc/2011/06/15/SCOUTING/</link>
-      <pubDate>Wed, 15 Jun 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/06/15/SCOUTING</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/25745093?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>50PERFECT10</title>
-      <link>http://yolk.cc/2011/06/15/50Perfect10/</link>
-      <pubDate>Wed, 15 Jun 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/06/15/50Perfect10</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/25001966?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='563' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>Y O L K IN ETHER</title>
-      <link>http://yolk.cc/2011/06/01/YOLK-IN-ETHER/</link>
-      <pubDate>Wed, 01 Jun 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/06/01/YOLK-IN-ETHER</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/YOLKINETHER-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='slowly_traversing_the_acid_smoke'&gt;Slowly traversing the acid smoke.&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>MY SELF II</title>
-      <link>http://yolk.cc/2011/06/01/MY-SELF-II/</link>
-      <pubDate>Wed, 01 Jun 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/06/01/MY-SELF-II</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/MYSELFII-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='selfportrait'&gt;SELF-PORTRAIT&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>MY SELF</title>
-      <link>http://yolk.cc/2011/06/01/MY-SELF/</link>
-      <pubDate>Wed, 01 Jun 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/06/01/MY-SELF</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/MYSELF-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='selfportrait'&gt;SELF-PORTRAIT&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>ICE CREAM GIRL</title>
-      <link>http://yolk.cc/2011/06/01/ICE-CREAM-GIRL/</link>
-      <pubDate>Wed, 01 Jun 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/06/01/ICE-CREAM-GIRL</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/ICECREAMGIRL-small.jpg' alt='ICE CREAM GIRL' /&gt;&lt;/p&gt;
-
-&lt;h1 id='yum_my_sweetie'&gt;YUM MY SWEETIE.&lt;/h1&gt;</description>
+&lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ROCKS UNDERWATER</title>
-      <link>http://yolk.cc/2011/05/01/ROCKSUNDERWATER/</link>
-      <pubDate>Sun, 01 May 2011 00:00:00 CDT</pubDate>
+      <link>http://yolk.cc/2011/06/28/ROCKS-UNDERWATER/</link>
+      <pubDate>Tue, 28 Jun 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/05/01/ROCKSUNDERWATER</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/ROCKSUNDERWATER-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='spelunking_in_a_vorpal_cavern'&gt;Spelunking in a vorpal cavern.&lt;/h1&gt;</description>
+      <guid>http://yolk.cc/2011/06/28/ROCKS-UNDERWATER</guid>
+      <description>&lt;p&gt;ROCKS UNDERWATER&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>RED SEA</title>
-      <link>http://yolk.cc/2011/05/01/REDSEA/</link>
-      <pubDate>Sun, 01 May 2011 00:00:00 CDT</pubDate>
+      <title>MY SELF II</title>
+      <link>http://yolk.cc/2011/06/28/MYSELFII/</link>
+      <pubDate>Tue, 28 Jun 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/05/01/REDSEA</guid>
-      <description>&lt;p&gt;&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/image/REDSEA-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='continuing_my_descent_through_the_thick_mess'&gt;Continuing my descent through the thick mess.&lt;/h1&gt;</description>
+      <guid>http://yolk.cc/2011/06/28/MYSELFII</guid>
+      <description>&lt;p&gt;MY SELF II&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SATCHOMIZED EXPERIMENTS</title>
+      <link>http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS</guid>
+      <description>&lt;p&gt;SATCHOMIZED EXPERIMENTS&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ICE CREAM GIRL</title>
+      <link>http://yolk.cc/2011/06/22/ICE-CREAM-GIRL/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/06/22/ICE-CREAM-GIRL</guid>
+      <description>&lt;p&gt;ICE CREAM GIRL&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>YOLK IN ETHER</title>
+      <link>http://yolk.cc/2011/06/21/YOLK-IN-ETHER/</link>
+      <pubDate>Tue, 21 Jun 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/06/21/YOLK-IN-ETHER</guid>
+      <description>&lt;p&gt;Y O L K in ETHER&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MY SELF</title>
+      <link>http://yolk.cc/2011/06/18/MY-SELF/</link>
+      <pubDate>Sat, 18 Jun 2011 00:00:00 CDT</pubDate>
+      <author>YOLK</author>
+      <guid>http://yolk.cc/2011/06/18/MY-SELF</guid>
+      <description>&lt;p&gt;MY SELF&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>BLAZIN</title>
-      <link>http://yolk.cc/2011/05/01/BLAZIN/</link>
-      <pubDate>Sun, 01 May 2011 00:00:00 CDT</pubDate>
+      <link>http://yolk.cc/2011/06/13/BLAZIN/</link>
+      <pubDate>Mon, 13 Jun 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/05/01/BLAZIN</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/BLAZIN-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='i_swear_i_saw_a_little_chinese_woman'&gt;I swear I saw a little Chinese woman&amp;#8230;&lt;/h1&gt;</description>
+      <guid>http://yolk.cc/2011/06/13/BLAZIN</guid>
+      <description>&lt;p&gt;BLAZIN&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>ME IN JACKET</title>
-      <link>http://yolk.cc/2011/04/01/MEINJACKET/</link>
-      <pubDate>Fri, 01 Apr 2011 00:00:00 CDT</pubDate>
+      <title>RED SEA</title>
+      <link>http://yolk.cc/2011/05/09/RED-SEA/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
-      <guid>http://yolk.cc/2011/04/01/MEINJACKET</guid>
-      <description>&lt;p&gt;&lt;img src='https://s3.amazonaws.com/yolk-portfolio-pictures/yolkportfolio/image/MEINJACKET-small.jpg' alt='MY SELF' /&gt;&lt;/p&gt;
-
-&lt;h1 id='damn_i_look_good_in_this_jacket'&gt;Damn I look good in this jacket.&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>WHY MAKE ART NOW</title>
-      <link>http://yolk.cc/2011/03/14/WHYMAKEARTNOW/</link>
-      <pubDate>Mon, 14 Mar 2011 00:00:00 CDT</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/03/14/WHYMAKEARTNOW</guid>
-      <description>&lt;h1 id='why_make_art_now'&gt;WHY MAKE ART NOW&lt;/h1&gt;
-
-&lt;h2 id='a_small_site_i_made_for_class_i_liked_how_it_turn_out_so_its_ended_up_here'&gt;A small site I made for class, I liked how it turn out so it&amp;#8217;s ended up here.&lt;/h2&gt;
-
-&lt;h3 id='the_project_was_never_fully_completed'&gt;The project was never fully completed.&lt;/h3&gt;
-
-&lt;h3 id='this_page_also_has_a_writing_of_mine_a_matter_of_space_and_time'&gt;This page also has a writing of mine, &amp;#8220;A Matter of Space and Time&amp;#8221;&lt;/h3&gt;
-&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/WHYMAKEARTNOW-site.png' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>S H I V E R</title>
-      <link>http://yolk.cc/2011/03/01/SHIVER/</link>
-      <pubDate>Tue, 01 Mar 2011 00:00:00 CST</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/03/01/SHIVER</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/22025548?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='500' width='500' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>37 Signals</title>
-      <link>http://yolk.cc/2011/02/01/37SIGNALS/</link>
-      <pubDate>Tue, 01 Feb 2011 00:00:00 CST</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/02/01/37SIGNALS</guid>
-      <description>&lt;iframe src='http://player.vimeo.com/video/22535840?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;autoplay=0' frameborder='0' height='422' width='750' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>PATTERNS ARE MY FEELINGS</title>
-      <link>http://yolk.cc/2011/01/01/PATTERNSAREMYFEELINGS/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 CST</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/01/01/PATTERNSAREMYFEELINGS</guid>
-      <description>&lt;h1 id='patterns_are_my_feelings'&gt;PATTERNS ARE MY FEELINGS&lt;/h1&gt;
-
-&lt;h2 id='a_visual_blog_made_out_of_gifs_i_make'&gt;A visual blog, made out of gifs I make.&lt;/h2&gt;
-
-&lt;h3 id='the_process_is_i_create_a_gif_and_then_i_connect_that_image_with_a_feeling__emotion__or_sensation'&gt;The process is I create a gif and then I connect that image with a feeling / emotion / or sensation.&lt;/h3&gt;
-&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/patternsaremyfeelings-site.png' /&gt;</description>
-    </item>
-    
-    <item>
-      <title>LISTEN TO MY HEART</title>
-      <link>http://yolk.cc/2011/01/01/LISTENTOMYHEART/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 CST</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/01/01/LISTENTOMYHEART</guid>
-      <description>&lt;h1 id='listen_to_my_heart'&gt;&lt;a href='http://listentomyheart.cc'&gt;LISTEN TO MY HEART&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h2 id='an_experiment_in_intimacy'&gt;An experiment in intimacy.&lt;/h2&gt;
-
-&lt;h3 id='read_the_proposal'&gt;Read the proposal:&lt;/h3&gt;
-&lt;a href='http://www.scribd.com/doc/58908613/LISTEN-TO-MY-HEART-An-Experiment-in-Intimacy' title='View LISTEN TO MY HEART - An Experiment in Intimacy on Scribd' style='margin: 12px auto 6px auto; font-family: Helvetica,Arial,Sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 14px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; display: block; text-decoration: underline;'&gt;LISTEN TO MY HEART - An Experiment in Intimacy&lt;/a&gt;&lt;iframe scrolling='no' class='scribd_iframe_embed' src='http://www.scribd.com/embeds/58908613/content?start_page=1&amp;view_mode=list&amp;access_key=key-jykhk1ma3k3x2xqlbk4' data-auto-height='true' data-aspect-ratio='0.772727272727273' id='doc_32830' frameborder='0' height='600' width='100%' /&gt;&lt;script type='text/javascript'&gt;(function() { var scribd = document.createElement(&quot;script&quot;); scribd.type = &quot;text/javascript&quot;; scribd.async = true; scribd.src = &quot;http://www.scribd.com/javascripts/embed_code/inject.js&quot;; var s = document.getElementsByTagName(&quot;script&quot;)[0]; s.parentNode.insertBefore(scribd, s); })();&lt;/script&gt;</description>
-    </item>
-    
-    <item>
-      <title>FUNDAMENTALS</title>
-      <link>http://yolk.cc/2011/01/01/FUNDAMENTALS/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 CST</pubDate>
-      <author>YOLK</author>
-      <guid>http://yolk.cc/2011/01/01/FUNDAMENTALS</guid>
-      <description>&lt;h1 id='fundamentals'&gt;FUNDAMENTALS&lt;/h1&gt;
-
-&lt;h2 id='a_visual_blog_made_from_generative_programming_in_processing_or_otherwise'&gt;A visual blog, made from generative programming in Processing or otherwise.&lt;/h2&gt;
-
-&lt;h3 id='i_create_an_app_and_show_it_off'&gt;&lt;em&gt;(I create an app and show it off.)&lt;/em&gt;&lt;/h3&gt;
-&lt;img src='http://yolk-portfolio-pictures.s3.amazonaws.com/yolkportfolio/sites/fundamentals-site.png' /&gt;</description>
+      <guid>http://yolk.cc/2011/05/09/RED-SEA</guid>
+      <description>&lt;p&gt;RED SEA&lt;/p&gt;</description>
     </item>
     
 
