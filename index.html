@@ -23,7 +23,15 @@
 <div id="container">
    <div id="content">
 
-       <div class='item' onClick='location.href=&apos;/2011/07/24/VDMX-EXPERIMENTS/&apos;;'>
+       <div class='item' onClick='location.href=&apos;/2012/05/29/Yolkalyzer/&apos;;'>
+<img alt='Screen Shot 2012-05-22 at 8.12.39 PM' height='207' src='http://farm9.staticflickr.com/8013/7253993244_857d2bed5c_m.jpg' width='240' />
+<p>
+29 May 2012 &raquo; 
+<a href='/2012/05/29/Yolkalyzer/'>
+Yolkalyzer
+</a>
+</p>
+</div><div class='item' onClick='location.href=&apos;/2011/07/24/VDMX-EXPERIMENTS/&apos;;'>
 <img alt='VDMX EXPERIMENTS' height='135' src='http://farm7.staticflickr.com/6136/5969250296_d5ee5b6659_m.jpg' width='240' />
 <p>
 24 Jul 2011 &raquo; 
@@ -150,7 +158,13 @@ $container.imagesLoaded( function(){
 $container.isotope({
     //options
     itemSelector: '.item',
-    layoutMode: 'masonry'});
+  layoutMode: 'cellsByRow',
+  cellsByRow: {
+    columnWidth: 320,
+    rowHeight: 360
+  }
+    
+    });
 });
 </script> 
        

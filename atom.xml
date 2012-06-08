@@ -4,13 +4,64 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2012-06-08T00:25:54-05:00</updated>
+  <updated>2012-06-08T00:45:33-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
     <email>joe@yolk.cc</email>
   </author>
 
+  
+  <entry>
+    <id>http://yolk.cc/2012/05/29/Yolkalyzer</id>
+    <link type="text/html" rel="alternate" href="http://yolk.cc/2012/05/29/Yolkalyzer/"/>
+    <title>Yolkalyzer</title>
+    <updated>2012-05-29T00:00:00-05:00</updated>
+    <author>
+      <name>Joseph Chiocchi</name>
+      <uri>http://yolk.cc</uri>
+    </author>
+    <content type="html">&lt;h1 id='yolkalyzer'&gt;YOLKALYZER&lt;/h1&gt;
+
+&lt;h2 id='a_collada_dae_glitcher__texturizer'&gt;A Collada DAE &lt;strong&gt;&lt;em&gt;&amp;#8220;glitcher&amp;#8221; / &amp;#8220;texturizer&amp;#8221;&lt;/em&gt;&lt;/strong&gt;.&lt;/h2&gt;
+
+&lt;p&gt;Inspired by &lt;a href='http://jonsatrom.com/satromizer/'&gt;Satromizer&lt;/a&gt; and can be considered as such:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;BITMAP&lt;/strong&gt; =&amp;gt; &lt;strong&gt;Satromizer&lt;/strong&gt; :: &lt;strong&gt;3D&lt;/strong&gt; =&amp;gt; &lt;strong&gt;YOLKALYZER&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://farm9.staticflickr.com/8017/7194214842_4f3e9385f0_o.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;turns into&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://farm6.staticflickr.com/5470/7194214902_0dc2497af6_o.png' /&gt;&lt;/p&gt;
+
+&lt;h3 id='usage'&gt;USAGE:&lt;/h3&gt;
+
+&lt;h4 id='mac'&gt;Mac&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the &lt;code&gt;Terminal.app&lt;/code&gt; and enter the following commands.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Clone the repo &lt;code&gt;git clone git://github.com/yyolk/yolkalyzer.git&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href='http://gembundler.com/'&gt;Bundler&lt;/a&gt; * System Ruby (Leopard, Snow Leopard, Lion etc…) * &lt;code&gt;sudo gem install bundler&lt;/code&gt; * Confirm with password. * with &lt;a href='https://github.com/sstephenson/rbenv'&gt;&lt;code&gt;rbenv&lt;/code&gt;&lt;/a&gt;: * &lt;code&gt;rbenv exec gem install bundler&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Change into the directory and install dependencies with &lt;a href='http://gembundler.com/'&gt;bundle&lt;/a&gt;. &lt;code&gt;
+cd yolkalyzer
+bundle install
+&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
   
   <entry>
     <id>http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS</id>
