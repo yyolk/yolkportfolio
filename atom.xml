@@ -4,7 +4,7 @@
   <title>YOLK</title>
   <link href="http://yolk.cc"/>
   <link type="application/atom+xml" rel="self" href="http://yolk.cc/atom.xml"/>
-  <updated>2012-06-08T00:57:36-05:00</updated>
+  <updated>2012-06-08T01:11:52-05:00</updated>
   <id>http://yolk.cc</id>
   <author>
     <name>Joseph Chiocchi</name>
@@ -108,9 +108,8 @@ bundle install
       <name>Joseph Chiocchi</name>
       <uri>http://yolk.cc</uri>
     </author>
-    <content type="html">&lt;h1&gt;
-SKELETON FINGERS
-&lt;/h1&gt;
+    <content type="html">&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;
+
 &lt;p&gt;THROUGH ADVANCED RESEARCH AND COMPLEX MATHS I WAS ABLE TO DISCOVER THE FINAL THRESHOLD. WHO WOULD HAVE THOUGHT IT WAS ALWAYS IN MY HAND ALL ALONG.&lt;/p&gt;</content>
   </entry>
   
@@ -123,9 +122,8 @@ SKELETON FINGERS
       <name>Joseph Chiocchi</name>
       <uri>http://yolk.cc</uri>
     </author>
-    <content type="html">&lt;h1&gt;
-    CROWD OF CHILDREN
-&lt;/h1&gt;
+    <content type="html">&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
+
 &lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</content>
   </entry>
   
@@ -234,11 +232,7 @@ SKELETON FINGERS
       <name>Joseph Chiocchi</name>
       <uri>http://yolk.cc</uri>
     </author>
-    <content type="html">&lt;h1&gt;
-    &lt;a href='http://mythoughtsareyours.yolk.cc'&gt;
-    MY THOUGHTS ARE YOURS &amp;rarr;
-    &lt;/a&gt;
-&lt;/h1&gt;</content>
+    <content type="html">&lt;h1 id='my_thoughts_are_yours_'&gt;&lt;a href='http://mythoughtsareyours.yolk.cc'&gt;MY THOUGHTS ARE YOURS &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
   </entry>
   
   <entry>
@@ -250,11 +244,7 @@ SKELETON FINGERS
       <name>Joseph Chiocchi</name>
       <uri>http://yolk.cc</uri>
     </author>
-    <content type="html">&lt;h1&gt;
-    &lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;
-    Patterns Are My Feelings &amp;rarr;
-    &lt;/a&gt;
-    &lt;/h1&gt;</content>
+    <content type="html">&lt;h1 id='patterns_are_my_feelings_'&gt;&lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;Patterns Are My Feelings &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
   </entry>
   
  

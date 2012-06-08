@@ -7,8 +7,8 @@
     <atom:link href="http://yolk.cc/rss.xml" rel="self" type="application/rss+xml" />
     <description>Work by Joseph Chiocchi (YOLK)</description>
     <language>en-us</language>
-    <pubDate>Fri, 08 Jun 2012 00:57:36 CDT</pubDate>
-    <lastBuildDate>Fri, 08 Jun 2012 00:57:36 CDT</lastBuildDate>
+    <pubDate>Fri, 08 Jun 2012 01:11:52 CDT</pubDate>
+    <lastBuildDate>Fri, 08 Jun 2012 01:11:52 CDT</lastBuildDate>
 
     
     <item>
@@ -92,9 +92,8 @@ bundle install
       <pubDate>Thu, 14 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/07/14/SKELETON-FINGERS</guid>
-      <description>&lt;h1&gt;
-SKELETON FINGERS
-&lt;/h1&gt;
+      <description>&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;
+
 &lt;p&gt;THROUGH ADVANCED RESEARCH AND COMPLEX MATHS I WAS ABLE TO DISCOVER THE FINAL THRESHOLD. WHO WOULD HAVE THOUGHT IT WAS ALWAYS IN MY HAND ALL ALONG.&lt;/p&gt;</description>
     </item>
     
@@ -104,9 +103,8 @@ SKELETON FINGERS
       <pubDate>Wed, 13 Jul 2011 00:00:00 CDT</pubDate>
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN</guid>
-      <description>&lt;h1&gt;
-    CROWD OF CHILDREN
-&lt;/h1&gt;
+      <description>&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
+
 &lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</description>
     </item>
     
@@ -188,11 +186,7 @@ SKELETON FINGERS
       <pubDate>Wed, 02 Feb 2011 00:00:00 CST</pubDate>
       <author>YOLK</author>
       <guid>http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS</guid>
-      <description>&lt;h1&gt;
-    &lt;a href='http://mythoughtsareyours.yolk.cc'&gt;
-    MY THOUGHTS ARE YOURS &amp;rarr;
-    &lt;/a&gt;
-&lt;/h1&gt;</description>
+      <description>&lt;h1 id='my_thoughts_are_yours_'&gt;&lt;a href='http://mythoughtsareyours.yolk.cc'&gt;MY THOUGHTS ARE YOURS &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -201,11 +195,7 @@ SKELETON FINGERS
       <pubDate>Mon, 11 Oct 2010 00:00:00 CDT</pubDate>
       <author>YOLK</author>
       <guid>http://yolk.cc/2010/10/11/Patterns-are-My-Feelings</guid>
-      <description>&lt;h1&gt;
-    &lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;
-    Patterns Are My Feelings &amp;rarr;
-    &lt;/a&gt;
-    &lt;/h1&gt;</description>
+      <description>&lt;h1 id='patterns_are_my_feelings_'&gt;&lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;Patterns Are My Feelings &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</description>
     </item>
     
 
