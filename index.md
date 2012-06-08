@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hello World!
+title: Y O L K
 ---
 
 {% for post in site.posts %}
