@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>YOLK : WORK</title>
+ <link href="http://yolk.cc/feed/" rel="self"/>
+ <link href="http://yolk.cc"/>
+ <updated>2012-06-14T01:17:26-05:00</updated>
+ <id>http://yolk.cc</id>
+ <author>
+   <name>Joseph (YOLK) Chiocchi</name>
+   <email>joe@yolk.cc</email>
+ </author>
+
+ 
+ <entry>
+   <title>HibaAli.info</title>
+   <link href="http://yolk.cc/2012/06/08/HibaAliinfo/"/>
+   <updated>2012-06-08T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/06/08/HibaAliinfo</id>
+   <content type="html">&lt;h1 id='hibaaliinfo_'&gt;&lt;a href='http://hibaali.info'&gt;HibaAli.info &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Created a theme&amp;#8217;d Drupal site for easy dynamic content portfolio.&lt;/p&gt;
+
+&lt;p&gt;For Hiba Ali.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>pinq</title>
+   <link href="http://yolk.cc/2012/06/03/pinq/"/>
+   <updated>2012-06-03T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/06/03/pinq</id>
+   <content type="html">&lt;p&gt;pinq&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Yolkalyzer</title>
+   <link href="http://yolk.cc/2012/05/29/Yolkalyzer/"/>
+   <updated>2012-05-29T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/05/29/Yolkalyzer</id>
+   <content type="html">&lt;h1 id='yolkalyzer'&gt;YOLKALYZER&lt;/h1&gt;
+
+&lt;h2 id='a_collada_dae_glitcher__texturizer'&gt;A Collada DAE &lt;strong&gt;&lt;em&gt;&amp;#8220;glitcher&amp;#8221; / &amp;#8220;texturizer&amp;#8221;&lt;/em&gt;&lt;/strong&gt;.&lt;/h2&gt;
+
+&lt;p&gt;Inspired by &lt;a href='http://jonsatrom.com/satromizer/'&gt;Satromizer&lt;/a&gt; and can be considered as such:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;BITMAP&lt;/strong&gt; =&amp;gt; &lt;strong&gt;Satromizer&lt;/strong&gt; :: &lt;strong&gt;3D&lt;/strong&gt; =&amp;gt; &lt;strong&gt;YOLKALYZER&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://farm9.staticflickr.com/8017/7194214842_4f3e9385f0_o.png' /&gt;&lt;/p&gt;
+
+&lt;p&gt;turns into&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt='' src='http://farm6.staticflickr.com/5470/7194214902_0dc2497af6_o.png' /&gt;&lt;/p&gt;
+
+&lt;h3 id='usage'&gt;USAGE:&lt;/h3&gt;
+
+&lt;h4 id='mac'&gt;Mac&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the &lt;code&gt;Terminal.app&lt;/code&gt; and enter the following commands.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Clone the repo &lt;code&gt;git clone git://github.com/yyolk/yolkalyzer.git&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href='http://gembundler.com/'&gt;Bundler&lt;/a&gt; * System Ruby (Leopard, Snow Leopard, Lion etc…) * &lt;code&gt;sudo gem install bundler&lt;/code&gt; * Confirm with password. * with &lt;a href='https://github.com/sstephenson/rbenv'&gt;&lt;code&gt;rbenv&lt;/code&gt;&lt;/a&gt;: * &lt;code&gt;rbenv exec gem install bundler&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Change into the directory and install dependencies with &lt;a href='http://gembundler.com/'&gt;bundle&lt;/a&gt;. &lt;code&gt;
+cd yolkalyzer
+bundle install
+&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>SPAMM</title>
+   <link href="http://yolk.cc/2012/05/22/SYSTAIME-SPAMM/"/>
+   <updated>2012-05-22T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/05/22/SYSTAIME-SPAMM</id>
+   <content type="html">&lt;h1 id='spamm'&gt;SPAMM&lt;/h1&gt;
+
+&lt;h2 id='super_art_modern_museum'&gt;SuPer Art Modern Museum&lt;/h2&gt;
+
+&lt;h3 id='thanks_to_systaime'&gt;thanks to &lt;a href='http://www.systaime.com/'&gt;systaime&lt;/a&gt;&lt;/h3&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Morgan Childers Piece</title>
+   <link href="http://yolk.cc/2012/05/05/Morgan-Childers-Piece/"/>
+   <updated>2012-05-05T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/05/05/Morgan-Childers-Piece</id>
+   <content type="html">&lt;h1 id='for_morgan_childers'&gt;For Morgan Childers&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>YOLK - HAPPYDOG 2012</title>
+   <link href="http://yolk.cc/2012/04/20/YOLK-HAPPYDOG/"/>
+   <updated>2012-04-20T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/04/20/YOLK-HAPPYDOG</id>
+   <content type="html">&lt;h1 id='yolk__the_art_gallery_formerly_known_as_happy_dog'&gt;YOLK @ THE ART GALLERY FORMERLY KNOWN AS HAPPY DOG&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20120410-0233AM</title>
+   <link href="http://yolk.cc/2012/04/10/2012-0410-0233AM/"/>
+   <updated>2012-04-10T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2012/04/10/2012-0410-0233AM</id>
+   <content type="html">&lt;h1 id='201204100233am'&gt;20120410-0233AM&lt;/h1&gt;
+
+&lt;p&gt;for &lt;a href='http://absis-minas.com/'&gt;Absis Minas&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Facebook in Facebook in Facebook</title>
+   <link href="http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook/"/>
+   <updated>2012-03-03T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook</id>
+   <content type="html">&lt;h1 id='facebook'&gt;Facebook&lt;/h1&gt;
+
+&lt;h2 id='facebook'&gt;Facebook&lt;/h2&gt;
+
+&lt;h3 id='facebook'&gt;Facebook&lt;/h3&gt;
+
+&lt;h4 id='facebook'&gt;Facebook&lt;/h4&gt;
+
+&lt;h5 id='facebook'&gt;Facebook&lt;/h5&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20120212</title>
+   <link href="http://yolk.cc/2012/02/12/20120212/"/>
+   <updated>2012-02-12T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2012/02/12/20120212</id>
+   <content type="html">&lt;h1 id='20120212'&gt;20120212&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20120106-0916AM</title>
+   <link href="http://yolk.cc/2012/01/06/20120106-0916AM/"/>
+   <updated>2012-01-06T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2012/01/06/20120106-0916AM</id>
+   <content type="html">&lt;h1 id='201201060916am'&gt;20120106-0916AM&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20111216-1002PM</title>
+   <link href="http://yolk.cc/2011/12/16/20111216-1002PM/"/>
+   <updated>2011-12-16T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/12/16/20111216-1002PM</id>
+   <content type="html">&lt;h1 id='201112161002pm'&gt;20111216-1002PM&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>FOR HISSBITCH (VDMX)</title>
+   <link href="http://yolk.cc/2011/11/28/For-HissBitch/"/>
+   <updated>2011-11-28T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/11/28/For-HissBitch</id>
+   <content type="html">&lt;p&gt;For &lt;a href='http://hissbitch.tumblr.com'&gt;Hissbitch&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20111119-bashscr</title>
+   <link href="http://yolk.cc/2011/11/19/20111119-bashscr/"/>
+   <updated>2011-11-19T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/11/19/20111119-bashscr</id>
+   <content type="html">&lt;p&gt;Open Terminal.app , type the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;for i in {1..100}; do sleep .43 ; `$(`say $&amp;#39;\131\117\114\113&amp;#39;  &amp;amp;`)&amp;amp;` ; done&lt;/code&gt;&lt;/pre&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20111113-354pm</title>
+   <link href="http://yolk.cc/2011/11/13/20111113-354pm/"/>
+   <updated>2011-11-13T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/11/13/20111113-354pm</id>
+   <content type="html">&lt;h1 id='20111113354pm'&gt;20111113-354pm&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MarcelAlcala.co</title>
+   <link href="http://yolk.cc/2011/11/01/MarceleAlcala/"/>
+   <updated>2011-11-01T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/11/01/MarceleAlcala</id>
+   <content type="html">&lt;h1 id='marcelalcalaco_'&gt;&lt;a href='http://marcelalcala.co'&gt;MarcelAlcala.co &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;A site I made for my friend Marcel Alcalá.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>GLI.TC/H 2011 - Bumper</title>
+   <link href="http://yolk.cc/2011/10/18/GLITCH-BUMPER/"/>
+   <updated>2011-10-18T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/10/18/GLITCH-BUMPER</id>
+   <content type="html">&lt;h1 id='glitch_2011__bumper'&gt;GLI.TC/H 2011 - Bumper&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>TACHYON SHIFT</title>
+   <link href="http://yolk.cc/2011/08/28/TACHYON-SHIFT/"/>
+   <updated>2011-08-28T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/08/28/TACHYON-SHIFT</id>
+   <content type="html">&lt;h1 id='tachyon_shift'&gt;TACHYON SHIFT&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20110828-0</title>
+   <link href="http://yolk.cc/2011/08/28/20110828-0/"/>
+   <updated>2011-08-28T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/08/28/20110828-0</id>
+   <content type="html">&lt;h1 id='201108280'&gt;20110828-0&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ORANG</title>
+   <link href="http://yolk.cc/2011/08/04/ORANG/"/>
+   <updated>2011-08-04T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/08/04/ORANG</id>
+   <content type="html">&lt;h1 id='orang'&gt;ORANG&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>20110802-1</title>
+   <link href="http://yolk.cc/2011/08/02/20110802-1/"/>
+   <updated>2011-08-02T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/08/02/20110802-1</id>
+   <content type="html">&lt;h1 id='201108021'&gt;20110802-1&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>VDMX Experiments</title>
+   <link href="http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS/"/>
+   <updated>2011-07-24T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS</id>
+   <content type="html">&lt;p&gt;VDMX Experiments&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>RED CAVERN</title>
+   <link href="http://yolk.cc/2011/07/20/RED-CAVERN/"/>
+   <updated>2011-07-20T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/20/RED-CAVERN</id>
+   <content type="html">&lt;p&gt;RED CAVERN&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>GOD LAMB OF A PSYCHIC ORIGIN</title>
+   <link href="http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN/"/>
+   <updated>2011-07-16T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN</id>
+   <content type="html">&lt;p&gt;GOD LAMB of a PSYCHIC ORIGIN&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>SKELETON FINGERS</title>
+   <link href="http://yolk.cc/2011/07/14/SKELETON-FINGERS/"/>
+   <updated>2011-07-14T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/14/SKELETON-FINGERS</id>
+   <content type="html">&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;
+
+&lt;p&gt;THROUGH ADVANCED RESEARCH AND COMPLEX MATHS I WAS ABLE TO DISCOVER THE FINAL THRESHOLD. WHO WOULD HAVE THOUGHT IT WAS ALWAYS IN MY HAND ALL ALONG.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>CROWD OF CHILDREN</title>
+   <link href="http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN/"/>
+   <updated>2011-07-13T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN</id>
+   <content type="html">&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
+
+&lt;p&gt;WHY COULDN&amp;#8217;T I SEE? THERE WERE NO MORALS IN THESE BEASTS. I LAY THERE AS THEY BEAT MY JAW IN. YET I STILL FELT GUILTY AS THEIR FEET WERE BARE AND I WAS IMMORTAL.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>s\y\n\t\h</title>
+   <link href="http://yolk.cc/2011/07/07/SYNTH/"/>
+   <updated>2011-07-07T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/07/SYNTH</id>
+   <content type="html">&lt;h1 id='synth'&gt;s\y\n\t\h&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>WONDERING WHY IM HERE</title>
+   <link href="http://yolk.cc/2011/07/04/WONDERING-WHY-IM-HERE/"/>
+   <updated>2011-07-04T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/04/WONDERING-WHY-IM-HERE</id>
+   <content type="html">&lt;h1 id='wondering_why_im_here'&gt;WONDERING WHY IM HERE&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>GRADUATION</title>
+   <link href="http://yolk.cc/2011/07/03/GRADUATION/"/>
+   <updated>2011-07-03T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/03/GRADUATION</id>
+   <content type="html">&lt;h1 id='graduation'&gt;GRADUATION&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>STAR LIGHT (video)</title>
+   <link href="http://yolk.cc/2011/07/01/STAR-LIGHT/"/>
+   <updated>2011-07-01T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/01/STAR-LIGHT</id>
+   <content type="html">&lt;h1 id='star_light'&gt;STAR LIGHT&lt;/h1&gt;
+
+&lt;p&gt;This was originally a video and was made into an installation.&lt;/p&gt;
+
+&lt;p&gt;This is the video that inspired an installation for Brilliance.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>RUSTLING BREEZE</title>
+   <link href="http://yolk.cc/2011/07/01/RUSTLING-BREEZE/"/>
+   <updated>2011-07-01T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/07/01/RUSTLING-BREEZE</id>
+   <content type="html">&lt;h1 id='rustling_breeze'&gt;RUSTLING BREEZE&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ROCKS UNDERWATER</title>
+   <link href="http://yolk.cc/2011/06/28/ROCKS-UNDERWATER/"/>
+   <updated>2011-06-28T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/28/ROCKS-UNDERWATER</id>
+   <content type="html">&lt;p&gt;ROCKS UNDERWATER&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MY SELF II</title>
+   <link href="http://yolk.cc/2011/06/28/MYSELFII/"/>
+   <updated>2011-06-28T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/28/MYSELFII</id>
+   <content type="html">&lt;p&gt;MY SELF II&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>SATCHOMIZED EXPERIMENTS</title>
+   <link href="http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS/"/>
+   <updated>2011-06-22T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS</id>
+   <content type="html">&lt;p&gt;SATCHOMIZED EXPERIMENTS&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ICE CREAM GIRL</title>
+   <link href="http://yolk.cc/2011/06/22/ICE-CREAM-GIRL/"/>
+   <updated>2011-06-22T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/22/ICE-CREAM-GIRL</id>
+   <content type="html">&lt;p&gt;ICE CREAM GIRL&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>YOLK IN ETHER</title>
+   <link href="http://yolk.cc/2011/06/21/YOLK-IN-ETHER/"/>
+   <updated>2011-06-21T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/21/YOLK-IN-ETHER</id>
+   <content type="html">&lt;p&gt;Y O L K in ETHER&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MY SELF</title>
+   <link href="http://yolk.cc/2011/06/18/MY-SELF/"/>
+   <updated>2011-06-18T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/18/MY-SELF</id>
+   <content type="html">&lt;p&gt;MY SELF&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Scouting</title>
+   <link href="http://yolk.cc/2011/06/15/SCOUTING/"/>
+   <updated>2011-06-15T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/15/SCOUTING</id>
+   <content type="html">&lt;h1 id='scouting'&gt;SCOUTING&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>50Perfect10</title>
+   <link href="http://yolk.cc/2011/06/15/50Perfect10/"/>
+   <updated>2011-06-15T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/15/50Perfect10</id>
+   <content type="html">&lt;h1 id='50perfect10'&gt;50Perfect10&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>BLAZIN</title>
+   <link href="http://yolk.cc/2011/06/13/BLAZIN/"/>
+   <updated>2011-06-13T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/13/BLAZIN</id>
+   <content type="html">&lt;p&gt;BLAZIN&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Graduation</title>
+   <link href="http://yolk.cc/2011/06/03/GRADUATION/"/>
+   <updated>2011-06-03T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/03/GRADUATION</id>
+   <content type="html">&lt;h1 id='graduation'&gt;Graduation&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>YOUNG HEARTS</title>
+   <link href="http://yolk.cc/2011/06/01/YOUNG-HEARTS/"/>
+   <updated>2011-06-01T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/06/01/YOUNG-HEARTS</id>
+   <content type="html">&lt;h1 id='young_hearts'&gt;YOUNG HEARTS&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>RED SEA</title>
+   <link href="http://yolk.cc/2011/05/09/RED-SEA/"/>
+   <updated>2011-05-09T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/05/09/RED-SEA</id>
+   <content type="html">&lt;p&gt;RED SEA&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>S H I V E R</title>
+   <link href="http://yolk.cc/2011/04/06/S-H-I-V-E-R/"/>
+   <updated>2011-04-06T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/04/06/S-H-I-V-E-R</id>
+   <content type="html">&lt;h1 id='s_h_i_v_e_r'&gt;S H I V E R&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>WHY MAKE ART NOW</title>
+   <link href="http://yolk.cc/2011/03/14/WHYMAKEARTNOW/"/>
+   <updated>2011-03-14T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/03/14/WHYMAKEARTNOW</id>
+   <content type="html">&lt;h1 id='why_make_art_now_'&gt;&lt;a href='http://whymakeartnow.tumblr.com'&gt;WHY MAKE ART NOW &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Created for my Why Make Art Now class at The School of the Art Institute of Chicago with &lt;a href='http://www.cainschulte.com/artists/dunda.html'&gt;Jason Dunda&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Multiple Webcam Tests</title>
+   <link href="http://yolk.cc/2011/02/26/Multiple-Webcam-Tests/"/>
+   <updated>2011-02-26T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/02/26/Multiple-Webcam-Tests</id>
+   <content type="html">&lt;p&gt;Multiple webcam tests.&lt;/p&gt;
+
+&lt;p&gt;A test for future projects.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MY THOUGHTS ARE YOURS</title>
+   <link href="http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS/"/>
+   <updated>2011-02-02T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS</id>
+   <content type="html">&lt;h1 id='my_thoughts_are_yours_'&gt;&lt;a href='http://mythoughtsareyours.yolk.cc'&gt;MY THOUGHTS ARE YOURS &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>SHEROES 5 - Yoko Ono</title>
+   <link href="http://yolk.cc/2011/01/11/SHEROES-5-YOKOONO/"/>
+   <updated>2011-01-11T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/01/11/SHEROES-5-YOKOONO</id>
+   <content type="html">&lt;h1 id='sheroes_5__yokoonoyes'&gt;SHEROES #5 - #YOKOONOYES&lt;/h1&gt;
+
+&lt;p&gt;curated by &lt;a href='http://www.digitalmediatree.com/sallymckay/LornaMillsImageDump/'&gt;Lorna Mills&lt;/a&gt; and &lt;a href='http://www.reamcnamara.com/'&gt;Rea McNamara&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>WORDS WORDS WORDS</title>
+   <link href="http://yolk.cc/2011/01/01/WORDSWORDSWORDS/"/>
+   <updated>2011-01-01T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/01/01/WORDSWORDSWORDS</id>
+   <content type="html">&lt;h1 id='words_words_words'&gt;WORDS WORDS WORDS&lt;/h1&gt;
+
+&lt;p&gt;Words.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>LISTEN TO MY HEART</title>
+   <link href="http://yolk.cc/2011/01/01/LISTEN-TO-MY-HEART/"/>
+   <updated>2011-01-01T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/01/01/LISTEN-TO-MY-HEART</id>
+   <content type="html">&lt;h1 id='listen_to_my_heart_'&gt;&lt;a href='http://listentomyheart.cc'&gt;LISTEN TO MY HEART &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2 id='an_experiment_in_intimacy'&gt;An experiment in intimacy.&lt;/h2&gt;
+
+&lt;h3 id='read_the_proposal'&gt;Read the proposal:&lt;/h3&gt;
+&lt;a href='http://www.scribd.com/doc/58908613/LISTEN-TO-MY-HEART-An-Experiment-in-Intimacy' title='View LISTEN TO MY HEART - An Experiment in Intimacy on Scribd'&gt;LISTEN TO MY HEART - An Experiment in Intimacy&lt;/a&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Fundamentals</title>
+   <link href="http://yolk.cc/2011/01/01/FUNDAMENTALS/"/>
+   <updated>2011-01-01T00:00:00-06:00</updated>
+   <id>http://yolk.cc/2011/01/01/FUNDAMENTALS</id>
+   <content type="html">&lt;h1 id='yolk__fundamentals'&gt;YOLK : FUNDAMENTALS&lt;/h1&gt;
+
+&lt;p&gt;Created for my Fundamentals of Art and Technology class at The School of the Art Institute of Chicago.&lt;/p&gt;
+
+&lt;p&gt;Contains more code based work and delves into the nerdier sides of projects.&lt;/p&gt;
+
+&lt;p&gt;Heavy command-line use.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Patterns Are My Feelings</title>
+   <link href="http://yolk.cc/2010/10/11/Patterns-are-My-Feelings/"/>
+   <updated>2010-10-11T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2010/10/11/Patterns-are-My-Feelings</id>
+   <content type="html">&lt;h1 id='patterns_are_my_feelings_'&gt;&lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;Patterns Are My Feelings &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>HOW TO PRONOUNCE MY NAME</title>
+   <link href="http://yolk.cc/2010/10/08/HOW-TO-PRONOUNCE-MY-NAME/"/>
+   <updated>2010-10-08T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2010/10/08/HOW-TO-PRONOUNCE-MY-NAME</id>
+   <content type="html">&lt;h1 id='how_to_pronounce_my_name'&gt;HOW TO PRONOUNCE MY NAME&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>FLOW ≈</title>
+   <link href="http://yolk.cc/2010/09/01/FLOW/"/>
+   <updated>2010-09-01T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2010/09/01/FLOW</id>
+   <content type="html">&lt;h1 id='flow__'&gt;&lt;a href='http://flow.yolk.cc'&gt;FLOW ≈ &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>EVERY WORD I'VE EVER SPOKEN A » D</title>
+   <link href="http://yolk.cc/2010/03/19/EVERY-WORD-A-D/"/>
+   <updated>2010-03-19T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2010/03/19/EVERY-WORD-A-D</id>
+   <content type="html">&lt;h1 id='every_word_ive_ever_spoken'&gt;Every Word I&amp;#8217;ve Ever Spoken&lt;/h1&gt;
+
+&lt;h2 id='a__d'&gt;A » D&lt;/h2&gt;</content>
+ </entry>
+ 
+ 
+</feed>
