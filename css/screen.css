@@ -67,7 +67,12 @@ header {
   margin: 10px auto;
 }
 
-/* line 30, ../_sass/screen.scss */
+/* line 31, ../_sass/screen.scss */
+.fb-like {
+  padding-left: 10px;
+}
+
+/* line 35, ../_sass/screen.scss */
 body.bp {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -267,7 +272,7 @@ body.bp .quiet {
 body.bp .loud {
   color: #111111;
 }
-/* line 43, ../_sass/screen.scss */
+/* line 48, ../_sass/screen.scss */
 body.bp #backbar {
   width: 5%;
   margin: 0;
@@ -281,7 +286,7 @@ body.bp #backbar {
   font-size: 2em;
   cursor: pointer;
 }
-/* line 55, ../_sass/screen.scss */
+/* line 60, ../_sass/screen.scss */
 body.bp #backbar #backarrow {
   position: absolute;
   top: 50%;
@@ -289,34 +294,34 @@ body.bp #backbar #backarrow {
   left: 50%;
   right: 50%;
 }
-/* line 59, ../_sass/screen.scss */
+/* line 64, ../_sass/screen.scss */
 body.bp #backbar:hover {
   color: white;
   background-color: black;
 }
-/* line 65, ../_sass/screen.scss */
+/* line 70, ../_sass/screen.scss */
 body.bp .item {
   margin: 5px;
   cursor: pointer;
 }
-/* line 75, ../_sass/screen.scss */
+/* line 80, ../_sass/screen.scss */
 body.bp .item img {
   clear: both;
 }
-/* line 80, ../_sass/screen.scss */
+/* line 85, ../_sass/screen.scss */
 body.bp .item:hover {
   background-color: #000;
   color: #fff;
 }
-/* line 83, ../_sass/screen.scss */
+/* line 88, ../_sass/screen.scss */
 body.bp .item:hover img {
   visibility: hidden;
 }
-/* line 89, ../_sass/screen.scss */
+/* line 94, ../_sass/screen.scss */
 body.bp .item a {
   color: #444;
 }
-/* line 91, ../_sass/screen.scss */
+/* line 96, ../_sass/screen.scss */
 body.bp .item a:hover {
   color: #e3e3e3;
 }
