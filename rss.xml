@@ -4,7 +4,7 @@
  <title>YOLK : WORK</title>
  <link href="http://yolk.cc/feed/" rel="self"/>
  <link href="http://yolk.cc"/>
- <updated>2012-06-16T01:34:03-05:00</updated>
+ <updated>2012-07-06T18:43:23-04:00</updated>
  <id>http://yolk.cc</id>
  <author>
    <name>Joseph (YOLK) Chiocchi</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>HibaAli.info</title>
    <link href="http://yolk.cc/2012/06/08/HibaAliinfo/"/>
-   <updated>2012-06-08T00:00:00-05:00</updated>
+   <updated>2012-06-08T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/06/08/HibaAliinfo</id>
    <content type="html">&lt;h1 id='hibaaliinfo_'&gt;&lt;a href='http://hibaali.info'&gt;HibaAli.info &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
 
@@ -27,7 +27,7 @@
  <entry>
    <title>pinq</title>
    <link href="http://yolk.cc/2012/06/03/pinq/"/>
-   <updated>2012-06-03T00:00:00-05:00</updated>
+   <updated>2012-06-03T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/06/03/pinq</id>
    <content type="html">&lt;p&gt;pinq&lt;/p&gt;</content>
  </entry>
@@ -35,7 +35,7 @@
  <entry>
    <title>Yolkalyzer</title>
    <link href="http://yolk.cc/2012/05/29/Yolkalyzer/"/>
-   <updated>2012-05-29T00:00:00-05:00</updated>
+   <updated>2012-05-29T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/05/29/Yolkalyzer</id>
    <content type="html">&lt;h1 id='yolkalyzer'&gt;YOLKALYZER&lt;/h1&gt;
 
@@ -82,7 +82,7 @@ bundle install
  <entry>
    <title>SPAMM</title>
    <link href="http://yolk.cc/2012/05/22/SYSTAIME-SPAMM/"/>
-   <updated>2012-05-22T00:00:00-05:00</updated>
+   <updated>2012-05-22T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/05/22/SYSTAIME-SPAMM</id>
    <content type="html">&lt;h1 id='spamm'&gt;SPAMM&lt;/h1&gt;
 
@@ -94,7 +94,7 @@ bundle install
  <entry>
    <title>Morgan Childers Piece</title>
    <link href="http://yolk.cc/2012/05/05/Morgan-Childers-Piece/"/>
-   <updated>2012-05-05T00:00:00-05:00</updated>
+   <updated>2012-05-05T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/05/05/Morgan-Childers-Piece</id>
    <content type="html">&lt;h1 id='for_morgan_childers'&gt;For Morgan Childers&lt;/h1&gt;</content>
  </entry>
@@ -102,7 +102,7 @@ bundle install
  <entry>
    <title>YOLK - HAPPYDOG 2012</title>
    <link href="http://yolk.cc/2012/04/20/YOLK-HAPPYDOG/"/>
-   <updated>2012-04-20T00:00:00-05:00</updated>
+   <updated>2012-04-20T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/04/20/YOLK-HAPPYDOG</id>
    <content type="html">&lt;h1 id='yolk__the_art_gallery_formerly_known_as_happy_dog'&gt;YOLK @ THE ART GALLERY FORMERLY KNOWN AS HAPPY DOG&lt;/h1&gt;</content>
  </entry>
@@ -110,7 +110,7 @@ bundle install
  <entry>
    <title>20120410-0233AM</title>
    <link href="http://yolk.cc/2012/04/10/2012-0410-0233AM/"/>
-   <updated>2012-04-10T00:00:00-05:00</updated>
+   <updated>2012-04-10T00:00:00-04:00</updated>
    <id>http://yolk.cc/2012/04/10/2012-0410-0233AM</id>
    <content type="html">&lt;h1 id='201204100233am'&gt;20120410-0233AM&lt;/h1&gt;
 
@@ -120,7 +120,7 @@ bundle install
  <entry>
    <title>Facebook in Facebook in Facebook</title>
    <link href="http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook/"/>
-   <updated>2012-03-03T00:00:00-06:00</updated>
+   <updated>2012-03-03T00:00:00-05:00</updated>
    <id>http://yolk.cc/2012/03/03/Facebook-x-Facebook-x-Facebook</id>
    <content type="html">&lt;h1 id='facebook'&gt;Facebook&lt;/h1&gt;
 
@@ -136,7 +136,7 @@ bundle install
  <entry>
    <title>20120212</title>
    <link href="http://yolk.cc/2012/02/12/20120212/"/>
-   <updated>2012-02-12T00:00:00-06:00</updated>
+   <updated>2012-02-12T00:00:00-05:00</updated>
    <id>http://yolk.cc/2012/02/12/20120212</id>
    <content type="html">&lt;h1 id='20120212'&gt;20120212&lt;/h1&gt;</content>
  </entry>
@@ -144,7 +144,7 @@ bundle install
  <entry>
    <title>20120106-0916AM</title>
    <link href="http://yolk.cc/2012/01/06/20120106-0916AM/"/>
-   <updated>2012-01-06T00:00:00-06:00</updated>
+   <updated>2012-01-06T00:00:00-05:00</updated>
    <id>http://yolk.cc/2012/01/06/20120106-0916AM</id>
    <content type="html">&lt;h1 id='201201060916am'&gt;20120106-0916AM&lt;/h1&gt;</content>
  </entry>
@@ -152,7 +152,7 @@ bundle install
  <entry>
    <title>20111216-1002PM</title>
    <link href="http://yolk.cc/2011/12/16/20111216-1002PM/"/>
-   <updated>2011-12-16T00:00:00-06:00</updated>
+   <updated>2011-12-16T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/12/16/20111216-1002PM</id>
    <content type="html">&lt;h1 id='201112161002pm'&gt;20111216-1002PM&lt;/h1&gt;</content>
  </entry>
@@ -160,7 +160,7 @@ bundle install
  <entry>
    <title>FOR HISSBITCH (VDMX)</title>
    <link href="http://yolk.cc/2011/11/28/For-HissBitch/"/>
-   <updated>2011-11-28T00:00:00-06:00</updated>
+   <updated>2011-11-28T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/11/28/For-HissBitch</id>
    <content type="html">&lt;p&gt;For &lt;a href='http://hissbitch.tumblr.com'&gt;Hissbitch&lt;/a&gt;&lt;/p&gt;</content>
  </entry>
@@ -168,7 +168,7 @@ bundle install
  <entry>
    <title>20111119-bashscr</title>
    <link href="http://yolk.cc/2011/11/19/20111119-bashscr/"/>
-   <updated>2011-11-19T00:00:00-06:00</updated>
+   <updated>2011-11-19T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/11/19/20111119-bashscr</id>
    <content type="html">&lt;p&gt;Open Terminal.app , type the following:&lt;/p&gt;
 
@@ -178,7 +178,7 @@ bundle install
  <entry>
    <title>20111113-354pm</title>
    <link href="http://yolk.cc/2011/11/13/20111113-354pm/"/>
-   <updated>2011-11-13T00:00:00-06:00</updated>
+   <updated>2011-11-13T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/11/13/20111113-354pm</id>
    <content type="html">&lt;h1 id='20111113354pm'&gt;20111113-354pm&lt;/h1&gt;</content>
  </entry>
@@ -186,7 +186,7 @@ bundle install
  <entry>
    <title>MarcelAlcala.co</title>
    <link href="http://yolk.cc/2011/11/01/MarceleAlcala/"/>
-   <updated>2011-11-01T00:00:00-05:00</updated>
+   <updated>2011-11-01T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/11/01/MarceleAlcala</id>
    <content type="html">&lt;h1 id='marcelalcalaco_'&gt;&lt;a href='http://marcelalcala.co'&gt;MarcelAlcala.co &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
 
@@ -196,7 +196,7 @@ bundle install
  <entry>
    <title>GLI.TC/H 2011 - Bumper</title>
    <link href="http://yolk.cc/2011/10/18/GLITCH-BUMPER/"/>
-   <updated>2011-10-18T00:00:00-05:00</updated>
+   <updated>2011-10-18T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/10/18/GLITCH-BUMPER</id>
    <content type="html">&lt;h1 id='glitch_2011__bumper'&gt;GLI.TC/H 2011 - Bumper&lt;/h1&gt;</content>
  </entry>
@@ -204,7 +204,7 @@ bundle install
  <entry>
    <title>TACHYON SHIFT</title>
    <link href="http://yolk.cc/2011/08/28/TACHYON-SHIFT/"/>
-   <updated>2011-08-28T00:00:00-05:00</updated>
+   <updated>2011-08-28T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/08/28/TACHYON-SHIFT</id>
    <content type="html">&lt;h1 id='tachyon_shift'&gt;TACHYON SHIFT&lt;/h1&gt;</content>
  </entry>
@@ -212,7 +212,7 @@ bundle install
  <entry>
    <title>20110828-0</title>
    <link href="http://yolk.cc/2011/08/28/20110828-0/"/>
-   <updated>2011-08-28T00:00:00-05:00</updated>
+   <updated>2011-08-28T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/08/28/20110828-0</id>
    <content type="html">&lt;h1 id='201108280'&gt;20110828-0&lt;/h1&gt;</content>
  </entry>
@@ -220,7 +220,7 @@ bundle install
  <entry>
    <title>ORANG</title>
    <link href="http://yolk.cc/2011/08/04/ORANG/"/>
-   <updated>2011-08-04T00:00:00-05:00</updated>
+   <updated>2011-08-04T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/08/04/ORANG</id>
    <content type="html">&lt;h1 id='orang'&gt;ORANG&lt;/h1&gt;</content>
  </entry>
@@ -228,7 +228,7 @@ bundle install
  <entry>
    <title>20110802-1</title>
    <link href="http://yolk.cc/2011/08/02/20110802-1/"/>
-   <updated>2011-08-02T00:00:00-05:00</updated>
+   <updated>2011-08-02T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/08/02/20110802-1</id>
    <content type="html">&lt;h1 id='201108021'&gt;20110802-1&lt;/h1&gt;</content>
  </entry>
@@ -236,7 +236,7 @@ bundle install
  <entry>
    <title>VDMX Experiments</title>
    <link href="http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS/"/>
-   <updated>2011-07-24T00:00:00-05:00</updated>
+   <updated>2011-07-24T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/24/VDMX-EXPERIMENTS</id>
    <content type="html">&lt;p&gt;VDMX Experiments&lt;/p&gt;</content>
  </entry>
@@ -244,7 +244,7 @@ bundle install
  <entry>
    <title>RED CAVERN</title>
    <link href="http://yolk.cc/2011/07/20/RED-CAVERN/"/>
-   <updated>2011-07-20T00:00:00-05:00</updated>
+   <updated>2011-07-20T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/20/RED-CAVERN</id>
    <content type="html">&lt;p&gt;RED CAVERN&lt;/p&gt;</content>
  </entry>
@@ -252,7 +252,7 @@ bundle install
  <entry>
    <title>GOD LAMB OF A PSYCHIC ORIGIN</title>
    <link href="http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN/"/>
-   <updated>2011-07-16T00:00:00-05:00</updated>
+   <updated>2011-07-16T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/16/GOD-LAMB-OF-A-PSYCHIC-ORIGIN</id>
    <content type="html">&lt;p&gt;GOD LAMB of a PSYCHIC ORIGIN&lt;/p&gt;</content>
  </entry>
@@ -260,7 +260,7 @@ bundle install
  <entry>
    <title>SKELETON FINGERS</title>
    <link href="http://yolk.cc/2011/07/14/SKELETON-FINGERS/"/>
-   <updated>2011-07-14T00:00:00-05:00</updated>
+   <updated>2011-07-14T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/14/SKELETON-FINGERS</id>
    <content type="html">&lt;h1 id='skeleton_fingers'&gt;SKELETON FINGERS&lt;/h1&gt;
 
@@ -270,7 +270,7 @@ bundle install
  <entry>
    <title>CROWD OF CHILDREN</title>
    <link href="http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN/"/>
-   <updated>2011-07-13T00:00:00-05:00</updated>
+   <updated>2011-07-13T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/13/CROWD-OF-CHILDREN</id>
    <content type="html">&lt;h1 id='crowd_of_children'&gt;CROWD OF CHILDREN&lt;/h1&gt;
 
@@ -280,7 +280,7 @@ bundle install
  <entry>
    <title>s\y\n\t\h</title>
    <link href="http://yolk.cc/2011/07/07/SYNTH/"/>
-   <updated>2011-07-07T00:00:00-05:00</updated>
+   <updated>2011-07-07T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/07/SYNTH</id>
    <content type="html">&lt;h1 id='synth'&gt;s\y\n\t\h&lt;/h1&gt;</content>
  </entry>
@@ -288,7 +288,7 @@ bundle install
  <entry>
    <title>WONDERING WHY IM HERE</title>
    <link href="http://yolk.cc/2011/07/04/WONDERING-WHY-IM-HERE/"/>
-   <updated>2011-07-04T00:00:00-05:00</updated>
+   <updated>2011-07-04T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/04/WONDERING-WHY-IM-HERE</id>
    <content type="html">&lt;h1 id='wondering_why_im_here'&gt;WONDERING WHY IM HERE&lt;/h1&gt;</content>
  </entry>
@@ -296,7 +296,7 @@ bundle install
  <entry>
    <title>GRADUATION</title>
    <link href="http://yolk.cc/2011/07/03/GRADUATION/"/>
-   <updated>2011-07-03T00:00:00-05:00</updated>
+   <updated>2011-07-03T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/03/GRADUATION</id>
    <content type="html">&lt;h1 id='graduation'&gt;GRADUATION&lt;/h1&gt;</content>
  </entry>
@@ -304,7 +304,7 @@ bundle install
  <entry>
    <title>STAR LIGHT (video)</title>
    <link href="http://yolk.cc/2011/07/01/STAR-LIGHT/"/>
-   <updated>2011-07-01T00:00:00-05:00</updated>
+   <updated>2011-07-01T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/01/STAR-LIGHT</id>
    <content type="html">&lt;h1 id='star_light'&gt;STAR LIGHT&lt;/h1&gt;
 
@@ -316,7 +316,7 @@ bundle install
  <entry>
    <title>RUSTLING BREEZE</title>
    <link href="http://yolk.cc/2011/07/01/RUSTLING-BREEZE/"/>
-   <updated>2011-07-01T00:00:00-05:00</updated>
+   <updated>2011-07-01T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/07/01/RUSTLING-BREEZE</id>
    <content type="html">&lt;h1 id='rustling_breeze'&gt;RUSTLING BREEZE&lt;/h1&gt;</content>
  </entry>
@@ -324,7 +324,7 @@ bundle install
  <entry>
    <title>ROCKS UNDERWATER</title>
    <link href="http://yolk.cc/2011/06/28/ROCKS-UNDERWATER/"/>
-   <updated>2011-06-28T00:00:00-05:00</updated>
+   <updated>2011-06-28T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/28/ROCKS-UNDERWATER</id>
    <content type="html">&lt;p&gt;ROCKS UNDERWATER&lt;/p&gt;</content>
  </entry>
@@ -332,7 +332,7 @@ bundle install
  <entry>
    <title>MY SELF II</title>
    <link href="http://yolk.cc/2011/06/28/MYSELFII/"/>
-   <updated>2011-06-28T00:00:00-05:00</updated>
+   <updated>2011-06-28T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/28/MYSELFII</id>
    <content type="html">&lt;p&gt;MY SELF II&lt;/p&gt;</content>
  </entry>
@@ -340,7 +340,7 @@ bundle install
  <entry>
    <title>SATCHOMIZED EXPERIMENTS</title>
    <link href="http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS/"/>
-   <updated>2011-06-22T00:00:00-05:00</updated>
+   <updated>2011-06-22T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/22/SATROMIZED-EXPERIMENTS</id>
    <content type="html">&lt;p&gt;SATCHOMIZED EXPERIMENTS&lt;/p&gt;</content>
  </entry>
@@ -348,7 +348,7 @@ bundle install
  <entry>
    <title>ICE CREAM GIRL</title>
    <link href="http://yolk.cc/2011/06/22/ICE-CREAM-GIRL/"/>
-   <updated>2011-06-22T00:00:00-05:00</updated>
+   <updated>2011-06-22T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/22/ICE-CREAM-GIRL</id>
    <content type="html">&lt;p&gt;ICE CREAM GIRL&lt;/p&gt;</content>
  </entry>
@@ -356,7 +356,7 @@ bundle install
  <entry>
    <title>YOLK IN ETHER</title>
    <link href="http://yolk.cc/2011/06/21/YOLK-IN-ETHER/"/>
-   <updated>2011-06-21T00:00:00-05:00</updated>
+   <updated>2011-06-21T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/21/YOLK-IN-ETHER</id>
    <content type="html">&lt;p&gt;Y O L K in ETHER&lt;/p&gt;</content>
  </entry>
@@ -364,7 +364,7 @@ bundle install
  <entry>
    <title>MY SELF</title>
    <link href="http://yolk.cc/2011/06/18/MY-SELF/"/>
-   <updated>2011-06-18T00:00:00-05:00</updated>
+   <updated>2011-06-18T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/18/MY-SELF</id>
    <content type="html">&lt;p&gt;MY SELF&lt;/p&gt;</content>
  </entry>
@@ -372,7 +372,7 @@ bundle install
  <entry>
    <title>Scouting</title>
    <link href="http://yolk.cc/2011/06/15/SCOUTING/"/>
-   <updated>2011-06-15T00:00:00-05:00</updated>
+   <updated>2011-06-15T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/15/SCOUTING</id>
    <content type="html">&lt;h1 id='scouting'&gt;SCOUTING&lt;/h1&gt;</content>
  </entry>
@@ -380,7 +380,7 @@ bundle install
  <entry>
    <title>50Perfect10</title>
    <link href="http://yolk.cc/2011/06/15/50Perfect10/"/>
-   <updated>2011-06-15T00:00:00-05:00</updated>
+   <updated>2011-06-15T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/15/50Perfect10</id>
    <content type="html">&lt;h1 id='50perfect10'&gt;50Perfect10&lt;/h1&gt;</content>
  </entry>
@@ -388,7 +388,7 @@ bundle install
  <entry>
    <title>BLAZIN</title>
    <link href="http://yolk.cc/2011/06/13/BLAZIN/"/>
-   <updated>2011-06-13T00:00:00-05:00</updated>
+   <updated>2011-06-13T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/13/BLAZIN</id>
    <content type="html">&lt;p&gt;BLAZIN&lt;/p&gt;</content>
  </entry>
@@ -396,7 +396,7 @@ bundle install
  <entry>
    <title>Graduation</title>
    <link href="http://yolk.cc/2011/06/03/GRADUATION/"/>
-   <updated>2011-06-03T00:00:00-05:00</updated>
+   <updated>2011-06-03T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/03/GRADUATION</id>
    <content type="html">&lt;h1 id='graduation'&gt;Graduation&lt;/h1&gt;</content>
  </entry>
@@ -404,7 +404,7 @@ bundle install
  <entry>
    <title>YOUNG HEARTS</title>
    <link href="http://yolk.cc/2011/06/01/YOUNG-HEARTS/"/>
-   <updated>2011-06-01T00:00:00-05:00</updated>
+   <updated>2011-06-01T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/06/01/YOUNG-HEARTS</id>
    <content type="html">&lt;h1 id='young_hearts'&gt;YOUNG HEARTS&lt;/h1&gt;</content>
  </entry>
@@ -412,15 +412,25 @@ bundle install
  <entry>
    <title>RED SEA</title>
    <link href="http://yolk.cc/2011/05/09/RED-SEA/"/>
-   <updated>2011-05-09T00:00:00-05:00</updated>
+   <updated>2011-05-09T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/05/09/RED-SEA</id>
    <content type="html">&lt;p&gt;RED SEA&lt;/p&gt;</content>
  </entry>
  
  <entry>
+   <title>Stare Long II</title>
+   <link href="http://yolk.cc/2011/04/17/Stare-Long-II/"/>
+   <updated>2011-04-17T00:00:00-04:00</updated>
+   <id>http://yolk.cc/2011/04/17/Stare-Long-II</id>
+   <content type="html">&lt;h1 id='stare_long_ii'&gt;Stare Long II&lt;/h1&gt;
+
+&lt;p&gt;See the source at &lt;a href='http://fundamentals.yolk.cc/post/3917362819/sketch4'&gt;FUNDAMENTALS&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>S H I V E R</title>
    <link href="http://yolk.cc/2011/04/06/S-H-I-V-E-R/"/>
-   <updated>2011-04-06T00:00:00-05:00</updated>
+   <updated>2011-04-06T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/04/06/S-H-I-V-E-R</id>
    <content type="html">&lt;h1 id='s_h_i_v_e_r'&gt;S H I V E R&lt;/h1&gt;</content>
  </entry>
@@ -428,7 +438,7 @@ bundle install
  <entry>
    <title>WHY MAKE ART NOW</title>
    <link href="http://yolk.cc/2011/03/14/WHYMAKEARTNOW/"/>
-   <updated>2011-03-14T00:00:00-05:00</updated>
+   <updated>2011-03-14T00:00:00-04:00</updated>
    <id>http://yolk.cc/2011/03/14/WHYMAKEARTNOW</id>
    <content type="html">&lt;h1 id='why_make_art_now_'&gt;&lt;a href='http://whymakeartnow.tumblr.com'&gt;WHY MAKE ART NOW &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
 
@@ -438,7 +448,7 @@ bundle install
  <entry>
    <title>Multiple Webcam Tests</title>
    <link href="http://yolk.cc/2011/02/26/Multiple-Webcam-Tests/"/>
-   <updated>2011-02-26T00:00:00-06:00</updated>
+   <updated>2011-02-26T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/02/26/Multiple-Webcam-Tests</id>
    <content type="html">&lt;p&gt;Multiple webcam tests.&lt;/p&gt;
 
@@ -448,7 +458,7 @@ bundle install
  <entry>
    <title>MY THOUGHTS ARE YOURS</title>
    <link href="http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS/"/>
-   <updated>2011-02-02T00:00:00-06:00</updated>
+   <updated>2011-02-02T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/02/02/MY-THOUGHTS-ARE-YOURS</id>
    <content type="html">&lt;h1 id='my_thoughts_are_yours_'&gt;&lt;a href='http://mythoughtsareyours.yolk.cc'&gt;MY THOUGHTS ARE YOURS &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
  </entry>
@@ -456,7 +466,7 @@ bundle install
  <entry>
    <title>SHEROES 5 - Yoko Ono</title>
    <link href="http://yolk.cc/2011/01/11/SHEROES-5-YOKOONO/"/>
-   <updated>2011-01-11T00:00:00-06:00</updated>
+   <updated>2011-01-11T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/01/11/SHEROES-5-YOKOONO</id>
    <content type="html">&lt;h1 id='sheroes_5__yokoonoyes'&gt;SHEROES #5 - #YOKOONOYES&lt;/h1&gt;
 
@@ -466,7 +476,7 @@ bundle install
  <entry>
    <title>WORDS WORDS WORDS</title>
    <link href="http://yolk.cc/2011/01/01/WORDSWORDSWORDS/"/>
-   <updated>2011-01-01T00:00:00-06:00</updated>
+   <updated>2011-01-01T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/01/01/WORDSWORDSWORDS</id>
    <content type="html">&lt;h1 id='words_words_words'&gt;WORDS WORDS WORDS&lt;/h1&gt;
 
@@ -476,7 +486,7 @@ bundle install
  <entry>
    <title>LISTEN TO MY HEART</title>
    <link href="http://yolk.cc/2011/01/01/LISTEN-TO-MY-HEART/"/>
-   <updated>2011-01-01T00:00:00-06:00</updated>
+   <updated>2011-01-01T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/01/01/LISTEN-TO-MY-HEART</id>
    <content type="html">&lt;h1 id='listen_to_my_heart_'&gt;&lt;a href='http://listentomyheart.cc'&gt;LISTEN TO MY HEART &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
 
@@ -489,7 +499,7 @@ bundle install
  <entry>
    <title>Fundamentals</title>
    <link href="http://yolk.cc/2011/01/01/FUNDAMENTALS/"/>
-   <updated>2011-01-01T00:00:00-06:00</updated>
+   <updated>2011-01-01T00:00:00-05:00</updated>
    <id>http://yolk.cc/2011/01/01/FUNDAMENTALS</id>
    <content type="html">&lt;h1 id='yolk__fundamentals'&gt;YOLK : FUNDAMENTALS&lt;/h1&gt;
 
@@ -503,7 +513,7 @@ bundle install
  <entry>
    <title>Patterns Are My Feelings</title>
    <link href="http://yolk.cc/2010/10/11/Patterns-are-My-Feelings/"/>
-   <updated>2010-10-11T00:00:00-05:00</updated>
+   <updated>2010-10-11T00:00:00-04:00</updated>
    <id>http://yolk.cc/2010/10/11/Patterns-are-My-Feelings</id>
    <content type="html">&lt;h1 id='patterns_are_my_feelings_'&gt;&lt;a href='http://patternsaremyfeelings.yolk.cc'&gt;Patterns Are My Feelings &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
  </entry>
@@ -511,7 +521,7 @@ bundle install
  <entry>
    <title>HOW TO PRONOUNCE MY NAME</title>
    <link href="http://yolk.cc/2010/10/08/HOW-TO-PRONOUNCE-MY-NAME/"/>
-   <updated>2010-10-08T00:00:00-05:00</updated>
+   <updated>2010-10-08T00:00:00-04:00</updated>
    <id>http://yolk.cc/2010/10/08/HOW-TO-PRONOUNCE-MY-NAME</id>
    <content type="html">&lt;h1 id='how_to_pronounce_my_name'&gt;HOW TO PRONOUNCE MY NAME&lt;/h1&gt;</content>
  </entry>
@@ -519,7 +529,7 @@ bundle install
  <entry>
    <title>FLOW ≈</title>
    <link href="http://yolk.cc/2010/09/01/FLOW/"/>
-   <updated>2010-09-01T00:00:00-05:00</updated>
+   <updated>2010-09-01T00:00:00-04:00</updated>
    <id>http://yolk.cc/2010/09/01/FLOW</id>
    <content type="html">&lt;h1 id='flow__'&gt;&lt;a href='http://flow.yolk.cc'&gt;FLOW ≈ &amp;#8594;&lt;/a&gt;&lt;/h1&gt;</content>
  </entry>
@@ -527,7 +537,7 @@ bundle install
  <entry>
    <title>EVERY WORD I'VE EVER SPOKEN A » D</title>
    <link href="http://yolk.cc/2010/03/19/EVERY-WORD-A-D/"/>
-   <updated>2010-03-19T00:00:00-05:00</updated>
+   <updated>2010-03-19T00:00:00-04:00</updated>
    <id>http://yolk.cc/2010/03/19/EVERY-WORD-A-D</id>
    <content type="html">&lt;h1 id='every_word_ive_ever_spoken'&gt;Every Word I&amp;#8217;ve Ever Spoken&lt;/h1&gt;
 
