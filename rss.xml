@@ -4,13 +4,25 @@
  <title>YOLK : WORK</title>
  <link href="http://yolk.cc/feed/" rel="self"/>
  <link href="http://yolk.cc"/>
- <updated>2012-07-06T18:43:23-04:00</updated>
+ <updated>2012-08-11T13:47:56-04:00</updated>
  <id>http://yolk.cc</id>
  <author>
    <name>Joseph (YOLK) Chiocchi</name>
    <email>joe@yolk.cc</email>
  </author>
 
+ 
+ <entry>
+   <title>LaurenElder.net</title>
+   <link href="http://yolk.cc/2012/08/11/LaurenElder.net/"/>
+   <updated>2012-08-11T00:00:00-04:00</updated>
+   <id>http://yolk.cc/2012/08/11/LaurenElder.net</id>
+   <content type="html">&lt;h1 id='laureneldernet_'&gt;&lt;a href='http://laurenelder.net'&gt;LaurenElder.net &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Created a theme&amp;#8217;d Drupal site for easy dynamic content portfolio.&lt;/p&gt;
+
+&lt;p&gt;For Lauren Elder&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>HibaAli.info</title>
@@ -115,6 +127,14 @@ bundle install
    <content type="html">&lt;h1 id='201204100233am'&gt;20120410-0233AM&lt;/h1&gt;
 
 &lt;p&gt;for &lt;a href='http://absis-minas.com/'&gt;Absis Minas&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>YOLK - HAPPYDOG 2012</title>
+   <link href="http://yolk.cc/2012/03/29/YOLK_MTCHICAGO/"/>
+   <updated>2012-03-29T00:00:00-04:00</updated>
+   <id>http://yolk.cc/2012/03/29/YOLK_MTCHICAGO</id>
+   <content type="html">&lt;h1 id='yolk__mt_chicago'&gt;YOLK @ &lt;a href='http://mtchicago.com'&gt;M.T. Chicago&lt;/a&gt;&lt;/h1&gt;</content>
  </entry>
  
  <entry>
@@ -436,6 +456,16 @@ bundle install
  </entry>
  
  <entry>
+   <title>Stare 2.5</title>
+   <link href="http://yolk.cc/2011/03/19/STARE-2.5/"/>
+   <updated>2011-03-19T00:00:00-04:00</updated>
+   <id>http://yolk.cc/2011/03/19/STARE-2.5</id>
+   <content type="html">&lt;h1 id='stare_25'&gt;Stare 2.5&lt;/h1&gt;
+&lt;iframe frameborder='0' scrolling='no' src='http://hascanvas.com/stare2.5/embed' style='width:600px;height:600px;' /&gt;
+&lt;p&gt;View on &lt;a href='http://hascanvas.com/stare2.5'&gt;HasCanvas&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>WHY MAKE ART NOW</title>
    <link href="http://yolk.cc/2011/03/14/WHYMAKEARTNOW/"/>
    <updated>2011-03-14T00:00:00-04:00</updated>
@@ -443,6 +473,16 @@ bundle install
    <content type="html">&lt;h1 id='why_make_art_now_'&gt;&lt;a href='http://whymakeartnow.tumblr.com'&gt;WHY MAKE ART NOW &amp;#8594;&lt;/a&gt;&lt;/h1&gt;
 
 &lt;p&gt;Created for my Why Make Art Now class at The School of the Art Institute of Chicago with &lt;a href='http://www.cainschulte.com/artists/dunda.html'&gt;Jason Dunda&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Stare Long - III</title>
+   <link href="http://yolk.cc/2011/03/08/Stare-III/"/>
+   <updated>2011-03-08T00:00:00-05:00</updated>
+   <id>http://yolk.cc/2011/03/08/Stare-III</id>
+   <content type="html">&lt;h1 id='stare_iii'&gt;Stare III&lt;/h1&gt;
+&lt;iframe frameborder='0' scrolling='no' src='http://hascanvas.com/stareiii/embed' style='width:600px;height:600px;' /&gt;
+&lt;p&gt;View on &lt;a href='http://hascanvas.com/stareiii'&gt;HasCanvas&lt;/a&gt;.&lt;/p&gt;</content>
  </entry>
  
  <entry>
