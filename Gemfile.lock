@@ -10,6 +10,7 @@ GEM
     fleakr (0.7.1)
       hpricot (>= 0.6.164)
       loggable (>= 0.2.0)
+    haml (3.1.7)
     hpricot (0.8.6)
     jekyll (0.11.2)
       albino (~> 1.3)
@@ -32,5 +33,6 @@ PLATFORMS
 
 DEPENDENCIES
   fleakr
+  haml
   jekyll
   ruby-oembed
