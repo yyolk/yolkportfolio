@@ -16,7 +16,6 @@
     @include inline-block;
     background-color: lighten($stretch-color, 30%);
     color: white;
-    text-align: center;
     vertical-align: middle;
 }
 
@@ -24,16 +23,14 @@ a, a:link, a:visited, a:active, a:hover{
     color:#e3e3e3;
     text-decoration:none;
 }
-.twitter-mention-button{
-    padding-top:50%;
-}
 .area{
     @extend .stretched;
     @include inline-block;
-    @include stretch(5%, 3%, 5%, 3%);
+    @include stretch(1em, 1em, 1em, 1em);
 }
 #container{
-    @include stretch;
+    width:110px;
+    margin:0 auto;
 }
 
-
+.clear {clear:both;}

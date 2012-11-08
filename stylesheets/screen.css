@@ -21,22 +21,16 @@
   *display: inline;
   background-color: rgba(255, 255, 255, 0.1);
   color: white;
-  text-align: center;
   vertical-align: middle;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 a, a:link, a:visited, a:active, a:hover {
   color: #e3e3e3;
   text-decoration: none;
 }
 
-/* line 27, ../sass/screen.scss */
-.twitter-mention-button {
-  padding-top: 50%;
-}
-
-/* line 30, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .area {
   display: -moz-inline-stack;
   display: inline-block;
@@ -45,17 +39,19 @@ a, a:link, a:visited, a:active, a:hover {
   zoom: 1;
   *display: inline;
   position: absolute;
-  top: 5%;
-  bottom: 5%;
-  left: 3%;
-  right: 3%;
+  top: 1em;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 #container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 110px;
+  margin: 0 auto;
+}
+
+/* line 36, ../sass/screen.scss */
+.clear {
+  clear: both;
 }
