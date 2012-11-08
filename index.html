@@ -9,7 +9,7 @@
     <![endif]-->
 </head>
 
-<body onload="">
+<body class="area">
 
 
         <div class="area">
@@ -45,4 +45,30 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" charset="utf-8"
+            src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8"
+            src="js/jquery.color.js"></script>
+
+        <script type="text/javascript" charset="utf-8">
+            $($(document).ready(function() {
+            
+            spectrum();
+            
+            function spectrum(){
+                //var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+                var hue;
+                if (Math.floor(Math.random()*2)===1){
+                    hue='rgb(0,0,0)';
+                } else {
+                    hue='rgb(255,255,255)';
+                }
+                    $('.area').each(function(){
+                        $(this).animate( { backgroundColor: hue },
+                            Math.floor(Math.random()*3000));});
+                spectrum(); 
+            }
+            
+    }));
+        </script>
 </body>

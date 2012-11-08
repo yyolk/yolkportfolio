@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 9, ../sass/screen.scss */
 .stretched, .area {
-  border: 3px solid rgba(0, 240, 160, 0.1);
+  border: 10px solid rgba(0, 240, 160, 0.5);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -19,7 +19,7 @@
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: white;
   color: white;
   vertical-align: middle;
 }
@@ -49,9 +49,10 @@ a, a:link, a:visited, a:active, a:hover {
 #container {
   width: 110px;
   margin: 0 auto;
+  padding-top: 50%;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .clear {
   clear: both;
 }

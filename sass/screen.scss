@@ -7,8 +7,8 @@
 @import "compass/utilities";
 @import "compass/css3";
 .stretched{
-    $stretch-color: rgba(240,255,250,.1);
-    border: 3px solid darken($stretch-color,50%);
+    $stretch-color: rgb(240,255,250);
+    border: 10px solid transparentize(darken($stretch-color,50%),0.5);
     @include border-radius(20px);
     width:77.7%;
     margin:0 auto;
@@ -31,6 +31,7 @@ a, a:link, a:visited, a:active, a:hover{
 #container{
     width:110px;
     margin:0 auto;
+    padding-top:50%;
 }
 
 .clear {clear:both;}
