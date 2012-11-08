@@ -1,0 +1,61 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/screen.scss */
+.stretched, .area {
+  border: 3px solid rgba(0, 240, 160, 0.1);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  width: 77.7%;
+  margin: 0 auto;
+  display: block;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 23, ../sass/screen.scss */
+a, a:link, a:visited, a:active, a:hover {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+/* line 27, ../sass/screen.scss */
+.twitter-mention-button {
+  padding-top: 50%;
+}
+
+/* line 30, ../sass/screen.scss */
+.area {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 3%;
+  right: 3%;
+}
+
+/* line 35, ../sass/screen.scss */
+#container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
