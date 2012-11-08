@@ -12,63 +12,53 @@
 <body class="area">
 
 
+    <div class="area">
         <div class="area">
             <div class="area">
-                <div class="area">
-                    <div class="area">
-                        <div class="area">
-                            <div class="area">
-                                <div class="area">
-                                    <div class="area">
-                                        <div id="container">
-                                            <div class="clear">
-                                                <a
-                                                    href="https://twitter.com/intent/tweet?screen_name=yyolk"
-                                                    class="twitter-mention-button"
-                                                    data-related="yyolk">@yyolk</a>
-                                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                                            </div>
-                                            <div class="clear">
-                                                <iframe
-                                                    src="http://ghbtns.com/github-btn.html?user=yyolk&type=follow&count=false"
-                                                    allowtransparency="true"
-                                                    frameborder="0"
-                                                    scrolling="0" width="110px"
-                                                    height="20px"></iframe>        
-                                            </div>
-                                        </div>
-                                        </div>
-                                </div>
-                            </div>
-                        </div>
+                <div id="container">
+                    <div class="clear">
+                        <a
+                            href="https://twitter.com/intent/tweet?screen_name=yyolk"
+                            class="twitter-mention-button"
+                            data-related="yyolk">@yyolk</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                    <div class="clear">
+                        <iframe
+                            src="http://ghbtns.com/github-btn.html?user=yyolk&type=follow&count=false"
+                            allowtransparency="true"
+                            frameborder="0"
+                            scrolling="0" width="110px"
+                            height="20px"></iframe>        
                     </div>
                 </div>
             </div>
         </div>
-        <script type="text/javascript" charset="utf-8"
-            src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-        <script type="text/javascript" charset="utf-8"
-            src="js/jquery.color.js"></script>
+    </div>
+    <script type="text/javascript" charset="utf-8"
+        src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8"
+        src="js/jquery.color.js"></script>
 
-        <script type="text/javascript" charset="utf-8">
-            $($(document).ready(function() {
-            
-            spectrum();
-            
-            function spectrum(){
-                //var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-                var hue;
-                if (Math.floor(Math.random()*2)===1){
-                    hue='rgb(0,0,0)';
-                } else {
-                    hue='rgb(255,255,255)';
-                }
-                    $('.area').each(function(){
-                        $(this).animate( { backgroundColor: hue },
-                            Math.floor(Math.random()*3000));});
-                spectrum(); 
-            }
-            
-    }));
-        </script>
-</body>
+    <script type="text/javascript" charset="utf-8">
+        $($(document).ready(function() {
+
+                    spectrum();
+
+                    function spectrum(){
+                    //var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+                        var hue;
+                        if (Math.floor(Math.random()*2)===1){
+                            hue='rgb(0,0,0)';
+                        } else {
+                            hue='rgb(255,255,255)';
+                        }
+                        $('.area').each(function(){
+                                $(this).animate( { backgroundColor: hue },
+                                    Math.floor(Math.random()*3000));});
+                        spectrum(); 
+                    }
+
+        }));
+                </script>
+            </body>
