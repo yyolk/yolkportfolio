@@ -10,6 +10,7 @@
 body {
     background-color: #070707;
     font-family: monospace;
+    font-size: 18px;
 }
 .stretched{
     $stretch-color: #04f5f9;
@@ -31,11 +32,17 @@ a, a:link, a:visited, a:active, a:hover{
     text-decoration:none;
 }
 .area{
-    margin:0 auto;
+    margin:.3em auto 0;
     @include inline-block;
-    width:100px;
     @include stretch;
     position:relative;
+    width:300px;
+    zoom:1;
+}
+
+li {
+    list-style-type:none;
+    margin:0 auto 2em;
 }
 
 .twitter-mention-button {
@@ -49,7 +56,6 @@ a, a:link, a:visited, a:active, a:hover{
     @extend .stretched;
     @include inline-block;
     @include stretch(5px,5px,5px,5px);
-
 }
 
 .clear {clear:both;}
