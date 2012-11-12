@@ -10,12 +10,15 @@ body {
 
 /* line 14, ../sass/screen.scss */
 .stretched, #center {
-  border: 5px solid #CB04EA;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
+  border: 5px solid #04f5f9;
+  -webkit-box-shadow: #cb04ea 0 0 50px inset, rgba(4, 245, 249, 0.1) 0 0 20px inset, #3cfc02 0 0 5px;
+  -moz-box-shadow: #cb04ea 0 0 50px inset, rgba(4, 245, 249, 0.1) 0 0 20px inset, #3cfc02 0 0 5px;
+  box-shadow: #cb04ea 0 0 50px inset, rgba(4, 245, 249, 0.1) 0 0 20px inset, #3cfc02 0 0 5px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
   width: -10px;
   margin: 0 auto;
   display: block;
@@ -30,13 +33,13 @@ body {
   vertical-align: middle;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 a, a:link, a:visited, a:active, a:hover {
   color: #3CFC02;
   text-decoration: none;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .area {
   margin: 0 auto;
   display: -moz-inline-stack;
@@ -54,7 +57,7 @@ a, a:link, a:visited, a:active, a:hover {
   position: relative;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .twitter-mention-button {
   width: 105px;
   text-align: center;
@@ -66,7 +69,7 @@ a, a:link, a:visited, a:active, a:hover {
   *display: inline;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 #center {
   display: -moz-inline-stack;
   display: inline-block;
@@ -81,7 +84,7 @@ a, a:link, a:visited, a:active, a:hover {
   right: 5px;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .clear {
   clear: both;
 }
