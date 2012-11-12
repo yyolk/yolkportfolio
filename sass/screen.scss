@@ -6,8 +6,10 @@
 @import "compass/layout/stretching";
 @import "compass/utilities";
 @import "compass/css3";
+
 body {
     background-color: #070707;
+    font-family: monospace;
 }
 .stretched{
     $stretch-color: #CB04EA;

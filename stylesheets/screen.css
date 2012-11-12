@@ -2,12 +2,13 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 9, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 body {
   background-color: #070707;
+  font-family: monospace;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .stretched, #center {
   border: 5px solid #CB04EA;
   -webkit-border-radius: 2px;
@@ -29,13 +30,13 @@ body {
   vertical-align: middle;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 a, a:link, a:visited, a:active, a:hover {
   color: #3CFC02;
   text-decoration: none;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .area {
   margin: 0 auto;
   display: -moz-inline-stack;
@@ -53,7 +54,7 @@ a, a:link, a:visited, a:active, a:hover {
   position: relative;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .twitter-mention-button {
   width: 105px;
   text-align: center;
@@ -65,7 +66,7 @@ a, a:link, a:visited, a:active, a:hover {
   *display: inline;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 #center {
   display: -moz-inline-stack;
   display: inline-block;
@@ -80,7 +81,7 @@ a, a:link, a:visited, a:active, a:hover {
   right: 5px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .clear {
   clear: both;
 }
