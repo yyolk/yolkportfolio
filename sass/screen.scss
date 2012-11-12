@@ -6,15 +6,18 @@
 @import "compass/layout/stretching";
 @import "compass/utilities";
 @import "compass/css3";
+body {
+    background-color: #fff;
+}
 .stretched{
     $stretch-color: rgb(240,255,250);
-    border: 10px solid transparentize(darken($stretch-color,50%),0.5);
-    @include border-radius(20px);
-    width:77.7%;
+    border: 5px solid transparentize(darken($stretch-color,50%),0.5);
+    @include border-radius(2px);
+    width:-10px;
     margin:0 auto;
     display: block;
     @include inline-block;
-    background-color: lighten($stretch-color, 30%);
+    background-color: #e3e3e3;
     color: white;
     vertical-align: middle;
 }
@@ -24,14 +27,24 @@ a, a:link, a:visited, a:active, a:hover{
     text-decoration:none;
 }
 .area{
+    padding-top:30%;
+    margin:0 auto;
+    @include stretch;
+}
+
+.twitter-mention-button {
+    width:105px;
+    text-align:center;
+    @include inline-block;
+    margin: 0 auto;
+
+}
+
+#center{
     @extend .stretched;
     @include inline-block;
-    @include stretch(1em, 1em, 1em, 1em);
-}
-#container{
-    width:110px;
-    margin:0 auto;
-    padding-top:50%;
+    @include stretch(5px,5px,5px,5px);
+
 }
 
 .clear {clear:both;}
