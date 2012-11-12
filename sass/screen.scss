@@ -27,16 +27,17 @@ a, a:link, a:visited, a:active, a:hover{
     text-decoration:none;
 }
 .area{
-    padding-top:100px;
     margin:0 auto;
+    @include inline-block;
+    width:100px;
     @include stretch;
+    position:relative;
 }
 
 .twitter-mention-button {
     width:105px;
     text-align:center;
     @include inline-block;
-    margin: 0 auto;
 
 }
 

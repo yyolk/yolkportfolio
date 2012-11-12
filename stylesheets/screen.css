@@ -37,16 +37,23 @@ a, a:link, a:visited, a:active, a:hover {
 
 /* line 29, ../sass/screen.scss */
 .area {
-  padding-top: 100px;
   margin: 0 auto;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 100px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  position: relative;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .twitter-mention-button {
   width: 105px;
   text-align: center;
@@ -56,10 +63,9 @@ a, a:link, a:visited, a:active, a:hover {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  margin: 0 auto;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 #center {
   display: -moz-inline-stack;
   display: inline-block;
@@ -74,7 +80,7 @@ a, a:link, a:visited, a:active, a:hover {
   right: 5px;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .clear {
   clear: both;
 }

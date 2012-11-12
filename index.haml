@@ -6,11 +6,14 @@
     %link(href='stylesheets/screen.css' media='screen, projection' rel='stylesheet' type='text/css')
   %body
     #center
-      %a.area{:href => 'http://contact.yolk.cc/'}
-        Contact
-      %a.area{:href => 'https://twitter.com/intent/tweet?screen_name=yyolk', 
-        :class => 'twitter-mention-button',
-        :'data-related' => 'yyolk'} 
-        @yyolk
+      %ul
+        %li
+          %a.area{:href => 'http://contact.yolk.cc/'}
+            Contact
+        %li
+          %a.area{:href => 'https://twitter.com/intent/tweet?screen_name=yyolk', 
+          :class => 'twitter-mention-button',
+          :'data-related' => 'yyolk'} 
+            @yyolk
       :javascript
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
