@@ -7,17 +7,17 @@
 @import "compass/utilities";
 @import "compass/css3";
 body {
-    background-color: #fff;
+    background-color: #070707;
 }
 .stretched{
-    $stretch-color: rgb(240,255,250);
-    border: 5px solid transparentize(darken($stretch-color,50%),0.5);
+    $stretch-color: #CB04EA;
+    border: 5px solid #CB04EA;
     @include border-radius(2px);
     width:-10px;
     margin:0 auto;
     display: block;
     @include inline-block;
-    background-color: #e3e3e3;
+    background-color: darken(transparentize($stretch-color, 0.5), 50%);
     color: white;
     vertical-align: middle;
 }
@@ -27,7 +27,7 @@ a, a:link, a:visited, a:active, a:hover{
     text-decoration:none;
 }
 .area{
-    padding-top:30%;
+    padding-top:100px;
     margin:0 auto;
     @include stretch;
 }

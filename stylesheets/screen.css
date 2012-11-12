@@ -4,12 +4,12 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 9, ../sass/screen.scss */
 body {
-  background-color: #fff;
+  background-color: #070707;
 }
 
 /* line 12, ../sass/screen.scss */
 .stretched, #center {
-  border: 5px solid rgba(0, 240, 160, 0.5);
+  border: 5px solid #CB04EA;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -24,7 +24,7 @@ body {
   *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  background-color: #e3e3e3;
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   vertical-align: middle;
 }
@@ -37,7 +37,7 @@ a, a:link, a:visited, a:active, a:hover {
 
 /* line 29, ../sass/screen.scss */
 .area {
-  padding-top: 30%;
+  padding-top: 100px;
   margin: 0 auto;
   position: absolute;
   top: 0;
