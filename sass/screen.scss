@@ -23,6 +23,7 @@
 }
 
 
+    $stretch-color: #04f5f9;
 
 
 body {
@@ -39,7 +40,6 @@ body {
     -webkit-animation-iteration-count: infinite;
 }
 .stretched{
-    $stretch-color: #04f5f9;
     border: 5px solid $stretch-color;
 
     @include box-shadow(#CB04EA 0 0 50px inset, transparentize(#04f5f9, 0.9) 0 0 20px inset, #3CFC02 0 0 5px);
@@ -61,6 +61,11 @@ a, a:link, a:visited, a:active, a:hover{
     @include inline-block;
     @include stretch;
     position:relative;
+}
+.site{
+    @include inline-block;
+    padding:1em;
+    background-color: darken(transparentize($stretch-color,0.5), 50%);
 }
 
 li {
