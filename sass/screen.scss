@@ -6,14 +6,37 @@
 @import "compass/layout/stretching";
 @import "compass/utilities";
 @import "compass/css3";
-@media only screen and (min-width: 768px){
-    body{width:768px;}
+
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 1000px 0;
+    }
+
+    50% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
 }
+
+
+
+
 body {
-    width:300px;
     background-color: #070707;
     font-family: monospace;
     font-size: 18px;
+    @media screen and (max-width: 500px){
+        zoom:4;
+    }
+    background-image: url("http://i.imgur.com/p3ttH.png");
+    repeat: repeat;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 400s;
+    -webkit-animation-iteration-count: infinite;
 }
 .stretched{
     $stretch-color: #04f5f9;
@@ -21,10 +44,9 @@ body {
 
     @include box-shadow(#CB04EA 0 0 50px inset, transparentize(#04f5f9, 0.9) 0 0 20px inset, #3CFC02 0 0 5px);
     @include border-radius(1px);
-    width:-10px;
+    //width:-10px;
     margin:0 auto;
     display: block;
-    @include inline-block;
     background-color: darken(transparentize($stretch-color, 0.5), 50%);
     color: white;
     vertical-align: middle;
@@ -39,8 +61,6 @@ a, a:link, a:visited, a:active, a:hover{
     @include inline-block;
     @include stretch;
     position:relative;
-    width:300px;
-    zoom:1;
 }
 
 li {

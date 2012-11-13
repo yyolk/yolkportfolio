@@ -2,21 +2,42 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@media only screen and (min-width: 768px) {
-  /* line 10, ../sass/screen.scss */
-  body {
-    width: 768px;
+@-webkit-keyframes move {
+  /* line 12, ../sass/screen.scss */
+  0% {
+    background-position: 1000px 0;
+  }
+
+  /* line 16, ../sass/screen.scss */
+  50% {
+    background-position: -1000px 0;
+  }
+
+  /* line 20, ../sass/screen.scss */
+  100% {
+    background-position: 1000px 0;
   }
 }
-/* line 12, ../sass/screen.scss */
+
+/* line 28, ../sass/screen.scss */
 body {
-  width: 300px;
   background-color: #070707;
   font-family: monospace;
   font-size: 18px;
+  background-image: url("http://i.imgur.com/p3ttH.png");
+  repeat: repeat;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 400s;
+  -webkit-animation-iteration-count: infinite;
+}
+@media screen and (max-width: 500px) {
+  /* line 28, ../sass/screen.scss */
+  body {
+    zoom: 4;
+  }
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .stretched, #center {
   border: 5px solid #04f5f9;
   -webkit-box-shadow: #cb04ea 0 0 50px inset, rgba(4, 245, 249, 0.1) 0 0 20px inset, #3cfc02 0 0 5px;
@@ -27,27 +48,20 @@ body {
   -ms-border-radius: 1px;
   -o-border-radius: 1px;
   border-radius: 1px;
-  width: -10px;
   margin: 0 auto;
   display: block;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   vertical-align: middle;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 a, a:link, a:visited, a:active, a:hover {
   color: #3CFC02;
   text-decoration: none;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .area {
   margin: .3em auto 0;
   display: -moz-inline-stack;
@@ -62,17 +76,15 @@ a, a:link, a:visited, a:active, a:hover {
   left: 0;
   right: 0;
   position: relative;
-  width: 300px;
-  zoom: 1;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 li {
   list-style-type: none;
   margin: 0 auto 2em;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .twitter-mention-button {
   width: 105px;
   text-align: center;
@@ -84,7 +96,7 @@ li {
   *display: inline;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #center {
   display: -moz-inline-stack;
   display: inline-block;
@@ -99,7 +111,7 @@ li {
   right: 5px;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 .clear {
   clear: both;
 }
