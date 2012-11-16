@@ -86,4 +86,13 @@ li {
     @include stretch(5px,5px,5px,5px);
 }
 
+span.one{ color: red;} span.two{ color: #5DEC28; } span.three{color: white;} span.four{ color:#54EFF0;} span.five{ color:#E94FF5;} span.six{ color:#F2EE2D;}
+
+
+
 .clear {clear:both;}
+
+#miniwindow{
+  position:absolute;
+  z-index:0;
+}

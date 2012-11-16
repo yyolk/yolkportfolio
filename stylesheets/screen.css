@@ -124,6 +124,42 @@ li {
 }
 
 /* line 89, ../sass/screen.scss */
+span.one {
+  color: red;
+}
+
+/* line 89, ../sass/screen.scss */
+span.two {
+  color: #5DEC28;
+}
+
+/* line 89, ../sass/screen.scss */
+span.three {
+  color: white;
+}
+
+/* line 89, ../sass/screen.scss */
+span.four {
+  color: #54EFF0;
+}
+
+/* line 89, ../sass/screen.scss */
+span.five {
+  color: #E94FF5;
+}
+
+/* line 89, ../sass/screen.scss */
+span.six {
+  color: #F2EE2D;
+}
+
+/* line 93, ../sass/screen.scss */
 .clear {
   clear: both;
+}
+
+/* line 95, ../sass/screen.scss */
+#miniwindow {
+  position: absolute;
+  z-index: 0;
 }
