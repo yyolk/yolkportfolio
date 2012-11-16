@@ -33,5 +33,5 @@ function scrollBottom(){
 }
 
 setInterval("showGarbage()", 10);
-setInterval("scrollBottom()", 15);
+//setInterval("scrollBottom()", 15);
 

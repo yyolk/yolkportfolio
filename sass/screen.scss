@@ -47,7 +47,7 @@ body {
     //width:-10px;
     margin:0 auto;
     display: block;
-    background-color: darken(transparentize($stretch-color, 0.5), 50%);
+    //background-color: darken(transparentize($stretch-color, 0.5), 50%);
     color: white;
     vertical-align: middle;
 }
@@ -93,6 +93,11 @@ span.one{ color: red;} span.two{ color: #5DEC28; } span.three{color: white;} spa
 .clear {clear:both;}
 
 #miniwindow{
-  position:absolute;
+  position:fixed;
+  font-size:5px;
+  width: 40%;
+  height: 100%;
+  right: 10px;
+  bottom: 10%;
   z-index:0;
 }

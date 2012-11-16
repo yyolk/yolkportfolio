@@ -50,7 +50,6 @@ body {
   border-radius: 1px;
   margin: 0 auto;
   display: block;
-  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   vertical-align: middle;
 }
@@ -160,6 +159,11 @@ span.six {
 
 /* line 95, ../sass/screen.scss */
 #miniwindow {
-  position: absolute;
+  position: fixed;
+  font-size: 5px;
+  width: 40%;
+  height: 100%;
+  right: 10px;
+  bottom: 10%;
   z-index: 0;
 }
